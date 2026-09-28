@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "DATA AUTOPSY: a statistical and data-quality investigation tool for CSV datasets"
+message: "If you use this software in academic work, please cite it as below."
+type: software
+authors:
+  - alias: amsx1
+    name: amsx1
+repository-code: "https://github.com/amsx1/data-science-lab"
+license: MIT
+abstract: >-
+  DATA AUTOPSY performs an automated, deterministic investigation of a CSV dataset:
+  structure and data-type profiling, missing-value and duplicate analysis,
+  constant/low-variance feature detection, descriptive statistics, outlier detection
+  (IQR, z-score, modified z-score), correlation and categorical association analysis,
+  Isolation Forest anomaly detection, heuristic potential-leakage screening, and a
+  transparent weighted dataset health score with an exportable report.
+keywords:
+  - data quality
+  - exploratory data analysis
+  - anomaly detection
+  - data leakage
+  - statistics
+  - python

@@ -1,0 +1,14 @@
+# DATA AUTOPSY — runtime dependencies
+#
+# Pinned to the major versions the project is tested against. Only libraries that
+# are actually imported by the application are listed: a data-quality tool should
+# not drag in dependencies it never uses.
+#
+# Python: 3.10 or newer (3.13 is what the test suite runs on).
+
+pandas>=2.2,<3.0          # tabular data structures and IO
+numpy>=1.26,<3.0          # numerical primitives
+scipy>=1.11,<2.0          # distributions, p-values, chi-square tests
+scikit-learn>=1.4,<2.0    # Isolation Forest, StandardScaler
+plotly>=5.20,<7.0         # interactive dashboard charts
+streamlit>=1.35,<2.0      # web application framework

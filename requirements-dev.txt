@@ -1,0 +1,14 @@
+# DATA AUTOPSY — development dependencies
+#
+# Install with:  pip install -r requirements-dev.txt
+# The runtime dependencies are included so a single install is enough for CI.
+
+-r requirements.txt
+
+pytest>=8.0,<10.0          # test runner
+pytest-cov>=5.0            # optional coverage reporting
+
+# Optional: only needed to regenerate screenshots of the dashboard
+# (scripts/capture_screenshots.py). Install the browser once with
+#   python -m playwright install chromium
+playwright>=1.44

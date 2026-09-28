@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# DATA AUTOPSY — project specific
+# ---------------------------------------------------------------------------
+# Generated investigation reports (the app writes them next to the code).
+reports/
+*.autopsy.md
+*.autopsy.html
+
+# Local secret material: never commit credentials of any kind.
+.git-credentials
+.netrc
+credentials.json
+*_token.txt
+.env
+.env.*
+
+# Streamlit runtime state
+.streamlit/secrets.toml
+
+# Playwright / screenshot tooling artefacts
+.playwright/
+playwright-report/

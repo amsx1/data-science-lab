@@ -1,0 +1,1509 @@
+student_id,age,gender,region,school_type,study_hours_per_week,attendance_rate,prior_gpa,prior_gpa_percent,assignments_completed,sleep_hours,exam_score,family_income_ksh,previous_school_score,parental_education,internet_access,enrollment_date,final_grade,extract_source,is_at_risk
+STU-00001,18,Male,Mombasa,Public,1.9,,,,15,5.2,67.1,,not available,,Yes,2024-03-06,B,synthetic_demo,0
+STU-00002,23,Female,Nairobi,Public,5.8,83.4,2.89,72.25,23,6.5,68.2,"31,798",71,,Yes,2024-07-21,B,synthetic_demo,0
+STU-00003,16,Female,Nairobi,Public,8.7,81.5,3.04,76.0,27,,69.7,"10,558",48,Diploma,Yes,2024-02-13,B,synthetic_demo,0
+STU-00004,22,Male,Nairobi,Public,1.1,82.8,2.84,71.0,18,8.5,52.2,"50,209",48,Bachelor,Yes,2024-08-04,C,synthetic_demo,1
+STU-00005,20,Female,Nairobi,Public,8.8,76.7,2.08,52.0,16,6.6,59.9,"81,720",56,Secondary,Yes,2024-02-05,C,synthetic_demo,0
+STU-00006,20,Female,Mombasa,Public,4.4,70.3,1.84,46.0,4,7.2,39.2,,74,Bachelor,Yes,2024-08-16,E,synthetic_demo,1
+STU-00007,21,Female,Thika,Public,4.8,90.0,2.58,64.5,23,7.6,62.1,,64,Certificate,Yes,2024-02-06,B,synthetic_demo,0
+STU-00008,19,Female,Nakuru,Public,4.1,67.1,2.98,74.5,13,5.3,50.9,,75,Secondary,Yes,2024-10-21,C,synthetic_demo,1
+STU-00009,20,Female,Mombasa,Public,11.2,86.4,2.45,61.25,29,8.3,79.6,,50,Bachelor,Yes,2024-10-08,A,synthetic_demo,0
+STU-00010,22,Female,Kisumu,Public,11.0,84.9,3.34,83.5,26,,70.4,"67,147",76,Secondary,Yes,2024-05-09,A,synthetic_demo,0
+STU-00011,19,Female,Nairobi,Public,1.5,79.9,2.46,61.5,10,7.9,53.1,"57,892",74,,Yes,2024-05-11,C,synthetic_demo,1
+STU-00012,19,Female,Nairobi,Public,10.5,,3.49,87.25,28,,93.9,"43,898",84,,Yes,2024-05-15,A+,synthetic_demo,0
+STU-00013,22,Male,Mombasa,Public,0.0,57.9,1.77,44.25,7,8.0,36.5,"37,172",64,Bachelor,Yes,2024-09-16,E,synthetic_demo,1
+STU-00014,18,Female,Nakuru,Public,12.6,84.2,2.94,73.5,20,6.0,75.8,"82,152",60,Postgraduate,Yes,2024-02-10,A,synthetic_demo,0
+STU-00015,23,Male,Nairobi,Public,4.1,77.9,1.65,41.25,18,,36.5,,73,Secondary,Yes,2024-09-01,E,synthetic_demo,1
+STU-00016,20,Male,Nairobi,Public,8.4,76.7,3.13,78.25,19,5.8,64.1,,86,Diploma,Yes,2024-12-24,B,synthetic_demo,0
+STU-00017,17,Female,Nairobi,Public,8.2,80.7,,,21,8.5,59.1,"20,477",not available,Secondary,Yes,2024-04-05,C,synthetic_demo,0
+STU-00018,22,Female,Mombasa,Public,0.0,84.5,,,13,7.0,56.3,"60,226",73,,Yes,2024-11-04,C,synthetic_demo,0
+STU-00019,22,Female,Mombasa,Public,4.5,86.6,2.11,52.75,14,7.0,60.1,"69,076",not available,Diploma,Yes,2024-02-03,B,synthetic_demo,0
+STU-00020,20,Female,Mombasa,Public,13.0,83.7,2.52,63.0,16,6.9,76.9,"55,630",60,Secondary,Yes,2024-01-04,A,synthetic_demo,0
+STU-00021,19,Female,Nairobi,Public,4.7,92.9,2.34,58.5,17,7.5,64.5,,57,Secondary,Yes,2024-06-07,B,synthetic_demo,0
+STU-00022,18,Female,Thika,Public,3.5,73.6,1.68,42.0,11,,52.7,"38,801",66,,Yes,2024-08-07,C,synthetic_demo,1
+STU-00023,19,Female,Kisumu,Public,0.0,71.6,2.02,50.5,17,,41.1,"41,091",67,,Yes,2024-11-22,D,synthetic_demo,1
+STU-00024,18,Female,Nairobi,Public,9.0,92.4,3.85,96.25,23,6.6,89.6,"30,966",73,Bachelor,Yes,2024-12-24,A+,synthetic_demo,0
+STU-00025,20,Female,Kisumu,Public,3.1,77.5,2.88,72.0,15,5.3,47.3,"48,241",64,Secondary,Yes,2024-06-10,D,synthetic_demo,1
+STU-00026,18,Male,Nakuru,Public,4.2,95.0,3.04,76.0,9,6.4,75.9,"9,100",63,Secondary,Yes,2024-08-04,A,synthetic_demo,0
+STU-00027,22,Female,Thika,Public,5.6,76.6,1.85,46.25,15,,50.9,,not available,Secondary,Yes,2024-03-24,C,synthetic_demo,1
+STU-00028,17,Male,Nakuru,Public,11.8,87.0,2.74,68.5,13,6.5,72.5,"16,611",80,Bachelor,Yes,2024-12-09,A,synthetic_demo,0
+STU-00029,18,Male,Nairobi,Public,8.8,100.0,2.89,72.25,21,8.2,74.6,"77,241",66,Diploma,Yes,2024-03-09,A,synthetic_demo,0
+STU-00030,22,Female,Nairobi,Public,6.4,85.2,3.34,83.5,30,8.3,75.8,,75,Certificate,Yes,2024-01-18,A,synthetic_demo,0
+STU-00031,16,Female,Nakuru,Public,9.8,82.1,2.26,56.5,17,7.4,75.7,"9,551",63,Secondary,Yes,2024-08-18,A,synthetic_demo,0
+STU-00032,21,Female,Nairobi,Public,8.3,99.6,3.53,88.25,18,9.0,71.7,"45,571",53,Diploma,Yes,2024-07-13,A,synthetic_demo,0
+STU-00033,23,Female,Eldoret,Public,4.1,73.1,1.98,49.5,16,6.5,49.0,,69,Certificate,Yes,2024-07-21,D,synthetic_demo,1
+STU-00034,19,Female,Thika,Public,2.6,67.4,1.91,47.75,9,,40.6,"48,775",43,Primary,Yes,2024-12-01,D,synthetic_demo,1
+STU-00035,20,Female,Nakuru,Public,6.0,75.9,3.12,78.0,10,7.3,64.4,"61,613",58,Secondary,Yes,2024-03-17,B,synthetic_demo,0
+STU-00036,21,Male,Nairobi,Public,12.8,94.0,3.78,94.5,28,5.6,86.0,"76,902",58,Postgraduate,Yes,2024-11-02,A+,synthetic_demo,0
+STU-00037,20,Female,Nairobi,Public,11.1,67.4,3.4,85.0,27,8.7,77.8,"72,994",69,Secondary,Yes,2024-12-08,A,synthetic_demo,0
+STU-00038,22,Male,Mombasa,Private,3.1,68.7,,,18,8.0,50.1,"46,367",56,Bachelor,Yes,2024-06-13,C,synthetic_demo,1
+STU-00039,19,Male,Nairobi,Public,8.3,88.0,2.71,67.75,23,6.5,66.9,"38,642",58,Bachelor,Yes,2024-07-03,B,synthetic_demo,0
+STU-00040,20,Male,Nairobi,Public,7.4,76.3,2.8,70.0,18,7.5,60.3,"45,741",67,Secondary,Yes,2024-07-01,B,synthetic_demo,0
+STU-00041,16,Female,Nairobi,Public,4.8,86.3,2.1,52.5,11,,50.4,,45,Certificate,Yes,2024-10-26,C,synthetic_demo,1
+STU-00042,21,Male,Nairobi,Public,8.0,97.5,2.41,60.25,21,5.6,66.4,,58,Primary,Yes,2024-05-07,B,synthetic_demo,0
+STU-00043,21,Female,Nairobi,Public,3.8,68.0,,,13,6.6,47.8,"5,000",39,Bachelor,Yes,2024-10-17,D,synthetic_demo,1
+STU-00044,19,Female,Eldoret,Public,5.9,74.2,1.66,41.5,11,8.1,47.8,"22,959",45,Diploma,Yes,2024-12-06,D,synthetic_demo,1
+STU-00045,23,Male,Kisumu,Public,7.6,86.1,3.07,76.75,13,,67.4,,58,Diploma,Yes,2024-07-07,B,synthetic_demo,0
+STU-00046,20,Female,Nakuru,Public,8.7,77.4,2.59,64.75,16,7.0,65.5,"58,698",72,Secondary,Yes,2024-05-04,B,synthetic_demo,0
+STU-00047,19,Female,Thika,Public,9.1,85.1,2.89,72.25,18,7.0,70.7,"52,385",not available,Diploma,Yes,2024-12-04,A,synthetic_demo,0
+STU-00048,19,Male,Kisumu,Public,5.0,61.0,2.64,66.0,10,7.2,45.4,"50,360",67,,Yes,2024-11-24,D,synthetic_demo,1
+STU-00049,18,Male,Mombasa,Public,9.4,74.6,2.67,66.75,18,,66.5,"69,955",68,Diploma,Yes,2024-09-13,B,synthetic_demo,0
+STU-00050,16,Female,Kisumu,Public,7.0,93.2,2.98,74.5,21,6.3,74.6,"39,490",72,Primary,Yes,2024-07-06,A,synthetic_demo,0
+STU-00051,19,Female,Nakuru,Public,4.2,80.4,3.23,80.75,24,5.0,71.1,,61,Primary,Yes,2024-12-04,A,synthetic_demo,0
+STU-00052,19,Female,Mombasa,Public,0.4,68.5,2.58,64.5,16,7.0,45.6,,78,,Yes,2024-08-20,D,synthetic_demo,1
+STU-00053,19,Male,Mombasa,Public,4.4,70.7,2.52,63.0,20,7.4,60.7,,67,Bachelor,Yes,2024-01-14,B,synthetic_demo,0
+STU-00054,19,Male,Nairobi,Public,4.9,82.9,2.35,58.75,20,5.6,53.1,"47,520",65,,Yes,2024-01-21,C,synthetic_demo,1
+STU-00055,19,Male,Mombasa,Public,4.9,66.4,3.16,79.0,13,4.8,50.6,"20,584",76,Bachelor,Yes,2024-03-04,C,synthetic_demo,1
+STU-00056,20,Male,Thika,Public,4.9,60.3,2.19,54.75,9,6.0,37.9,"33,235",74,Bachelor,Yes,2024-09-19,E,synthetic_demo,1
+STU-00057,19,Male,Kisumu,Public,3.1,71.4,2.58,64.5,13,7.5,51.4,"66,277",45,Bachelor,No,2024-01-07,C,synthetic_demo,1
+STU-00058,18,Female,Kisumu,Public,6.2,65.7,2.43,60.75,19,7.7,53.8,,58,Secondary,Yes,2024-10-19,C,synthetic_demo,1
+STU-00059,20,Female,Nakuru,Public,4.9,74.6,3.17,79.25,19,6.8,68.9,"31,269",75,,Yes,2024-08-22,B,synthetic_demo,0
+STU-00060,18,Male,Eldoret,Public,5.6,80.9,3.15,78.75,22,7.1,63.6,"43,959",63,Secondary,Yes,2024-08-01,B,synthetic_demo,0
+STU-00061,19,Male,Eldoret,Public,7.9,100.0,2.75,68.75,21,5.8,73.1,"72,806",53,Bachelor,Yes,2024-09-04,A,synthetic_demo,0
+STU-00062,19,Male,Eldoret,Public,3.9,87.9,1.88,47.0,17,,58.9,"26,346",48,Postgraduate,Yes,2024-01-13,C,synthetic_demo,0
+STU-00063,17,Male,Nakuru,Public,4.5,64.8,3.04,76.0,10,,43.7,"26,804",68,Secondary,Yes,2024-04-08,D,synthetic_demo,1
+STU-00064,19,Female,Nairobi,Public,0.0,77.4,2.08,52.0,19,8.2,60.1,"54,416",not available,Bachelor,Yes,2024-02-15,B,synthetic_demo,0
+STU-00065,19,Male,Thika,Public,6.8,66.4,2.39,59.75,17,,61.1,"48,794",51,Diploma,Yes,2024-01-11,B,synthetic_demo,0
+STU-00066,20,Male,Thika,Public,0.6,75.7,,,12,5.3,65.5,"64,326",73,,Yes,2024-12-21,B,synthetic_demo,0
+STU-00067,18,Female,Nairobi,Public,5.5,63.5,2.61,65.25,10,8.2,37.4,"79,944",57,Secondary,Yes,2024-12-05,E,synthetic_demo,1
+STU-00068,21,Prefer not to say,Nairobi,Public,4.9,88.1,3.18,79.5,18,10.5,76.2,"92,232",83,Secondary,No,2024-08-02,A,synthetic_demo,0
+STU-00069,20,Male,Nairobi,Public,6.3,93.1,1.87,46.75,16,8.3,68.1,"92,465",70,,Yes,2024-09-06,B,synthetic_demo,0
+STU-00070,20,Female,Nairobi,Public,7.9,75.0,3.01,75.25,12,5.8,52.6,"38,805",81,Certificate,Yes,2024-03-04,C,synthetic_demo,1
+STU-00071,20,Male,Nairobi,Public,0.0,64.7,2.28,57.0,16,6.8,51.6,,56,,Yes,2024-03-21,C,synthetic_demo,1
+STU-00072,20,Female,Kisumu,Public,7.2,97.7,2.1,52.5,18,8.4,53.3,"23,493",63,Diploma,Yes,2024-06-13,C,synthetic_demo,1
+STU-00073,21,Female,Nairobi,Public,0.0,56.4,2.94,73.5,10,5.8,41.7,"73,092",60,Diploma,Yes,2024-10-04,D,synthetic_demo,1
+STU-00074,21,Female,Mombasa,Public,8.2,86.7,3.13,78.25,19,5.9,71.8,"65,543",64,,Yes,2024-10-20,A,synthetic_demo,0
+STU-00075,20,Female,Mombasa,Public,0.3,81.9,3.09,77.25,19,6.6,61.0,"34,997",70,Secondary,Yes,2024-05-03,B,synthetic_demo,0
+STU-00076,23,Female,Nairobi,Public,9.6,89.3,2.95,73.75,23,6.7,75.5,"38,794",73,,Yes,2024-09-10,A,synthetic_demo,0
+STU-00077,20,Male,Nakuru,Public,12.2,85.6,3.14,78.5,16,6.8,61.6,,57,Primary,Yes,2024-01-02,B,synthetic_demo,0
+STU-00078,21,Female,Mombasa,Public,5.3,74.6,2.9,72.5,16,6.0,59.8,,59,Diploma,Yes,2024-07-12,C,synthetic_demo,0
+STU-00079,20,Male,Nairobi,Public,13.1,93.8,,,22,7.9,82.2,"37,044",49,Certificate,Yes,2024-07-20,A,synthetic_demo,0
+STU-00080,21,Female,Other,Public,8.4,81.6,2.88,72.0,22,10.4,61.4,"50,098",not available,Postgraduate,Yes,2024-12-04,B,synthetic_demo,0
+STU-00081,23,Male,Nairobi,Public,0.9,,2.52,63.0,18,7.2,46.8,,58,Certificate,Yes,2024-05-25,D,synthetic_demo,1
+STU-00082,21,Female,Nakuru,Public,1.0,93.2,2.19,54.75,10,,50.2,"50,516",74,,Yes,2024-04-05,C,synthetic_demo,1
+STU-00083,20,Female,Nairobi,Public,5.5,84.0,2.48,62.0,23,8.7,64.4,"18,066",52,Bachelor,Yes,2024-05-13,B,synthetic_demo,0
+STU-00084,21,Male,Nairobi,Public,12.3,76.9,2.28,57.0,14,8.4,61.4,"63,467",56,Secondary,Yes,2024-09-04,B,synthetic_demo,0
+STU-00085,22,Female,Nairobi,Public,2.6,77.8,2.64,66.0,19,5.9,48.8,"36,206",not available,Certificate,Yes,2024-01-24,D,synthetic_demo,1
+STU-00086,18,Female,Other,Public,2.2,59.4,1.65,41.25,11,7.7,31.8,"62,866",69,Secondary,Yes,2024-12-23,E,synthetic_demo,1
+STU-00087,19,Male,Mombasa,Public,7.5,81.8,,,24,8.9,59.3,,61,Primary,Yes,2024-07-19,C,synthetic_demo,0
+STU-00088,18,Female,Nakuru,Public,0.0,80.1,2.17,54.25,13,5.4,53.2,,75,Bachelor,Yes,2024-04-24,C,synthetic_demo,1
+STU-00089,20,Male,Eldoret,Public,14.2,100.0,3.35,83.75,20,7.4,0.0,"80,439",67,Primary,Yes,2024-11-25,A+,synthetic_demo,1
+STU-00090,20,Female,Kisumu,Public,4.3,97.3,3.16,79.0,12,6.1,68.9,,87,Bachelor,Yes,2024-10-06,B,synthetic_demo,0
+STU-00091,19,Male,Mombasa,Public,11.1,99.7,3.09,77.25,22,7.0,76.3,"16,187",70,Primary,Yes,2024-09-16,A,synthetic_demo,0
+STU-00092,24,Male,Kisumu,Public,8.0,77.7,2.68,67.0,18,6.6,58.4,,45,,Yes,2024-06-17,C,synthetic_demo,0
+STU-00093,20,Female,Nakuru,Public,20.9,100.0,3.2,80.0,24,6.6,89.1,"115,251",79,,Yes,2024-02-19,A+,synthetic_demo,0
+STU-00094,19,Female,Mombasa,Public,3.9,87.7,1.98,49.5,17,6.8,57.7,"23,797",60,Bachelor,Yes,2024-10-14,C,synthetic_demo,0
+STU-00095,19,Female,Mombasa,Public,1.2,84.1,2.19,54.75,13,7.8,49.3,"46,729",65,Bachelor,Yes,2024-09-08,D,synthetic_demo,1
+STU-00096,21,Female,Nairobi,Public,4.8,76.5,2.75,68.75,17,6.9,53.9,"52,735",81,Diploma,Yes,2024-08-09,C,synthetic_demo,1
+STU-00097,19,Female,Nairobi,Public,6.0,86.4,2.65,66.25,12,6.7,60.4,"29,249",not available,Secondary,Yes,2024-06-01,B,synthetic_demo,0
+STU-00098,21,Male,Eldoret,Public,4.4,77.5,3.0,75.0,18,7.7,55.6,"39,857",79,,Yes,2024-04-03,C,synthetic_demo,0
+STU-00099,18,Female,Nairobi,Public,3.6,93.7,2.08,52.0,15,7.6,50.2,"42,078",69,Secondary,Yes,2024-03-02,C,synthetic_demo,1
+STU-00100,20,Female,Mombasa,Public,10.6,91.1,3.01,75.25,26,9.3,74.4,"33,336",77,Diploma,Yes,2024-11-26,A,synthetic_demo,0
+STU-00101,20,Male,Nakuru,Public,8.5,79.5,3.88,97.0,29,5.4,76.9,,75,Secondary,Yes,2024-03-14,A,synthetic_demo,0
+STU-00102,21,Female,Nairobi,Public,7.6,85.2,3.23,80.75,30,7.3,72.9,"69,047",65,Bachelor,Yes,2024-04-20,A,synthetic_demo,0
+STU-00103,20,Female,Nairobi,Public,10.9,100.0,3.07,76.75,17,6.4,70.4,"45,295",74,Certificate,Yes,2024-05-07,A,synthetic_demo,0
+STU-00104,22,Male,Nairobi,Public,2.9,85.8,3.11,77.75,19,6.8,60.9,"26,093",76,Bachelor,Yes,2024-06-10,B,synthetic_demo,0
+STU-00105,19,Male,Kisumu,Public,2.3,70.8,2.61,65.25,18,6.4,58.5,"57,201",63,Certificate,Yes,2024-02-24,C,synthetic_demo,0
+STU-00106,18,Female,Mombasa,Public,3.0,84.1,,,3,5.4,46.9,"48,187",59,Secondary,Yes,2024-06-24,D,synthetic_demo,1
+STU-00107,18,Male,Thika,Public,9.2,85.3,3.04,76.0,11,,64.7,"69,790",67,No formal education,Yes,2024-08-01,B,synthetic_demo,0
+STU-00108,21,Male,Nairobi,Public,0.1,75.6,2.17,54.25,15,7.2,43.8,,64,Postgraduate,Yes,2024-10-04,D,synthetic_demo,1
+STU-00109,18,Female,Thika,Public,3.4,97.7,2.85,71.25,17,7.5,61.8,"45,295",70,Secondary,Yes,2024-11-04,B,synthetic_demo,0
+STU-00110,22,Female,Eldoret,Public,5.7,88.7,3.26,81.5,23,7.6,-1.0,"82,704",74,,Yes,2024-06-20,A,synthetic_demo,1
+STU-00111,17,Male,Nairobi,Public,4.3,87.5,2.78,69.5,6,7.7,61.2,"61,452",62,Bachelor,Yes,2024-09-09,B,synthetic_demo,0
+STU-00112,21,Female,Kisumu,Public,2.9,78.5,2.09,52.25,4,6.2,41.8,"5,000",49,Secondary,Yes,2024-08-04,D,synthetic_demo,1
+STU-00113,21,Female,Nakuru,Public,5.4,74.5,2.24,56.0,5,7.2,53.6,"20,711",48,Bachelor,Yes,2024-02-20,C,synthetic_demo,1
+STU-00114,16,Female,Kisumu,Public,1.8,83.4,2.95,73.75,14,7.3,57.6,"9,181",64,Diploma,Yes,2024-05-09,C,synthetic_demo,0
+STU-00115,22,Male,Nakuru,Public,0.0,76.7,3.02,75.5,18,5.8,60.1,,83,Certificate,Yes,2024-06-24,B,synthetic_demo,0
+STU-00116,20,Male,Mombasa,Public,3.6,83.6,2.37,59.25,18,5.3,47.2,"88,332",74,Secondary,Yes,2024-12-22,D,synthetic_demo,1
+STU-00117,20,Male,Nairobi,Public,1.2,86.7,2.81,70.25,10,9.3,53.6,"77,683",not available,Secondary,Yes,2024-12-09,C,synthetic_demo,1
+STU-00118,22,Male,Nairobi,Public,3.8,76.6,2.87,71.75,20,6.7,53.3,"79,979",69,,Yes,2024-05-05,C,synthetic_demo,1
+STU-00119,21,Female,Eldoret,Public,11.2,87.3,3.19,79.75,23,,75.8,"51,378",not available,Diploma,Yes,2024-11-28,A,synthetic_demo,0
+STU-00120,21,Male,Mombasa,Public,5.4,74.6,1.94,48.5,12,7.2,55.9,"43,949",78,Secondary,Yes,2024-08-24,C,synthetic_demo,0
+STU-00121,20,Male,Eldoret,Public,7.3,96.6,2.33,58.25,23,6.4,60.9,"43,109",73,Secondary,Yes,2024-07-26,B,synthetic_demo,0
+STU-00122,20,Male,Nakuru,Public,4.2,88.5,3.12,78.0,30,7.8,73.7,,67,,Yes,2024-12-22,A,synthetic_demo,0
+STU-00123,19,Female,Mombasa,Public,13.1,75.3,,,18,6.7,69.7,"41,450",70,Bachelor,Yes,2024-05-03,B,synthetic_demo,0
+STU-00124,19,Male,Nakuru,Public,6.3,74.2,,,11,6.2,43.7,"30,115",57,,Yes,2024-02-25,D,synthetic_demo,1
+STU-00125,21,Male,Eldoret,Public,1.4,60.8,1.89,47.25,12,7.0,42.1,,not available,Secondary,Yes,2024-09-01,D,synthetic_demo,1
+STU-00126,20,Female,Nakuru,Public,7.8,86.7,3.44,86.0,26,4.7,83.0,"71,628",63,Postgraduate,Yes,2024-01-01,A,synthetic_demo,0
+STU-00127,17,Male,Mombasa,Public,10.7,97.9,3.56,89.0,26,8.5,87.6,"33,315",76,Primary,Yes,2024-01-26,A+,synthetic_demo,0
+STU-00128,20,Female,Kisumu,Public,4.6,82.0,3.04,76.0,21,9.2,60.8,"52,024",not available,Secondary,Yes,2024-05-13,B,synthetic_demo,0
+STU-00129,19,Male,Nairobi,Public,9.3,100.0,2.96,74.0,28,5.6,69.5,"34,520",59,Bachelor,Yes,2024-08-18,B,synthetic_demo,0
+STU-00130,20,Prefer not to say,Nairobi,Public,0.0,68.4,1.61,40.25,5,9.8,26.4,"74,446",61,Secondary,Yes,2024-08-09,E,synthetic_demo,1
+STU-00131,20,Female,Nakuru,Public,10.5,97.7,3.02,75.5,19,7.0,71.9,"49,761",74,,Yes,2024-02-03,A,synthetic_demo,0
+STU-00132,18,Male,Mombasa,Public,14.9,,2.59,64.75,20,8.7,70.3,"45,170",not available,Diploma,Yes,2024-07-09,A,synthetic_demo,0
+STU-00133,22,Male,Nairobi,Public,12.1,91.2,3.12,78.0,25,7.3,84.9,"80,820",66,Bachelor,Yes,2024-07-09,A,synthetic_demo,0
+STU-00134,20,Male,Nairobi,Public,0.0,79.3,1.82,45.5,8,,48.4,"34,861",61,Certificate,Yes,2024-12-28,D,synthetic_demo,1
+STU-00135,21,Male,Mombasa,Public,4.2,88.7,3.47,86.75,20,7.0,78.2,"43,596",50,,Yes,2024-09-01,A,synthetic_demo,0
+STU-00136,21,Female,Nairobi,Public,4.7,74.1,2.54,63.5,23,,59.6,"73,677",65,Primary,Yes,2024-05-07,C,synthetic_demo,0
+STU-00137,18,Male,Nairobi,Public,13.2,83.8,3.4,85.0,25,8.0,76.6,,100,Certificate,Yes,2024-06-01,A,synthetic_demo,0
+STU-00138,19,Female,Nakuru,Public,0.9,78.3,2.39,59.75,11,7.3,41.3,"21,540",51,Bachelor,Yes,2024-12-13,D,synthetic_demo,1
+STU-00139,20,Male,Nakuru,Public,2.7,82.9,2.68,67.0,19,,50.1,,not available,,Yes,2024-09-21,C,synthetic_demo,1
+STU-00140,19,Male,Nakuru,Public,3.1,88.4,2.96,74.0,18,3.9,63.0,"5,000",66,No formal education,Yes,2024-03-09,B,synthetic_demo,0
+STU-00141,31,Male,Mombasa,Public,29.3,78.2,2.13,53.25,16,8.3,52.9,,59,,Yes,2024-11-05,C,synthetic_demo,1
+STU-00142,19,Female,Nairobi,Public,9.5,75.4,2.29,57.25,20,5.1,53.9,"36,523",65,,Yes,2024-04-07,C,synthetic_demo,1
+STU-00143,21,Female,Nairobi,Public,5.6,94.1,2.49,62.25,23,7.1,82.5,"51,594",64,Bachelor,Yes,2024-09-22,A,synthetic_demo,0
+STU-00144,20,Female,Mombasa,Public,2.9,88.9,2.16,54.0,30,7.3,64.9,,59,Secondary,Yes,2024-02-02,B,synthetic_demo,0
+STU-00145,21,Male,Nairobi,Public,8.5,88.1,3.62,90.5,22,6.2,76.4,"47,720",76,,Yes,2024-06-14,A,synthetic_demo,0
+STU-00146,18,Female,Nakuru,Public,9.7,98.7,3.58,89.5,20,7.4,81.9,,79,Diploma,Yes,2024-03-26,A,synthetic_demo,0
+STU-00147,17,Female,Kisumu,Public,11.6,,3.0,75.0,22,7.0,69.2,"73,027",77,,Yes,2024-06-02,B,synthetic_demo,0
+STU-00148,19,Female,Thika,Public,1.0,76.4,2.04,51.0,9,,40.3,"62,136",73,Diploma,Yes,2024-05-09,D,synthetic_demo,1
+STU-00149,20,Male,Nairobi,Public,0.9,67.2,2.06,51.5,16,9.3,43.8,"65,096",not available,Certificate,Yes,2024-08-05,D,synthetic_demo,1
+STU-00150,19,Male,Eldoret,Public,8.3,90.7,3.3,82.5,23,5.4,58.6,"43,293",74,Bachelor,Yes,2024-07-28,C,synthetic_demo,0
+STU-00151,21,Female,Kisumu,Public,12.3,90.5,3.99,99.75,29,6.7,93.8,,79,Secondary,Yes,2024-08-24,A+,synthetic_demo,0
+STU-00152,20,Male,Nairobi,Public,9.7,88.5,3.38,84.5,30,7.9,80.9,"29,211",67,No formal education,No,2024-12-23,A,synthetic_demo,0
+STU-00153,20,Female,Thika,Public,6.7,73.1,3.17,79.25,25,7.4,65.6,"63,128",72,,Yes,2024-05-24,B,synthetic_demo,0
+STU-00154,21,Female,Mombasa,Public,4.3,69.0,2.59,64.75,16,7.1,55.0,"41,834",70,Postgraduate,Yes,2024-11-21,C,synthetic_demo,0
+STU-00155,19,Female,Kisumu,Public,4.7,73.6,2.01,50.25,15,,56.7,,61,Bachelor,Yes,2024-01-27,C,synthetic_demo,0
+STU-00156,18,Female,Nairobi,Public,5.5,72.1,2.26,56.5,16,7.0,41.9,,76,Secondary,Yes,2024-06-09,D,synthetic_demo,1
+STU-00157,19,Female,Mombasa,Public,4.0,87.8,3.51,87.75,25,10.4,68.7,"5,000",48,Bachelor,Yes,2024-02-17,B,synthetic_demo,0
+STU-00158,19,Female,Nairobi,Public,5.4,76.5,2.76,69.0,14,6.3,56.2,,47,Certificate,Yes,2024-05-09,C,synthetic_demo,0
+STU-00159,20,Male,Mombasa,Public,6.4,89.9,2.24,56.0,8,8.6,56.6,,71,Secondary,Yes,2024-11-14,C,synthetic_demo,0
+STU-00160,20,Male,Other,Public,8.6,75.3,3.01,75.25,9,7.3,66.4,"51,873",67,Bachelor,Yes,2024-05-24,B,synthetic_demo,0
+STU-00161,19,Male,Mombasa,Public,11.5,78.8,2.15,53.75,11,5.4,54.0,,not available,Bachelor,Yes,2024-05-22,C,synthetic_demo,1
+STU-00162,19,Male,Nairobi,Public,7.4,77.8,2.26,56.5,19,7.9,57.8,"15,647",73,Primary,Yes,2024-08-09,C,synthetic_demo,0
+STU-00163,16,Female,Nakuru,Public,1.1,64.2,1.68,42.0,11,7.5,28.7,"57,644",65,Secondary,Yes,2024-01-15,E,synthetic_demo,1
+STU-00164,21,Female,Thika,Public,3.2,,3.08,77.0,21,6.6,60.6,"20,301",78,Bachelor,Yes,2024-04-06,B,synthetic_demo,0
+STU-00165,18,Male,Thika,Public,2.5,70.7,3.06,76.5,23,7.6,55.2,"38,473",61,Bachelor,Yes,2024-09-12,C,synthetic_demo,0
+STU-00166,20,Female,Nairobi,Public,9.0,63.2,2.45,61.25,23,8.3,45.6,"69,666",46,,Yes,2024-12-06,D,synthetic_demo,1
+STU-00167,18,Male,Mombasa,Public,0.0,77.9,2.28,57.0,10,6.2,39.7,"39,825",not available,Certificate,Yes,2024-09-10,E,synthetic_demo,1
+STU-00168,19,Male,Eldoret,Public,7.7,81.0,2.27,56.75,16,6.9,56.4,"10,300",61,Secondary,Yes,2024-11-14,C,synthetic_demo,0
+STU-00169,20,Male,Nairobi,Public,14.0,94.8,3.52,88.0,23,6.7,76.1,"87,519",68,Bachelor,Yes,2024-09-11,A,synthetic_demo,0
+STU-00170,22,Female,Kisumu,Public,0.0,76.0,2.63,65.75,23,5.8,54.6,,57,Primary,No,2024-03-28,C,synthetic_demo,1
+STU-00171,22,Male,Nairobi,Public,4.1,74.4,2.57,64.25,12,7.6,51.8,"66,890",62,,Yes,2024-09-09,C,synthetic_demo,1
+STU-00172,20,Female,Nairobi,Public,9.3,69.4,2.75,68.75,13,,57.1,"45,085",55,Secondary,Yes,2024-10-25,C,synthetic_demo,0
+STU-00173,17,Female,Nakuru,Public,10.0,79.4,2.92,73.0,20,4.3,66.2,"34,600",not available,Diploma,Yes,2024-08-19,B,synthetic_demo,0
+STU-00174,18,Female,Nakuru,Public,8.0,100.0,3.47,86.75,24,6.2,86.0,"66,796",76,Secondary,Yes,2024-12-21,A+,synthetic_demo,0
+STU-00175,22,Female,Nairobi,Public,7.7,75.0,3.01,75.25,13,,55.4,,71,Diploma,Yes,2024-10-16,C,synthetic_demo,0
+STU-00176,19,Female,Nakuru,Public,8.2,80.8,3.55,88.75,16,5.3,66.9,"29,171",54,Bachelor,Yes,2024-06-08,B,synthetic_demo,0
+STU-00177,17,Female,Nairobi,Public,5.4,75.6,1.95,48.75,11,5.4,47.5,,60,,Yes,2024-07-11,D,synthetic_demo,1
+STU-00178,17,Female,Nakuru,Public,6.4,,1.76,44.0,13,5.0,51.7,"31,450",84,Diploma,Yes,2024-10-17,C,synthetic_demo,1
+STU-00179,18,Male,Nairobi,Public,4.5,75.5,2.65,66.25,12,7.5,58.9,,73,Bachelor,Yes,2024-12-09,C,synthetic_demo,0
+STU-00180,20,Female,Mombasa,Public,2.1,81.7,3.2,80.0,17,6.5,62.9,"46,004",71,Postgraduate,Yes,2024-12-25,B,synthetic_demo,0
+STU-00181,21,Male,Nairobi,Public,0.0,68.5,2.25,56.25,12,,38.8,"39,310",63,Certificate,Yes,2024-10-13,E,synthetic_demo,1
+STU-00182,20,Female,Nakuru,Public,5.9,78.2,3.24,81.0,22,8.5,67.6,"43,479",73,Diploma,Yes,2024-03-12,B,synthetic_demo,0
+STU-00183,20,Female,Eldoret,Public,3.5,55.2,1.87,46.75,21,6.6,41.4,"75,370",not available,Certificate,Yes,2024-08-06,D,synthetic_demo,1
+STU-00184,20,Male,Nairobi,Public,10.7,100.0,3.0,75.0,20,10.8,87.2,,70,Diploma,Yes,2024-07-14,A+,synthetic_demo,0
+STU-00185,21,Male,Nairobi,Public,5.3,79.4,3.01,75.25,19,5.5,59.7,"63,008",64,,Yes,2024-04-01,C,synthetic_demo,0
+STU-00186,22,Female,Nairobi,Public,0.0,78.5,2.58,64.5,10,8.1,46.9,"46,261",not available,Secondary,Yes,2024-05-15,D,synthetic_demo,1
+STU-00187,20,Male,Kisumu,Public,8.4,70.7,2.34,58.5,8,6.9,43.4,"77,168",69,Secondary,Yes,2024-02-23,D,synthetic_demo,1
+STU-00188,21,Female,Eldoret,Public,8.6,66.9,3.02,75.5,15,7.6,64.0,"62,282",85,Diploma,Yes,2024-03-06,B,synthetic_demo,0
+STU-00189,19,Male,Other,Public,0.8,77.0,2.21,55.25,21,8.0,51.3,"29,386",54,Bachelor,Yes,2024-11-17,C,synthetic_demo,1
+STU-00190,18,Female,Mombasa,Public,3.1,75.9,2.33,58.25,17,6.2,50.9,"38,138",53,,Yes,2024-03-01,C,synthetic_demo,1
+STU-00191,20,Male,Other,Public,12.7,81.0,2.89,72.25,23,7.4,69.4,"41,663",59,No formal education,Yes,2024-04-28,B,synthetic_demo,0
+STU-00192,22,Female,Nairobi,Public,13.0,100.0,3.46,86.5,28,6.8,82.2,"50,800",91,,Yes,2024-06-16,A,synthetic_demo,0
+STU-00193,25,Female,Nairobi,Public,7.2,71.9,2.64,66.0,19,5.8,59.0,,54,Secondary,Yes,2024-06-02,C,synthetic_demo,0
+STU-00194,20,Female,Kisumu,Public,10.9,98.9,2.82,70.5,28,5.9,76.7,"5,320",not available,Primary,Yes,2024-08-18,A,synthetic_demo,0
+STU-00195,22,Male,Kisumu,Public,10.2,97.1,3.17,79.25,29,5.5,82.3,"5,000",64,Bachelor,Yes,2024-07-20,A,synthetic_demo,0
+STU-00196,21,Male,Mombasa,Public,3.1,77.9,2.6,65.0,18,6.9,61.2,"50,643",63,,Yes,2024-06-21,B,synthetic_demo,0
+STU-00197,20,Male,Mombasa,Public,6.9,68.4,2.76,69.0,16,5.6,51.0,"25,777",63,No formal education,Yes,2024-07-18,C,synthetic_demo,1
+STU-00198,18,Female,Nairobi,Public,10.0,65.0,2.68,67.0,22,7.1,55.5,,59,Postgraduate,No,2024-01-19,C,synthetic_demo,0
+STU-00199,22,Male,Thika,Public,1.9,89.6,2.78,69.5,14,6.8,66.1,"52,023",65,Certificate,Yes,2024-06-27,B,synthetic_demo,0
+STU-00200,18,Female,Nairobi,Public,3.1,79.5,,,11,7.9,54.7,,48,Secondary,Yes,2024-11-14,C,synthetic_demo,1
+STU-00201,18,Female,Nairobi,Public,9.5,89.0,3.1,77.5,21,5.9,74.4,"52,028",68,Certificate,Yes,2024-07-05,A,synthetic_demo,0
+STU-00202,21,Female,Nakuru,Public,9.1,100.0,3.53,88.25,28,7.7,85.0,"46,738",79,Secondary,Yes,2024-08-06,A,synthetic_demo,0
+STU-00203,19,Female,Mombasa,Public,8.2,82.2,2.25,56.25,18,6.6,57.2,"67,050",62,Certificate,Yes,2024-12-28,C,synthetic_demo,0
+STU-00204,20,Female,Nairobi,Public,15.9,89.0,2.87,71.75,18,7.7,73.6,"18,905",59,Diploma,Yes,2024-02-08,A,synthetic_demo,0
+STU-00205,19,Female,Other,Public,8.2,80.4,3.06,76.5,17,7.9,65.7,"38,739",72,Certificate,Yes,2024-04-20,B,synthetic_demo,0
+STU-00206,18,Female,Mombasa,Public,0.0,81.7,,,18,5.9,58.9,,65,,Yes,2024-09-23,C,synthetic_demo,0
+STU-00207,19,Male,Other,Public,3.5,83.1,2.63,65.75,19,,60.3,"32,717",69,Primary,Yes,2024-04-18,B,synthetic_demo,0
+STU-00208,20,Male,Nakuru,Public,7.3,85.0,2.72,68.0,23,6.7,57.3,,62,Certificate,Yes,2024-10-03,C,synthetic_demo,0
+STU-00209,20,Male,Nakuru,Public,2.0,83.9,2.27,56.75,18,,47.3,"30,415",not available,,No,2024-10-26,D,synthetic_demo,1
+STU-00210,22,Male,Kisumu,Public,3.7,70.3,2.57,64.25,21,8.7,50.6,"20,703",76,Postgraduate,Yes,2024-02-28,C,synthetic_demo,1
+STU-00211,20,Female,Mombasa,Public,8.7,63.3,2.52,63.0,16,7.7,0.0,,52,Diploma,Yes,2024-08-02,B,synthetic_demo,1
+STU-00212,19,Female,Nairobi,Public,0.5,73.2,2.08,52.0,13,5.6,44.8,"74,827",82,Secondary,Yes,2024-01-02,D,synthetic_demo,1
+STU-00213,20,Female,Thika,Public,5.9,91.8,2.88,72.0,23,7.5,66.9,,84,Primary,Yes,2024-02-26,B,synthetic_demo,0
+STU-00214,22,Female,Nairobi,Public,3.7,76.9,2.68,67.0,20,6.8,60.1,"64,873",77,Secondary,Yes,2024-05-03,B,synthetic_demo,0
+STU-00215,19,Male,Eldoret,Public,0.0,83.6,3.07,76.75,18,8.3,76.0,"44,120",70,Secondary,Yes,2024-06-09,A,synthetic_demo,0
+STU-00216,17,Female,Mombasa,Public,4.2,,2.7,67.5,14,,51.0,,71,,Yes,2024-11-21,C,synthetic_demo,1
+STU-00217,20,Male,Nairobi,Public,4.4,91.3,2.94,73.5,25,7.4,73.6,"81,211",not available,No formal education,Yes,2024-08-25,A,synthetic_demo,0
+STU-00218,19,Male,Nairobi,Public,8.3,81.9,2.42,60.5,18,6.9,57.7,,not available,,Yes,2024-08-08,C,synthetic_demo,0
+STU-00219,19,Male,Mombasa,Public,8.8,100.0,2.54,63.5,26,8.1,75.7,,63,Primary,Yes,2024-07-06,A,synthetic_demo,0
+STU-00220,20,Female,Kisumu,Public,2.6,87.1,3.15,78.75,24,9.4,60.6,,68,,Yes,2024-03-05,B,synthetic_demo,0
+STU-00221,19,Male,Eldoret,Public,8.4,82.0,2.76,69.0,10,8.4,69.5,"44,009",61,No formal education,Yes,2024-03-16,B,synthetic_demo,0
+STU-00222,21,Male,Mombasa,Public,5.0,75.5,2.13,53.25,7,6.6,52.7,"63,469",61,Bachelor,Yes,2024-07-19,C,synthetic_demo,1
+STU-00223,19,Female,Nairobi,Public,8.9,99.1,2.73,68.25,27,,81.6,"67,904",not available,Secondary,Yes,2024-05-26,A,synthetic_demo,0
+STU-00224,19,Male,Nairobi,Public,2.1,65.2,2.0,50.0,14,8.3,45.5,,not available,No formal education,Yes,2024-03-12,D,synthetic_demo,1
+STU-00225,22,Male,Mombasa,Public,7.6,79.8,2.04,51.0,20,5.4,53.1,"38,274",not available,Primary,Yes,2024-11-25,C,synthetic_demo,1
+STU-00226,16,Female,Nairobi,Public,10.9,77.0,3.12,78.0,16,8.7,69.3,,65,Secondary,Yes,2024-04-24,B,synthetic_demo,0
+STU-00227,18,Female,Nairobi,Public,0.0,100.0,3.03,75.75,16,6.5,66.8,"69,493",56,Secondary,Yes,2024-04-04,B,synthetic_demo,0
+STU-00228,17,Female,Nairobi,Public,6.8,60.8,3.0,75.0,13,6.5,61.3,"37,736",49,Bachelor,Yes,2024-08-07,B,synthetic_demo,0
+STU-00229,19,Male,Mombasa,Public,11.1,89.2,2.67,66.75,19,7.9,62.3,"60,329",not available,Primary,Yes,2024-05-09,B,synthetic_demo,0
+STU-00230,20,Female,Kisumu,Public,14.0,87.6,3.24,81.0,21,6.9,77.1,,59,Diploma,Yes,2024-04-20,A,synthetic_demo,0
+STU-00231,23,Male,Nairobi,Public,5.3,74.3,2.61,65.25,19,7.2,51.6,"14,802",59,Bachelor,Yes,2024-08-03,C,synthetic_demo,1
+STU-00232,21,Female,Thika,Public,13.5,90.4,3.47,86.75,24,4.6,74.0,"66,786",70,,Yes,2024-04-14,A,synthetic_demo,0
+STU-00233,21,Female,Nairobi,Public,0.0,88.8,2.46,61.5,21,7.9,52.6,"64,902",47,Secondary,Yes,2024-02-08,C,synthetic_demo,1
+STU-00234,18,Female,Mombasa,Public,0.0,64.5,1.5,37.5,8,,38.5,,not available,Secondary,Yes,2024-02-02,E,synthetic_demo,1
+STU-00235,20,Male,Nakuru,Public,3.4,86.6,2.33,58.25,18,6.7,50.8,"71,024",58,,Yes,2024-05-07,C,synthetic_demo,1
+STU-00236,18,Male,Kisumu,Public,8.7,95.3,2.57,64.25,12,7.0,61.8,"57,445",63,,Yes,2024-12-21,B,synthetic_demo,0
+STU-00237,20,Male,Kisumu,Public,12.9,85.2,2.52,63.0,20,7.3,67.9,,65,Secondary,No,2024-01-23,B,synthetic_demo,0
+STU-00238,20,Female,Eldoret,Public,3.9,77.3,2.49,62.25,22,6.5,48.1,"38,834",37,Secondary,Yes,2024-07-26,D,synthetic_demo,1
+STU-00239,22,Male,Nairobi,Public,7.3,81.0,3.33,83.25,23,,67.8,,62,,Yes,2024-07-10,B,synthetic_demo,0
+STU-00240,19,Female,Other,Public,6.0,73.4,3.55,88.75,14,7.2,68.8,"30,839",68,Bachelor,Yes,2024-12-13,B,synthetic_demo,0
+STU-00241,23,Female,Other,Public,7.4,77.2,3.2,80.0,13,,77.6,,75,Certificate,Yes,2024-07-17,A,synthetic_demo,0
+STU-00242,20,Female,Mombasa,Public,5.5,75.7,,,20,10.1,64.9,"18,428",79,Bachelor,Yes,2024-09-15,B,synthetic_demo,0
+STU-00243,20,Male,Mombasa,Public,10.2,78.9,2.53,63.25,15,6.7,63.6,"67,849",74,Secondary,Yes,2024-09-25,B,synthetic_demo,0
+STU-00244,18,Male,Eldoret,Public,2.8,71.3,1.68,42.0,9,6.5,50.4,,57,No formal education,Yes,2024-04-11,C,synthetic_demo,1
+STU-00245,19,Male,Mombasa,Public,0.0,94.1,3.16,79.0,21,7.4,64.0,"54,028",81,Bachelor,Yes,2024-02-13,B,synthetic_demo,0
+STU-00246,21,Male,Kisumu,Public,3.0,69.1,,,22,9.0,57.9,"92,793",71,Bachelor,Yes,2024-10-10,C,synthetic_demo,0
+STU-00247,20,Female,Eldoret,Public,4.6,92.3,3.03,75.75,30,8.0,79.0,"34,635",65,Primary,Yes,2024-07-28,A,synthetic_demo,0
+STU-00248,20,Female,Nakuru,Public,2.7,78.0,2.27,56.75,13,5.4,50.1,"33,536",56,Bachelor,Yes,2024-05-22,C,synthetic_demo,1
+STU-00249,20,Female,Other,Public,15.7,97.0,3.69,92.25,29,6.0,96.1,,64,Diploma,Yes,2024-04-05,A+,synthetic_demo,0
+STU-00250,20,Male,Nairobi,Public,3.7,85.0,2.95,73.75,18,8.7,70.0,,54,Diploma,Yes,2024-10-02,B,synthetic_demo,0
+STU-00251,19,Male,Nairobi,Public,9.0,98.1,3.59,89.75,30,7.8,73.7,"51,904",80,Secondary,Yes,2024-11-13,A,synthetic_demo,0
+STU-00252,21,Female,Kisumu,Public,7.1,86.5,2.38,59.5,17,7.8,60.1,"26,297",42,No formal education,Yes,2024-10-14,B,synthetic_demo,0
+STU-00253,19,Female,Eldoret,Public,6.9,75.3,3.11,77.75,20,5.1,66.2,,70,,No,2024-06-15,B,synthetic_demo,0
+STU-00254,17,Male,Mombasa,Public,9.0,69.0,2.48,62.0,22,6.5,59.4,"21,319",57,Secondary,Yes,2024-09-28,C,synthetic_demo,0
+STU-00255,20,Female,Kisumu,Public,9.9,86.5,2.29,57.25,22,8.7,67.4,"21,357",67,Secondary,Yes,2024-02-10,B,synthetic_demo,0
+STU-00256,22,Male,Kisumu,Public,6.2,75.9,2.66,66.5,18,8.7,56.1,"58,908",53,Certificate,Yes,2024-03-09,C,synthetic_demo,0
+STU-00257,18,Female,Nairobi,Public,7.8,80.6,2.93,73.25,14,7.4,61.1,,not available,Diploma,Yes,2024-05-26,B,synthetic_demo,0
+STU-00258,19,Female,Nakuru,Public,14.2,81.1,2.64,66.0,17,7.5,68.5,,58,,Yes,2024-07-03,B,synthetic_demo,0
+STU-00259,16,Female,Other,Public,5.3,69.8,2.16,54.0,13,7.8,44.5,"41,425",60,,Yes,2024-04-15,D,synthetic_demo,1
+STU-00260,20,Male,Kisumu,Public,7.9,83.2,2.79,69.75,22,6.5,57.6,"60,088",80,Certificate,Yes,2024-10-24,C,synthetic_demo,0
+STU-00261,18,Male,Nairobi,Public,2.3,89.2,2.99,74.75,15,5.8,57.6,"35,641",83,No formal education,Yes,2024-05-18,C,synthetic_demo,0
+STU-00262,21,Male,Nairobi,Public,12.4,,2.83,70.75,15,7.5,69.0,"53,937",67,Primary,Yes,2024-04-16,B,synthetic_demo,0
+STU-00263,19,Female,Nairobi,Public,13.3,80.2,3.38,84.5,26,7.0,76.1,"43,062",75,No formal education,Yes,2024-01-02,A,synthetic_demo,0
+STU-00264,18,Female,Mombasa,Public,4.5,66.9,1.78,44.5,9,6.0,50.5,"48,068",61,Secondary,Yes,2024-05-22,C,synthetic_demo,1
+STU-00265,17,Male,Mombasa,Public,1.7,88.3,2.39,59.75,16,8.3,61.2,"57,600",79,Secondary,Yes,2024-09-24,B,synthetic_demo,0
+STU-00266,22,Male,Kisumu,Public,8.8,93.9,2.84,71.0,18,8.5,78.7,"86,621",58,,Yes,2024-08-02,A,synthetic_demo,0
+STU-00267,22,Female,Nairobi,Public,10.6,,3.54,88.5,19,7.7,73.7,,63,Diploma,Yes,2024-05-28,A,synthetic_demo,0
+STU-00268,19,Female,Kisumu,Public,2.5,81.5,2.43,60.75,15,7.5,57.1,"35,810",35,Primary,Yes,2024-07-22,C,synthetic_demo,0
+STU-00269,18,Female,Mombasa,Public,9.6,82.7,,,26,7.2,72.4,"27,407",66,Secondary,Yes,2024-04-09,A,synthetic_demo,0
+STU-00270,19,Female,Eldoret,Public,9.4,80.8,2.6,65.0,22,6.8,66.0,,73,,No,2024-03-22,B,synthetic_demo,0
+STU-00271,18,Male,Mombasa,Public,4.9,82.3,3.38,84.5,20,7.0,65.8,,66,Bachelor,Yes,2024-07-25,B,synthetic_demo,0
+STU-00272,24,Prefer not to say,Mombasa,Public,7.5,,2.74,68.5,24,6.4,75.1,"35,235",67,,No,2024-04-18,A,synthetic_demo,0
+STU-00273,19,Male,Nakuru,Public,6.3,,,,28,,75.1,,56,Primary,Yes,2024-01-04,A,synthetic_demo,0
+STU-00274,16,Female,Mombasa,Public,9.4,93.1,3.3,82.5,23,7.1,89.5,"51,431",74,Bachelor,Yes,2024-07-18,A+,synthetic_demo,0
+STU-00275,20,Female,Mombasa,Public,11.7,100.0,3.49,87.25,27,7.5,87.5,"35,536",not available,Diploma,Yes,2024-10-02,A+,synthetic_demo,0
+STU-00276,17,Male,Nakuru,Public,4.0,75.9,3.07,76.75,13,5.3,56.5,"12,569",not available,No formal education,Yes,2024-05-13,C,synthetic_demo,0
+STU-00277,36,Female,Thika,Public,33.3,75.4,2.65,66.25,18,6.5,64.5,"37,585",87,,Yes,2024-08-25,B,synthetic_demo,0
+STU-00278,21,Male,Thika,Public,6.2,89.6,2.33,58.25,13,6.5,75.0,"18,516",not available,,Yes,2024-02-06,A,synthetic_demo,0
+STU-00279,19,Female,Nairobi,Public,6.5,55.0,2.8,70.0,15,7.5,50.1,"68,782",68,Diploma,Yes,2024-07-18,C,synthetic_demo,1
+STU-00280,18,Female,Mombasa,Public,3.3,74.9,2.03,50.75,12,6.7,50.5,"47,173",53,Diploma,Yes,2024-05-09,C,synthetic_demo,1
+STU-00281,20,Female,Eldoret,Public,9.8,74.3,3.0,75.0,18,6.8,70.8,,62,Secondary,Yes,2024-05-21,A,synthetic_demo,0
+STU-00282,24,Female,Other,Public,11.1,99.2,3.33,83.25,15,6.0,85.1,"59,512",80,Secondary,No,2024-02-02,A+,synthetic_demo,0
+STU-00283,20,Female,Nakuru,Public,10.4,74.2,3.22,80.5,25,5.2,66.9,"97,390",72,Diploma,Yes,2024-12-06,B,synthetic_demo,0
+STU-00284,21,Male,Mombasa,Public,4.4,78.6,2.58,64.5,20,7.1,52.5,"5,000",59,,Yes,2024-06-08,C,synthetic_demo,1
+STU-00285,19,Female,Nakuru,Public,10.0,79.6,,,22,30.0,61.3,"70,573",79,Diploma,Yes,2024-01-02,B,synthetic_demo,0
+STU-00286,17,Female,Nakuru,Public,8.6,76.1,1.86,46.5,11,7.7,56.6,"53,143",65,No formal education,No,2024-11-13,C,synthetic_demo,0
+STU-00287,21,Female,Mombasa,Public,6.8,87.4,2.24,56.0,21,6.1,69.6,,57,,Yes,2024-04-17,B,synthetic_demo,0
+STU-00288,20,Male,Nairobi,Public,0.6,81.2,2.53,63.25,15,6.8,56.4,"37,633",63,No formal education,Yes,2024-12-02,C,synthetic_demo,0
+STU-00289,18,Male,Thika,Public,7.6,71.4,3.5,87.5,19,6.5,58.6,"53,756",77,,Yes,2024-07-03,C,synthetic_demo,0
+STU-00290,18,Female,Thika,Public,9.9,84.0,3.42,85.5,29,,79.3,"63,263",75,Bachelor,Yes,2024-10-17,A,synthetic_demo,0
+STU-00291,24,Female,Nairobi,Public,7.6,90.3,2.44,61.0,14,8.6,58.6,"45,938",57,Secondary,Yes,2024-10-15,C,synthetic_demo,0
+STU-00292,19,Female,Eldoret,Public,0.4,80.6,1.87,46.75,11,7.6,52.3,"48,958",not available,Diploma,Yes,2024-01-21,C,synthetic_demo,1
+STU-00293,19,Male,Nakuru,Public,6.5,77.2,3.28,82.0,19,,67.7,"49,863",82,Bachelor,Yes,2024-11-11,B,synthetic_demo,0
+STU-00294,20,Male,Nairobi,Public,2.8,77.4,3.12,78.0,16,7.0,67.6,"21,354",not available,,Yes,2024-07-26,B,synthetic_demo,0
+STU-00295,22,Female,Nairobi,Public,0.0,70.9,2.44,61.0,16,5.5,51.0,"67,700",59,Diploma,Yes,2024-09-21,C,synthetic_demo,1
+STU-00296,18,Male,Nairobi,Public,5.1,66.6,2.79,69.75,20,9.3,57.1,"66,704",not available,,Yes,2024-07-27,C,synthetic_demo,0
+STU-00297,17,Female,Eldoret,Public,8.4,90.0,3.01,75.25,19,,81.5,"61,591",not available,Diploma,Yes,2024-06-20,A,synthetic_demo,0
+STU-00298,20,Female,Eldoret,Public,11.7,89.4,2.17,54.25,11,5.4,65.8,,71,Primary,Yes,2024-02-06,B,synthetic_demo,0
+STU-00299,22,Prefer not to say,Mombasa,Public,0.7,77.6,2.41,60.25,15,,35.3,,57,Secondary,Yes,2024-01-12,E,synthetic_demo,1
+STU-00300,16,Male,Other,Public,8.2,96.1,3.15,78.75,14,6.9,72.7,,66,Diploma,Yes,2024-10-04,A,synthetic_demo,0
+STU-00301,18,Male,Mombasa,Public,12.0,76.5,3.31,82.75,14,7.2,80.4,"48,095",not available,Secondary,Yes,2024-01-13,A,synthetic_demo,0
+STU-00302,19,Male,Mombasa,Public,2.3,80.4,1.71,42.75,19,6.9,35.5,"68,900",not available,Secondary,Yes,2024-10-08,E,synthetic_demo,1
+STU-00303,21,Female,Thika,Public,0.0,62.9,1.81,45.25,12,7.6,48.4,"45,430",not available,,Yes,2024-09-12,D,synthetic_demo,1
+STU-00304,20,Female,Nairobi,Public,6.6,95.1,,,28,6.8,59.7,"14,021",not available,No formal education,Yes,2024-11-27,C,synthetic_demo,0
+STU-00305,17,Female,Mombasa,Public,0.0,88.9,2.09,52.25,19,7.4,49.1,"41,803",not available,Secondary,Yes,2024-12-10,D,synthetic_demo,1
+STU-00306,20,Female,Kisumu,Public,7.0,97.2,,,17,4.2,76.2,,67,Secondary,Yes,2024-06-09,A,synthetic_demo,0
+STU-00307,21,Female,Kisumu,Public,4.0,86.4,2.32,58.0,10,5.9,60.4,"35,276",71,Bachelor,Yes,2024-01-26,B,synthetic_demo,0
+STU-00308,20,Male,Kisumu,Public,3.8,72.7,3.3,82.5,21,6.5,65.6,,68,Bachelor,Yes,2024-04-21,B,synthetic_demo,0
+STU-00309,17,Female,Nairobi,Public,7.9,93.7,3.28,82.0,20,,83.5,"74,570",not available,Secondary,Yes,2024-06-25,A,synthetic_demo,0
+STU-00310,16,Female,Kisumu,Public,5.6,83.6,2.99,74.75,21,,57.2,,64,Bachelor,Yes,2024-06-12,C,synthetic_demo,0
+STU-00311,16,Female,Nairobi,Public,4.8,,2.4,60.0,19,7.5,60.2,"23,166",64,,Yes,2024-01-11,B,synthetic_demo,0
+STU-00312,19,Female,Nairobi,Public,7.9,100.0,3.48,87.0,23,6.2,79.1,"77,839",not available,Secondary,Yes,2024-01-27,A,synthetic_demo,0
+STU-00313,18,Male,Nairobi,Public,2.0,68.6,2.03,50.75,14,,43.7,"42,863",59,,Yes,2024-02-16,D,synthetic_demo,1
+STU-00314,20,Female,Thika,Public,11.5,85.9,2.46,61.5,26,7.5,82.2,"16,099",67,Primary,Yes,2024-09-24,A,synthetic_demo,0
+STU-00315,21,Female,Nairobi,Public,3.6,81.0,1.96,49.0,23,6.2,57.7,"38,495",not available,Bachelor,Yes,2024-01-17,C,synthetic_demo,0
+STU-00316,21,Female,Nairobi,Public,0.0,95.7,2.63,65.75,17,8.5,54.2,,51,Secondary,Yes,2024-05-18,C,synthetic_demo,1
+STU-00317,20,Prefer not to say,Kisumu,Public,5.9,82.2,2.46,61.5,11,7.6,54.5,"49,213",79,Secondary,Yes,2024-04-25,C,synthetic_demo,1
+STU-00318,21,Male,Nakuru,Public,7.1,86.9,2.67,66.75,20,6.7,68.0,"38,792",76,,Yes,2024-05-02,B,synthetic_demo,0
+STU-00319,21,Female,Mombasa,Public,5.3,97.2,2.74,68.5,20,8.1,73.1,"5,000",66,Diploma,Yes,2024-01-23,A,synthetic_demo,0
+STU-00320,20,Male,Nairobi,Public,1.9,71.7,,,9,8.0,33.9,"63,661",not available,Bachelor,Yes,2024-04-26,E,synthetic_demo,1
+STU-00321,21,Female,Kisumu,Public,1.1,80.0,2.14,53.5,20,7.0,49.2,"19,632",53,Secondary,Yes,2024-05-11,D,synthetic_demo,1
+STU-00322,19,Female,Other,Public,4.9,80.2,1.86,46.5,13,5.6,54.4,"12,928",56,Secondary,Yes,2024-08-08,C,synthetic_demo,1
+STU-00323,19,Female,Nairobi,Public,0.0,86.7,1.58,39.5,4,6.4,44.9,"52,227",60,Primary,Yes,2024-08-23,D,synthetic_demo,1
+STU-00324,21,Female,Nairobi,Public,3.5,94.6,3.24,81.0,25,7.1,66.4,,not available,Secondary,Yes,2024-01-15,B,synthetic_demo,0
+STU-00325,21,Female,Eldoret,Public,0.6,83.6,2.19,54.75,12,4.6,53.2,"41,206",62,Bachelor,Yes,2024-12-14,C,synthetic_demo,1
+STU-00326,17,Female,Nairobi,Public,1.7,59.4,2.6,65.0,15,7.0,52.1,,62,Postgraduate,Yes,2024-02-21,C,synthetic_demo,1
+STU-00327,18,Male,Nairobi,Public,6.7,73.2,3.02,75.5,17,,60.4,,not available,Bachelor,Yes,2024-08-21,B,synthetic_demo,0
+STU-00328,20,Male,Nairobi,Public,4.3,68.4,2.47,61.75,18,6.4,68.2,"17,334",not available,Diploma,Yes,2024-01-28,B,synthetic_demo,0
+STU-00329,20,Female,Other,Public,7.0,84.3,2.21,55.25,13,6.3,60.4,"71,134",60,,Yes,2024-06-08,B,synthetic_demo,0
+STU-00330,22,Male,Nairobi,Public,7.4,76.5,2.75,68.75,17,6.9,61.9,,75,Bachelor,Yes,2024-04-12,B,synthetic_demo,0
+STU-00331,18,Male,Nakuru,Public,4.5,80.1,2.84,71.0,20,8.0,63.5,"72,428",74,Bachelor,Yes,2024-11-07,B,synthetic_demo,0
+STU-00332,19,Female,Thika,Public,3.6,82.7,2.3,57.5,7,5.3,49.6,,58,,Yes,2024-10-22,D,synthetic_demo,1
+STU-00333,20,Female,Nairobi,Public,12.0,79.6,2.77,69.25,16,4.3,60.3,"35,041",72,Primary,Yes,2024-04-08,B,synthetic_demo,0
+STU-00334,19,Female,Thika,Public,8.1,,2.57,64.25,16,6.7,56.1,,73,Diploma,Yes,2024-02-06,C,synthetic_demo,0
+STU-00335,22,Female,Nakuru,Public,2.6,73.6,,,18,8.3,55.3,"27,063",55,Bachelor,No,2024-11-18,C,synthetic_demo,0
+STU-00336,20,Male,Kisumu,Public,6.2,86.1,2.76,69.0,19,7.4,50.1,,not available,Primary,Yes,2024-10-06,C,synthetic_demo,1
+STU-00337,20,Male,Nairobi,Public,7.3,73.4,2.15,53.75,29,,52.5,"63,323",60,Secondary,Yes,2024-11-26,C,synthetic_demo,1
+STU-00338,17,Female,Mombasa,Public,5.2,82.4,3.11,77.75,15,5.3,57.3,"26,738",60,,Yes,2024-03-04,C,synthetic_demo,0
+STU-00339,20,Female,Mombasa,Public,3.3,76.8,1.81,45.25,3,5.6,36.0,"61,090",48,Bachelor,Yes,2024-09-15,E,synthetic_demo,1
+STU-00340,19,Male,Mombasa,Public,7.5,98.3,2.88,72.0,13,6.2,73.3,"50,540",not available,Secondary,Yes,2024-11-08,A,synthetic_demo,0
+STU-00341,18,Female,Nairobi,Public,6.1,83.3,3.9,97.5,25,8.2,73.4,"45,824",50,Primary,Yes,2024-02-06,A,synthetic_demo,0
+STU-00342,19,Female,Nairobi,Public,3.9,73.1,3.03,75.75,18,,55.0,"33,006",74,Bachelor,Yes,2024-12-10,C,synthetic_demo,0
+STU-00343,19,Female,Nairobi,Public,8.5,98.1,3.09,77.25,26,7.8,82.9,"31,507",86,,Yes,2024-02-17,A,synthetic_demo,0
+STU-00344,23,Male,Kisumu,Public,11.7,75.7,2.47,61.75,14,5.8,70.0,,61,Primary,Yes,2024-05-24,A,synthetic_demo,0
+STU-00345,18,Male,Nairobi,Public,14.7,,3.33,83.25,29,6.4,80.2,"49,522",78,Bachelor,Yes,2024-09-20,A,synthetic_demo,0
+STU-00346,17,Female,Mombasa,Public,1.5,77.4,2.14,53.5,11,8.1,52.1,"60,933",56,Bachelor,No,2024-03-14,C,synthetic_demo,1
+STU-00347,17,Male,Eldoret,Public,2.7,88.1,2.59,64.75,9,,59.8,"26,943",not available,Postgraduate,Yes,2024-04-05,C,synthetic_demo,0
+STU-00348,18,Male,Mombasa,Public,9.3,65.2,3.08,77.0,18,,47.5,,51,Secondary,Yes,2024-09-13,D,synthetic_demo,1
+STU-00349,22,Female,Nairobi,Public,8.4,90.6,2.16,54.0,18,8.9,71.6,"42,028",61,Certificate,Yes,2024-08-07,A,synthetic_demo,0
+STU-00350,23,Female,Nairobi,Public,5.7,87.2,3.01,75.25,12,7.3,74.7,,52,Diploma,Yes,2024-04-20,A,synthetic_demo,0
+STU-00351,21,Male,Nairobi,Public,14.0,86.1,2.88,72.0,24,6.9,75.8,"9,671",75,Primary,Yes,2024-11-16,A,synthetic_demo,0
+STU-00352,18,Male,Mombasa,Public,3.0,77.7,2.78,69.5,17,7.5,55.0,,79,Secondary,Yes,2024-03-17,C,synthetic_demo,0
+STU-00353,20,Male,Kisumu,Public,9.3,79.7,3.36,84.0,19,5.3,68.7,"31,168",not available,Primary,Yes,2024-10-10,B,synthetic_demo,0
+STU-00354,19,Male,Mombasa,Public,7.3,81.9,2.55,63.75,12,7.5,53.6,"33,653",55,Primary,Yes,2024-09-03,C,synthetic_demo,1
+STU-00355,19,Male,Nairobi,Public,8.2,88.0,2.3,57.5,15,5.1,60.6,"55,369",not available,Diploma,Yes,2024-07-09,B,synthetic_demo,0
+STU-00356,18,Female,Other,Public,0.6,72.4,1.85,46.25,11,6.5,40.0,"24,065",46,Bachelor,Yes,2024-01-10,D,synthetic_demo,1
+STU-00357,20,Male,Nairobi,Public,5.8,85.2,2.58,64.5,21,7.6,62.7,"17,333",64,,Yes,2024-01-28,B,synthetic_demo,0
+STU-00358,19,Male,Nakuru,Public,0.0,83.7,2.96,74.0,17,5.3,49.4,,70,Secondary,Yes,2024-01-03,D,synthetic_demo,1
+STU-00359,21,Male,Nakuru,Public,0.0,83.6,,,11,,40.2,,not available,No formal education,Yes,2024-10-15,D,synthetic_demo,1
+STU-00360,20,Male,Nairobi,Public,7.4,73.9,2.69,67.25,18,7.9,60.6,"62,372",63,Primary,Yes,2024-01-25,B,synthetic_demo,0
+STU-00361,17,Male,Mombasa,Public,12.1,74.7,2.94,73.5,17,7.3,71.2,,not available,Secondary,Yes,2024-10-22,A,synthetic_demo,0
+STU-00362,22,Female,Mombasa,Public,3.2,77.9,2.71,67.75,19,,56.3,,59,Secondary,Yes,2024-05-11,C,synthetic_demo,0
+STU-00363,17,Male,Nairobi,Public,11.4,72.7,2.71,67.75,18,7.5,60.0,,81,Secondary,Yes,2024-01-23,C,synthetic_demo,0
+STU-00364,18,Female,Nairobi,Public,2.2,74.6,2.49,62.25,21,6.7,59.0,,63,Primary,Yes,2024-02-28,C,synthetic_demo,0
+STU-00365,21,Male,Nairobi,Public,0.0,80.0,1.86,46.5,9,5.6,45.4,"43,275",47,Bachelor,Yes,2024-02-08,D,synthetic_demo,1
+STU-00366,21,Female,Thika,Public,7.8,,,,12,9.7,60.3,,57,,Yes,2024-08-25,B,synthetic_demo,0
+STU-00367,19,Female,Nairobi,Public,4.3,77.2,3.07,76.75,13,7.3,67.8,"33,871",49,Diploma,Yes,2024-01-13,B,synthetic_demo,0
+STU-00368,19,Female,Kisumu,Public,1.8,82.9,2.51,62.75,14,5.9,55.4,,not available,Certificate,Yes,2024-12-26,C,synthetic_demo,0
+STU-00369,20,Female,Nairobi,Public,6.9,93.3,3.45,86.25,18,4.6,62.6,"45,866",74,,Yes,2024-01-16,B,synthetic_demo,0
+STU-00370,22,Male,Nairobi,Public,1.6,56.2,2.67,66.75,12,6.2,51.6,,61,Primary,Yes,2024-08-15,C,synthetic_demo,1
+STU-00371,19,Female,Nairobi,Public,10.3,100.0,3.09,77.25,30,6.4,90.6,"23,375",63,Diploma,Yes,2024-12-27,A+,synthetic_demo,0
+STU-00372,20,Male,Kisumu,Public,5.7,,2.75,68.75,15,,55.3,,63,Diploma,Yes,2024-10-10,C,synthetic_demo,0
+STU-00373,19,Female,Other,Public,7.1,72.8,2.79,69.75,14,8.7,69.6,"37,640",84,Certificate,Yes,2024-08-24,B,synthetic_demo,0
+STU-00374,20,Male,Mombasa,Public,1.8,89.5,2.01,50.25,13,9.0,49.1,"51,511",50,Diploma,Yes,2024-02-19,D,synthetic_demo,1
+STU-00375,20,Male,Mombasa,Public,7.7,77.2,2.83,70.75,19,5.7,69.8,"28,616",87,Diploma,Yes,2024-10-01,B,synthetic_demo,0
+STU-00376,19,Female,Kisumu,Public,7.5,87.0,2.34,58.5,13,,70.6,"71,863",not available,Secondary,Yes,2024-11-18,A,synthetic_demo,0
+STU-00377,19,Female,Kisumu,Public,9.5,70.4,2.98,74.5,18,6.6,56.2,"40,384",74,Bachelor,Yes,2024-03-14,C,synthetic_demo,0
+STU-00378,19,Male,Mombasa,Public,3.1,83.6,2.76,69.0,15,7.7,61.6,,not available,Primary,Yes,2024-08-05,B,synthetic_demo,0
+STU-00379,16,Female,Nairobi,Public,8.3,88.2,3.14,78.5,20,7.1,65.3,"70,286",not available,,Yes,2024-06-15,B,synthetic_demo,0
+STU-00380,20,Male,Nairobi,Public,3.7,100.0,3.01,75.25,23,8.1,74.6,"54,562",55,Primary,Yes,2024-10-08,A,synthetic_demo,0
+STU-00381,20,Female,Mombasa,Public,4.4,74.9,2.41,60.25,15,6.4,48.6,,63,Secondary,Yes,2024-11-25,D,synthetic_demo,1
+STU-00382,18,Female,Nairobi,Public,3.1,70.8,1.99,49.75,19,,42.8,"58,002",53,Bachelor,Yes,2024-05-02,D,synthetic_demo,1
+STU-00383,22,Male,Kisumu,Public,0.9,70.6,2.57,64.25,18,6.4,53.3,"77,992",60,Primary,Yes,2024-12-10,C,synthetic_demo,1
+STU-00384,20,Male,Nairobi,Public,6.8,77.4,2.64,66.0,5,,54.7,"77,930",74,,Yes,2024-12-20,C,synthetic_demo,1
+STU-00385,18,Male,Nairobi,Public,0.0,69.6,2.65,66.25,14,9.3,50.3,,73,Bachelor,Yes,2024-04-11,C,synthetic_demo,1
+STU-00386,18,Female,Mombasa,Public,1.0,72.7,2.16,54.0,7,4.5,48.0,"43,831",not available,,Yes,2024-03-04,D,synthetic_demo,1
+STU-00387,21,Male,Mombasa,Public,4.0,90.5,2.51,62.75,13,7.5,64.8,"74,163",50,,Yes,2024-01-23,B,synthetic_demo,0
+STU-00388,21,Female,Other,Public,5.4,84.3,2.64,66.0,12,7.8,55.6,,not available,,Yes,2024-03-22,C,synthetic_demo,0
+STU-00389,17,Female,Thika,Public,5.5,90.0,3.13,78.25,19,6.4,70.2,,64,Secondary,Yes,2024-05-02,A,synthetic_demo,0
+STU-00390,20,Male,Mombasa,Public,7.9,92.1,3.35,83.75,25,6.7,81.5,"34,318",78,Diploma,Yes,2024-08-28,A,synthetic_demo,0
+STU-00391,20,Female,Nairobi,Public,7.1,94.8,3.62,90.5,21,8.0,74.5,,71,No formal education,Yes,2024-05-05,A,synthetic_demo,0
+STU-00392,20,Male,Nairobi,Public,9.1,85.7,3.15,78.75,21,,81.3,"7,966",63,Certificate,Yes,2024-11-09,A,synthetic_demo,0
+STU-00393,17,Female,Mombasa,Public,9.9,89.1,2.78,69.5,19,7.9,63.1,,60,Secondary,Yes,2024-04-12,B,synthetic_demo,0
+STU-00394,22,Female,Mombasa,Public,6.0,70.9,3.11,77.75,12,,54.0,"57,331",80,Diploma,Yes,2024-10-14,C,synthetic_demo,1
+STU-00395,19,Male,Mombasa,Public,16.4,100.0,3.83,95.75,30,6.7,100.0,"57,991",71,Primary,Yes,2024-04-13,A+,synthetic_demo,0
+STU-00396,20,Male,Kisumu,Public,15.5,96.5,2.52,63.0,20,6.3,78.6,"5,000",83,Bachelor,Yes,2024-11-21,A,synthetic_demo,0
+STU-00397,18,Female,Nairobi,Public,7.1,88.2,2.83,70.75,22,7.1,70.1,"34,420",not available,,Yes,2024-01-11,A,synthetic_demo,0
+STU-00398,21,Female,Kisumu,Public,4.6,71.0,2.72,68.0,19,5.5,64.6,"38,003",56,No formal education,Yes,2024-11-22,B,synthetic_demo,0
+STU-00399,17,Female,Mombasa,Public,4.4,72.3,2.69,67.25,20,6.9,56.1,"35,801",53,No formal education,Yes,2024-09-23,C,synthetic_demo,0
+STU-00400,20,Female,Other,Public,0.1,72.8,1.94,48.5,9,6.7,43.0,"79,650",57,Primary,Yes,2024-12-24,D,synthetic_demo,1
+STU-00401,21,Female,Nairobi,Public,6.4,97.9,2.29,57.25,15,7.4,55.8,"46,889",77,Diploma,Yes,2024-12-20,C,synthetic_demo,0
+STU-00402,22,Female,Nairobi,Public,7.6,80.2,2.67,66.75,15,6.0,55.3,"51,234",not available,Secondary,Yes,2024-05-14,C,synthetic_demo,0
+STU-00403,19,Male,Nairobi,Public,10.1,100.0,3.35,83.75,28,,74.5,"57,569",not available,,Yes,2024-06-16,A,synthetic_demo,0
+STU-00404,17,Male,Kisumu,Public,0.0,79.2,1.55,38.75,12,6.3,28.7,"88,500",44,Diploma,Yes,2024-05-27,E,synthetic_demo,1
+STU-00405,18,Female,Other,Public,7.2,98.0,3.25,81.25,16,,78.1,"44,193",83,Primary,Yes,2024-12-19,A,synthetic_demo,0
+STU-00406,17,Female,Thika,Public,4.7,92.2,2.46,61.5,17,7.9,71.7,,67,Bachelor,Yes,2024-03-16,A,synthetic_demo,0
+STU-00407,20,Male,Nairobi,Public,7.1,,,,20,7.2,71.1,"29,801",57,Bachelor,Yes,2024-11-02,A,synthetic_demo,0
+STU-00408,21,Female,Kisumu,Public,3.1,71.3,2.54,63.5,21,7.2,66.6,"75,479",57,Secondary,Yes,2024-03-18,B,synthetic_demo,0
+STU-00409,19,Female,Mombasa,Public,4.4,62.8,2.26,56.5,8,8.6,52.7,,not available,Bachelor,Yes,2024-05-06,C,synthetic_demo,1
+STU-00410,20,Male,Thika,Public,3.7,74.0,2.35,58.75,11,,39.3,"51,380",not available,,Yes,2024-07-07,E,synthetic_demo,1
+STU-00411,17,Male,Nakuru,Public,5.2,95.3,3.28,82.0,23,7.7,77.2,"58,968",50,Bachelor,Yes,2024-02-27,A,synthetic_demo,0
+STU-00412,24,Female,Nairobi,Public,11.4,69.1,2.85,71.25,23,7.0,70.2,"48,619",75,Diploma,Yes,2024-10-23,A,synthetic_demo,0
+STU-00413,19,Female,Thika,Public,2.7,93.4,2.64,66.0,18,6.7,60.5,,73,,Yes,2024-07-14,B,synthetic_demo,0
+STU-00414,22,Male,Nairobi,Public,4.0,77.2,2.45,61.25,18,7.9,64.8,"28,143",64,Secondary,No,2024-02-18,B,synthetic_demo,0
+STU-00415,19,Female,Mombasa,Public,5.5,77.0,2.33,58.25,20,7.6,54.6,"26,798",59,,Yes,2024-05-26,C,synthetic_demo,1
+STU-00416,20,Male,Nairobi,Public,11.7,75.3,3.77,94.25,20,7.8,66.7,"78,679",60,,Yes,2024-10-03,B,synthetic_demo,0
+STU-00417,18,Male,Mombasa,Public,2.0,80.7,1.42,35.5,13,,45.8,"47,568",59,Diploma,Yes,2024-08-05,D,synthetic_demo,1
+STU-00418,19,Male,Nairobi,Public,3.8,85.0,,,21,8.6,66.8,,76,Certificate,Yes,2024-04-20,B,synthetic_demo,0
+STU-00419,33,Female,Mombasa,Public,23.3,58.0,2.88,72.0,18,7.4,61.8,"67,148",55,Secondary,Yes,2024-04-14,B,synthetic_demo,0
+STU-00420,20,Male,Nakuru,Public,6.1,82.4,2.41,60.25,7,7.4,62.6,,70,Diploma,Yes,2024-04-11,B,synthetic_demo,0
+STU-00421,19,Female,Nakuru,Public,2.1,,2.03,50.75,22,6.0,56.8,,46,Postgraduate,Yes,2024-04-23,C,synthetic_demo,0
+STU-00422,18,Male,Eldoret,Public,10.4,87.7,3.68,92.0,27,7.4,74.6,"27,246",72,Primary,Yes,2024-09-25,A,synthetic_demo,0
+STU-00423,20,Male,Nairobi,Public,5.1,78.3,2.63,65.75,14,,54.3,"5,000",not available,Postgraduate,No,2024-04-05,C,synthetic_demo,1
+STU-00424,23,Male,Kisumu,Public,8.9,63.7,2.84,71.0,16,7.3,61.0,,67,Secondary,Yes,2024-05-08,B,synthetic_demo,0
+STU-00425,17,Female,Other,Public,10.9,92.4,3.43,85.75,17,8.2,79.3,,67,Bachelor,Yes,2024-11-15,A,synthetic_demo,0
+STU-00426,18,Female,Kisumu,Public,13.2,81.1,3.08,77.0,28,5.1,77.6,"43,413",71,Certificate,Yes,2024-02-09,A,synthetic_demo,0
+STU-00427,18,Male,Kisumu,Public,7.8,86.0,2.84,71.0,19,7.3,66.2,"70,497",not available,Secondary,Yes,2024-04-01,B,synthetic_demo,0
+STU-00428,20,Female,Mombasa,Public,9.4,88.6,2.93,73.25,17,6.7,73.4,"83,225",74,Diploma,Yes,2024-05-25,A,synthetic_demo,0
+STU-00429,19,Male,Eldoret,Public,0.9,79.9,3.35,83.75,8,5.1,55.3,,54,Bachelor,Yes,2024-08-12,C,synthetic_demo,0
+STU-00430,18,Female,Nairobi,Public,3.6,90.7,,,14,6.6,59.0,,71,,Yes,2024-12-09,C,synthetic_demo,0
+STU-00431,22,Male,Eldoret,Public,5.6,65.1,2.59,64.75,17,7.7,65.0,"71,082",53,Bachelor,Yes,2024-06-13,B,synthetic_demo,0
+STU-00432,18,Female,Eldoret,Public,8.3,87.9,2.78,69.5,22,8.3,65.6,,72,Diploma,Yes,2024-10-05,B,synthetic_demo,0
+STU-00433,20,Female,Nairobi,Public,5.9,95.9,2.84,71.0,26,7.7,81.6,"83,125",73,No formal education,Yes,2024-01-25,A,synthetic_demo,0
+STU-00434,21,Female,Kisumu,Public,8.1,91.7,2.45,61.25,13,8.7,67.0,"82,036",56,Secondary,No,2024-06-05,B,synthetic_demo,0
+STU-00435,18,Male,Kisumu,Public,7.6,75.2,2.75,68.75,21,8.0,57.7,"51,612",68,,Yes,2024-12-16,C,synthetic_demo,0
+STU-00436,19,Female,Thika,Public,3.0,75.7,2.71,67.75,17,8.3,45.4,"50,130",66,Primary,Yes,2024-07-21,D,synthetic_demo,1
+STU-00437,19,Male,Kisumu,Public,12.2,87.1,3.64,91.0,23,,82.5,"44,120",73,Postgraduate,Yes,2024-06-04,A,synthetic_demo,0
+STU-00438,20,Male,Nairobi,Public,12.7,73.9,3.27,81.75,12,7.2,69.2,"40,739",78,Postgraduate,Yes,2024-09-21,B,synthetic_demo,0
+STU-00439,21,Female,Kisumu,Public,5.4,68.6,3.05,76.25,13,6.3,52.9,"66,164",not available,,Yes,2024-02-12,C,synthetic_demo,1
+STU-00440,16,Male,Mombasa,Public,4.8,79.8,1.79,44.75,13,7.7,52.3,"63,147",58,Bachelor,Yes,2024-01-15,C,synthetic_demo,1
+STU-00441,21,Female,Kisumu,Public,6.9,90.3,3.15,78.75,15,6.3,77.8,"61,994",not available,Secondary,Yes,2024-06-07,A,synthetic_demo,0
+STU-00442,21,Male,Nairobi,Public,4.9,75.7,,,13,7.3,0.0,"25,986",60,,Yes,2024-03-28,E,synthetic_demo,1
+STU-00443,35,Female,Mombasa,Public,32.1,64.9,2.64,66.0,15,7.1,52.8,"32,871",not available,Postgraduate,Yes,2024-05-20,C,synthetic_demo,1
+STU-00444,17,Female,Eldoret,Public,8.3,100.0,2.36,59.0,17,8.2,69.7,"25,655",64,Secondary,Yes,2024-04-01,B,synthetic_demo,0
+STU-00445,22,Male,Mombasa,Public,0.0,66.7,2.42,60.5,19,7.4,57.4,"5,000",not available,Certificate,Yes,2024-02-25,C,synthetic_demo,0
+STU-00446,17,Male,Nairobi,Public,10.9,77.9,3.14,78.5,21,9.9,73.9,,69,Primary,Yes,2024-10-01,A,synthetic_demo,0
+STU-00447,18,Female,Nairobi,Public,12.2,80.6,3.7,92.5,23,5.4,85.5,"32,282",not available,,Yes,2024-07-07,A+,synthetic_demo,0
+STU-00448,21,Female,Eldoret,Public,6.3,83.1,2.53,63.25,21,7.9,65.2,"66,939",not available,No formal education,Yes,2024-01-16,B,synthetic_demo,0
+STU-00449,19,Female,Nairobi,Public,5.5,76.6,2.62,65.5,23,7.6,67.9,"24,086",64,Bachelor,Yes,2024-11-28,B,synthetic_demo,0
+STU-00450,17,Female,Kisumu,Public,6.8,92.2,2.8,70.0,21,8.1,67.2,"58,338",69,Primary,Yes,2024-07-07,B,synthetic_demo,0
+STU-00451,22,Female,Nairobi,Public,6.1,74.5,2.36,59.0,13,7.9,49.6,"49,556",66,Secondary,Yes,2024-05-07,D,synthetic_demo,1
+STU-00452,18,Prefer not to say,Thika,Public,10.2,82.7,3.69,92.25,25,5.9,72.1,,not available,Secondary,Yes,2024-12-12,A,synthetic_demo,0
+STU-00453,18,Male,Mombasa,Public,7.2,96.5,3.15,78.75,20,6.3,76.4,"67,052",not available,,Yes,2024-03-18,A,synthetic_demo,0
+STU-00454,20,Female,Nairobi,Public,6.4,69.4,2.77,69.25,20,8.7,67.7,"26,054",56,Primary,Yes,2024-12-18,B,synthetic_demo,0
+STU-00455,16,Male,Thika,Public,3.3,94.6,2.65,66.25,22,5.6,80.5,"50,787",70,,Yes,2024-02-25,A,synthetic_demo,0
+STU-00456,18,Female,Eldoret,Public,6.7,79.9,2.31,57.75,20,6.3,65.4,"5,000",58,Diploma,Yes,2024-06-11,B,synthetic_demo,0
+STU-00457,19,Female,Kisumu,Public,7.3,63.5,2.54,63.5,16,7.0,50.4,"29,863",62,Diploma,Yes,2024-08-03,C,synthetic_demo,1
+STU-00458,21,Male,Nairobi,Public,6.1,100.0,2.78,69.5,25,,77.6,"26,141",79,Postgraduate,Yes,2024-03-02,A,synthetic_demo,0
+STU-00459,21,Female,Nakuru,Public,0.0,78.5,2.48,62.0,11,,40.2,"52,576",65,,Yes,2024-05-18,D,synthetic_demo,1
+STU-00460,21,Female,Nairobi,Public,13.9,99.3,2.76,69.0,17,6.5,85.8,,not available,Secondary,Yes,2024-07-25,A+,synthetic_demo,0
+STU-00461,20,Female,Nairobi,Public,0.0,71.7,2.29,57.25,20,7.2,56.3,,52,Secondary,Yes,2024-09-04,C,synthetic_demo,0
+STU-00462,19,Female,Nairobi,Public,5.7,84.4,2.85,71.25,18,4.1,63.3,"51,223",76,,Yes,2024-05-28,B,synthetic_demo,0
+STU-00463,19,Female,Kisumu,Public,11.1,96.2,3.38,84.5,16,5.5,70.7,"43,455",78,Secondary,Yes,2024-03-05,A,synthetic_demo,0
+STU-00464,17,Male,Nakuru,Public,2.5,86.2,2.85,71.25,13,7.6,49.4,"46,816",not available,,Yes,2024-11-03,D,synthetic_demo,1
+STU-00465,20,Female,Mombasa,Public,10.4,83.9,2.95,73.75,20,,71.1,"45,969",73,Certificate,Yes,2024-05-06,A,synthetic_demo,0
+STU-00466,20,Female,Nairobi,Public,0.8,,3.11,77.75,13,7.0,49.2,"23,287",64,Secondary,Yes,2024-03-14,D,synthetic_demo,1
+STU-00467,17,Female,Other,Public,6.3,90.4,2.95,73.75,23,6.7,60.5,"19,392",not available,Diploma,Yes,2024-09-16,B,synthetic_demo,0
+STU-00468,21,Female,Nakuru,Public,0.0,76.3,2.96,74.0,0,7.7,43.8,,57,,Yes,2024-05-08,D,synthetic_demo,1
+STU-00469,21,Male,Mombasa,Public,3.6,68.8,1.64,41.0,4,7.6,48.3,"7,135",61,Primary,Yes,2024-12-04,D,synthetic_demo,1
+STU-00470,18,Male,Eldoret,Public,4.6,51.7,1.82,45.5,15,9.3,42.2,"68,269",55,Primary,Yes,2024-11-03,D,synthetic_demo,1
+STU-00471,20,Female,Nairobi,Public,4.9,81.3,2.7,67.5,22,5.1,55.7,"53,053",74,Secondary,No,2024-03-14,C,synthetic_demo,0
+STU-00472,19,Female,Nairobi,Public,10.8,79.8,2.68,67.0,13,7.4,69.0,"61,251",65,No formal education,Yes,2024-03-13,B,synthetic_demo,0
+STU-00473,17,Male,Nairobi,Public,3.4,,2.72,68.0,16,9.2,59.6,,66,Primary,Yes,2024-04-21,C,synthetic_demo,0
+STU-00474,19,Female,Kisumu,Public,7.2,81.6,3.25,81.25,25,7.3,66.0,"46,866",68,,Yes,2024-12-03,B,synthetic_demo,0
+STU-00475,19,Male,Mombasa,Public,5.6,63.0,2.2,55.0,12,7.1,54.5,"67,392",44,Secondary,Yes,2024-11-05,C,synthetic_demo,1
+STU-00476,19,Male,Nakuru,Public,8.7,96.3,2.85,71.25,14,5.8,69.7,"88,820",68,,Yes,2024-11-14,B,synthetic_demo,0
+STU-00477,20,Male,Thika,Public,7.7,94.0,2.65,66.25,22,,68.7,"41,801",71,Bachelor,Yes,2024-11-06,B,synthetic_demo,0
+STU-00478,21,Male,Mombasa,Public,7.2,82.7,2.78,69.5,23,7.4,70.8,"35,582",67,Bachelor,Yes,2024-04-22,A,synthetic_demo,0
+STU-00479,18,Male,Nairobi,Public,7.9,93.0,2.83,70.75,17,6.8,65.0,"24,621",59,Certificate,Yes,2024-08-22,B,synthetic_demo,0
+STU-00480,19,Male,Kisumu,Public,0.0,81.7,3.06,76.5,20,7.6,58.0,"23,627",66,Bachelor,Yes,2024-05-09,C,synthetic_demo,0
+STU-00481,24,Male,Eldoret,Public,3.5,63.9,2.95,73.75,21,6.7,43.5,"43,985",62,No formal education,Yes,2024-11-13,D,synthetic_demo,1
+STU-00482,20,Female,Mombasa,Public,8.5,97.1,3.26,81.5,20,6.6,77.4,"62,534",66,,No,2024-05-15,A,synthetic_demo,0
+STU-00483,17,Male,Nairobi,Public,7.5,85.7,1.79,44.75,19,7.5,57.7,"59,639",55,Secondary,Yes,2024-11-21,C,synthetic_demo,0
+STU-00484,16,Female,Eldoret,Public,5.1,65.4,2.1,52.5,21,6.1,44.1,"39,642",not available,Postgraduate,Yes,2024-07-21,D,synthetic_demo,1
+STU-00485,19,Male,Mombasa,Public,9.2,96.1,,,23,5.4,81.7,"16,450",72,Diploma,Yes,2024-03-04,A,synthetic_demo,0
+STU-00486,20,Male,Nairobi,Public,6.6,88.5,2.98,74.5,18,8.1,69.8,"32,356",not available,Secondary,Yes,2024-01-02,B,synthetic_demo,0
+STU-00487,20,Female,Nairobi,Public,5.1,,2.51,62.75,16,5.7,58.9,"80,172",not available,Bachelor,Yes,2024-02-10,C,synthetic_demo,0
+STU-00488,22,Female,Eldoret,Public,8.4,86.6,3.13,78.25,25,7.0,85.7,,71,Diploma,Yes,2024-07-11,A+,synthetic_demo,0
+STU-00489,17,Female,Kisumu,Public,9.9,83.6,2.46,61.5,14,7.6,66.9,"40,645",53,Secondary,Yes,2024-08-26,B,synthetic_demo,0
+STU-00490,21,Female,Nakuru,Public,11.4,83.3,3.49,87.25,14,6.1,65.9,"55,470",53,Secondary,Yes,2024-04-09,B,synthetic_demo,0
+STU-00491,21,Female,Nairobi,Public,10.7,84.3,2.62,65.5,14,7.1,73.9,"48,379",not available,Diploma,Yes,2024-07-02,A,synthetic_demo,0
+STU-00492,18,Male,Other,Public,15.1,85.9,2.82,70.5,14,7.6,72.8,"25,951",not available,Bachelor,Yes,2024-06-12,A,synthetic_demo,0
+STU-00493,19,Female,Mombasa,Public,7.0,87.5,3.34,83.5,18,7.4,77.5,"58,640",not available,Certificate,Yes,2024-08-04,A,synthetic_demo,0
+STU-00494,18,Female,Kisumu,Public,11.5,91.5,3.12,78.0,27,7.7,77.2,"17,216",not available,Secondary,Yes,2024-01-04,A,synthetic_demo,0
+STU-00495,17,Female,Thika,Public,8.9,78.0,3.16,79.0,26,5.8,67.8,,81,Primary,Yes,2024-06-16,B,synthetic_demo,0
+STU-00496,21,Female,Other,Public,9.6,83.2,2.79,69.75,23,6.8,72.7,,74,Secondary,Yes,2024-06-22,A,synthetic_demo,0
+STU-00497,18,Male,Nakuru,Public,9.1,90.6,2.91,72.75,18,,83.2,"58,448",not available,Bachelor,Yes,2024-01-28,A,synthetic_demo,0
+STU-00498,19,Male,Kisumu,Public,13.5,84.1,2.77,69.25,21,6.2,67.6,"84,470",76,Diploma,Yes,2024-01-04,B,synthetic_demo,0
+STU-00499,18,Female,Nairobi,Public,9.9,79.4,3.59,89.75,22,8.2,82.4,"8,774",72,Certificate,Yes,2024-09-02,A,synthetic_demo,0
+STU-00500,18,Female,Nakuru,Public,5.4,75.3,2.82,70.5,21,,69.9,"80,738",65,Secondary,Yes,2024-07-08,B,synthetic_demo,0
+STU-00501,21,Female,Nairobi,Public,2.2,74.7,2.38,59.5,10,7.0,49.3,,57,Certificate,Yes,2024-10-23,D,synthetic_demo,1
+STU-00502,19,Female,Eldoret,Public,1.6,66.3,2.44,61.0,13,8.1,48.8,,79,Diploma,Yes,2024-05-01,D,synthetic_demo,1
+STU-00503,16,Male,Eldoret,Public,0.1,80.6,2.17,54.25,11,7.5,52.1,,not available,Diploma,Yes,2024-06-04,C,synthetic_demo,1
+STU-00504,21,Female,Nairobi,Public,14.1,70.4,3.27,81.75,24,9.6,75.1,"36,170",57,Diploma,Yes,2024-10-02,A,synthetic_demo,0
+STU-00505,21,Female,Nairobi,Public,6.7,88.7,3.78,94.5,23,8.9,71.2,,82,No formal education,No,2024-03-20,A,synthetic_demo,0
+STU-00506,21,Male,Kisumu,Public,10.7,86.1,2.86,71.5,11,6.8,55.5,"38,042",70,Primary,Yes,2024-07-17,C,synthetic_demo,0
+STU-00507,17,Female,Nairobi,Public,6.3,65.7,2.05,51.25,13,6.6,45.8,,not available,Secondary,Yes,2024-12-05,D,synthetic_demo,1
+STU-00508,22,Female,Nairobi,Public,14.1,80.8,2.37,59.25,17,9.7,61.6,"39,662",not available,Secondary,Yes,2024-05-13,B,synthetic_demo,0
+STU-00509,19,Male,Mombasa,Public,0.0,86.0,2.89,72.25,12,6.9,59.8,,73,Secondary,Yes,2024-07-01,C,synthetic_demo,0
+STU-00510,18,Male,Other,Public,10.1,89.8,3.13,78.25,24,7.4,74.6,,70,,Yes,2024-10-14,A,synthetic_demo,0
+STU-00511,18,Male,Mombasa,Public,5.0,60.7,2.76,69.0,14,9.0,56.3,"58,678",58,Secondary,Yes,2024-01-15,C,synthetic_demo,0
+STU-00512,19,Male,Other,Public,3.0,,3.09,77.25,18,6.0,67.1,"9,773",59,No formal education,Yes,2024-04-09,B,synthetic_demo,0
+STU-00513,18,Female,Eldoret,Public,5.9,63.6,2.26,56.5,10,7.3,52.6,"38,675",59,No formal education,No,2024-02-12,C,synthetic_demo,1
+STU-00514,17,Male,Nairobi,Public,11.7,100.0,2.64,66.0,28,7.7,91.3,"60,279",66,,Yes,2024-03-09,A+,synthetic_demo,0
+STU-00515,21,Female,Nakuru,Public,1.8,78.5,,,12,6.1,60.7,"5,208",69,Primary,Yes,2024-02-14,B,synthetic_demo,0
+STU-00516,20,Female,Nakuru,Public,9.5,78.0,2.42,60.5,21,7.0,77.9,"63,050",67,Diploma,Yes,2024-04-26,A,synthetic_demo,0
+STU-00517,18,Male,Kisumu,Public,3.2,88.5,3.32,83.0,20,5.6,65.7,"37,174",68,,Yes,2024-01-01,B,synthetic_demo,0
+STU-00518,20,Female,Thika,Public,9.0,76.8,2.35,58.75,21,7.5,57.5,"30,546",not available,Certificate,Yes,2024-01-01,C,synthetic_demo,0
+STU-00519,19,Female,Kisumu,Public,11.1,98.9,2.67,66.75,20,5.9,76.1,,62,Primary,Yes,2024-11-09,A,synthetic_demo,0
+STU-00520,23,Female,Nairobi,Public,4.7,83.2,2.42,60.5,25,7.0,58.8,"14,078",69,Bachelor,Yes,2024-03-22,C,synthetic_demo,0
+STU-00521,22,Male,Nairobi,Public,4.7,93.5,2.96,74.0,19,6.4,71.4,"43,653",84,,Yes,2024-12-04,A,synthetic_demo,0
+STU-00522,20,Female,Eldoret,Public,5.7,76.6,,,13,9.0,51.3,,60,Postgraduate,Yes,2024-04-15,C,synthetic_demo,1
+STU-00523,18,Female,Nairobi,Public,0.8,77.4,2.84,71.0,24,6.7,57.9,"24,403",not available,,Yes,2024-10-02,C,synthetic_demo,0
+STU-00524,17,Female,Nairobi,Public,10.5,88.3,2.97,74.25,22,,68.5,,not available,,Yes,2024-08-13,B,synthetic_demo,0
+STU-00525,18,Female,Nairobi,Public,11.1,95.0,2.8,70.0,21,7.4,74.2,"70,771",74,Primary,Yes,2024-04-14,A,synthetic_demo,0
+STU-00526,19,Female,Nairobi,Public,2.1,100.0,,,19,7.3,74.8,"48,679",64,,Yes,2024-01-26,A,synthetic_demo,0
+STU-00527,21,Male,Kisumu,Public,5.3,90.8,2.61,65.25,20,8.5,62.9,"59,884",63,Bachelor,Yes,2024-07-09,B,synthetic_demo,0
+STU-00528,19,Prefer not to say,Nakuru,Public,8.8,91.5,2.96,74.0,18,7.3,65.9,,79,,Yes,2024-12-22,B,synthetic_demo,0
+STU-00529,21,Female,Eldoret,Public,1.2,68.1,2.19,54.75,18,7.8,55.0,"53,293",not available,Primary,Yes,2024-09-20,C,synthetic_demo,0
+STU-00530,33,Female,Thika,Public,34.0,87.6,3.26,81.5,30,6.4,72.1,"37,865",64,,Yes,2024-05-06,A,synthetic_demo,0
+STU-00531,22,Female,Mombasa,Public,3.3,98.5,3.66,91.5,25,8.8,83.2,"47,772",69,Bachelor,Yes,2024-05-19,A,synthetic_demo,0
+STU-00532,19,Female,Other,Public,2.9,83.0,2.24,56.0,14,7.2,58.3,"36,821",68,Primary,Yes,2024-08-22,C,synthetic_demo,0
+STU-00533,20,Male,Eldoret,Public,17.6,93.8,3.22,80.5,30,8.4,89.1,,73,Bachelor,Yes,2024-11-09,A+,synthetic_demo,0
+STU-00534,19,Female,Nairobi,Public,5.0,,3.17,79.25,18,7.7,57.2,"65,244",64,Bachelor,No,2024-01-18,C,synthetic_demo,0
+STU-00535,19,Female,Kisumu,Public,7.4,77.7,2.6,65.0,12,7.0,62.5,"45,058",68,No formal education,Yes,2024-03-24,B,synthetic_demo,0
+STU-00536,19,Male,Other,Public,17.5,90.8,3.61,90.25,27,8.1,94.0,,77,Secondary,Yes,2024-07-26,A+,synthetic_demo,0
+STU-00537,19,Female,Mombasa,Public,8.5,100.0,,,22,6.4,85.5,"55,231",80,Secondary,Yes,2024-12-25,A+,synthetic_demo,0
+STU-00538,18,Female,Nairobi,Public,6.3,94.3,3.16,79.0,15,6.4,69.5,"10,433",47,Primary,Yes,2024-04-16,B,synthetic_demo,0
+STU-00539,21,Male,Nairobi,Public,10.5,85.8,3.6,90.0,15,6.9,86.1,"27,802",59,,Yes,2024-10-21,A+,synthetic_demo,0
+STU-00540,21,Male,Nakuru,Public,0.0,79.7,1.5,37.5,4,6.6,26.7,"41,018",55,,Yes,2024-02-05,E,synthetic_demo,1
+STU-00541,18,Male,Eldoret,Public,8.0,67.3,3.16,79.0,23,8.0,72.1,"66,952",not available,,Yes,2024-10-03,A,synthetic_demo,0
+STU-00542,20,Male,Eldoret,Public,6.4,84.2,2.97,74.25,24,,73.3,"55,422",not available,Certificate,Yes,2024-07-11,A,synthetic_demo,0
+STU-00543,16,Female,Nakuru,Public,0.0,80.8,2.26,56.5,8,6.4,55.7,"32,995",60,Certificate,Yes,2024-11-14,C,synthetic_demo,0
+STU-00544,18,Female,Thika,Public,1.4,70.6,2.31,57.75,13,9.7,51.8,"72,390",not available,Secondary,Yes,2024-06-18,C,synthetic_demo,1
+STU-00545,21,Female,Thika,Public,4.8,84.9,2.71,67.75,25,4.1,63.4,"67,923",74,,Yes,2024-09-02,B,synthetic_demo,0
+STU-00546,21,Male,Kisumu,Public,2.3,100.0,2.28,57.0,11,6.8,63.5,"43,556",53,Secondary,Yes,2024-07-15,B,synthetic_demo,0
+STU-00547,20,Female,Eldoret,Public,4.4,70.1,,,9,4.2,46.2,"32,258",76,Postgraduate,Yes,2024-05-23,D,synthetic_demo,1
+STU-00548,19,Female,Nakuru,Public,9.6,79.6,2.62,65.5,19,5.7,59.9,"37,339",60,Diploma,Yes,2024-01-25,C,synthetic_demo,0
+STU-00549,21,Female,Kisumu,Public,11.7,97.1,4.0,100.0,24,,96.8,"26,264",78,Certificate,Yes,2024-12-14,A+,synthetic_demo,0
+STU-00550,22,Male,Nairobi,Public,4.5,71.6,,,11,5.6,57.3,"60,823",65,Bachelor,Yes,2024-10-13,C,synthetic_demo,0
+STU-00551,19,Male,Nakuru,Public,11.1,69.2,2.45,61.25,17,4.4,52.9,"60,532",not available,Primary,Yes,2024-08-05,C,synthetic_demo,1
+STU-00552,20,Male,Other,Public,4.9,84.2,2.0,50.0,24,6.7,57.0,"60,086",58,Postgraduate,Yes,2024-04-25,C,synthetic_demo,0
+STU-00553,22,Male,Nairobi,Public,15.9,,3.15,78.75,22,6.1,95.9,"46,696",71,,Yes,2024-05-24,A+,synthetic_demo,0
+STU-00554,19,Male,Eldoret,Public,6.1,81.8,2.44,61.0,21,7.8,66.9,,59,Primary,Yes,2024-06-22,B,synthetic_demo,0
+STU-00555,19,Female,Eldoret,Public,8.8,76.2,2.29,57.25,26,6.4,63.8,,59,Secondary,Yes,2024-09-23,B,synthetic_demo,0
+STU-00556,20,Male,Mombasa,Public,3.6,96.1,2.48,62.0,21,10.0,57.8,"56,313",not available,Diploma,Yes,2024-11-03,C,synthetic_demo,0
+STU-00557,20,Female,Eldoret,Public,1.7,84.2,2.11,52.75,20,6.7,57.0,"46,954",66,Bachelor,Yes,2024-03-12,C,synthetic_demo,0
+STU-00558,20,Female,Kisumu,Public,5.9,77.7,3.25,81.25,22,6.5,65.2,,59,,Yes,2024-04-21,B,synthetic_demo,0
+STU-00559,23,Male,Nairobi,Public,9.1,66.3,,,21,6.2,58.1,"5,000",53,Secondary,Yes,2024-02-04,C,synthetic_demo,0
+STU-00560,16,Male,Nairobi,Public,4.6,84.6,2.6,65.0,16,8.9,61.3,"32,598",73,Certificate,Yes,2024-02-16,B,synthetic_demo,0
+STU-00561,19,Prefer not to say,Nairobi,Public,2.3,78.6,2.61,65.25,20,6.2,64.7,"49,250",62,Primary,Yes,2024-04-22,B,synthetic_demo,0
+STU-00562,19,Male,Nakuru,Public,5.9,95.2,3.05,76.25,13,7.2,59.0,,68,Secondary,Yes,2024-10-15,C,synthetic_demo,0
+STU-00563,16,Female,Kisumu,Public,2.8,57.9,1.91,47.75,17,6.4,49.5,"36,525",not available,Certificate,Yes,2024-09-20,D,synthetic_demo,1
+STU-00564,21,Female,Nairobi,Public,14.6,93.0,3.02,75.5,15,7.0,78.1,"71,546",75,Secondary,Yes,2024-05-18,A,synthetic_demo,0
+STU-00565,21,Male,Kisumu,Public,5.8,83.1,3.24,81.0,16,6.1,65.6,"50,131",not available,,Yes,2024-04-14,B,synthetic_demo,0
+STU-00566,20,Female,Nairobi,Public,12.1,69.6,2.07,51.75,12,9.3,49.2,"49,719",74,Secondary,Yes,2024-02-04,D,synthetic_demo,1
+STU-00567,19,Female,Nairobi,Public,1.1,67.7,,,15,,39.2,"5,000",45,Secondary,Yes,2024-07-20,E,synthetic_demo,1
+STU-00568,21,Prefer not to say,Nairobi,Public,2.8,77.2,2.99,74.75,21,,63.3,"59,019",65,Bachelor,Yes,2024-05-23,B,synthetic_demo,0
+STU-00569,19,Male,Thika,Public,3.0,71.5,2.86,71.5,22,,60.9,"47,500",62,,Yes,2024-04-28,B,synthetic_demo,0
+STU-00570,18,Female,Nairobi,Public,6.8,89.9,2.41,60.25,25,6.5,58.8,,59,Diploma,Yes,2024-10-10,C,synthetic_demo,0
+STU-00571,20,Female,Nakuru,Public,10.6,84.7,2.55,63.75,18,8.4,69.0,,63,Diploma,Yes,2024-12-21,B,synthetic_demo,0
+STU-00572,23,Male,Nakuru,Public,0.0,78.5,2.71,67.75,12,8.1,46.0,"18,373",not available,Diploma,Yes,2024-08-03,D,synthetic_demo,1
+STU-00573,22,Female,Nakuru,Public,0.3,72.5,2.77,69.25,17,8.7,52.2,"37,373",78,Postgraduate,Yes,2024-03-06,C,synthetic_demo,1
+STU-00574,22,Male,Mombasa,Public,1.8,71.2,2.5,62.5,7,,42.2,"79,163",not available,Certificate,Yes,2024-12-18,D,synthetic_demo,1
+STU-00575,23,Female,Nairobi,Public,7.7,77.2,2.07,51.75,19,4.4,67.1,"37,632",65,Primary,Yes,2024-01-03,B,synthetic_demo,0
+STU-00576,20,Male,Nairobi,Public,3.5,71.3,1.43,35.75,19,6.8,36.9,"32,673",55,Postgraduate,Yes,2024-10-03,E,synthetic_demo,1
+STU-00577,23,Female,Mombasa,Public,9.3,82.8,2.75,68.75,15,6.3,55.0,"33,621",not available,Bachelor,Yes,2024-03-24,C,synthetic_demo,0
+STU-00578,20,Male,Nairobi,Public,5.0,83.8,3.01,75.25,18,8.8,55.3,"68,039",88,Certificate,Yes,2024-05-22,C,synthetic_demo,0
+STU-00579,18,Male,Eldoret,Private,3.5,81.6,2.73,68.25,20,5.1,58.5,"70,259",58,No formal education,Yes,2024-09-08,C,synthetic_demo,0
+STU-00580,18,Male,Eldoret,Public,10.5,97.6,2.6,65.0,23,6.0,79.8,"18,864",not available,Bachelor,Yes,2024-09-13,A,synthetic_demo,0
+STU-00581,16,Prefer not to say,Nakuru,Public,1.3,88.3,2.1,52.5,15,6.2,54.5,"5,558",not available,Postgraduate,Yes,2024-09-17,C,synthetic_demo,1
+STU-00582,19,Female,Nairobi,Public,4.7,92.9,3.42,85.5,19,9.4,67.2,"35,514",69,Secondary,Yes,2024-09-18,B,synthetic_demo,0
+STU-00583,18,Female,Nakuru,Public,2.1,69.1,1.97,49.25,10,7.1,40.5,"43,359",65,No formal education,Yes,2024-08-14,D,synthetic_demo,1
+STU-00584,20,Male,Nakuru,Public,2.1,92.1,3.17,79.25,19,6.5,68.6,"17,810",68,Certificate,Yes,2024-04-11,B,synthetic_demo,0
+STU-00585,18,Female,Nairobi,Public,14.5,80.8,3.78,94.5,24,6.3,77.8,"38,070",74,,Yes,2024-05-28,A,synthetic_demo,0
+STU-00586,19,Female,Eldoret,Public,2.4,68.5,1.99,49.75,18,7.5,48.4,"40,774",57,,Yes,2024-01-16,D,synthetic_demo,1
+STU-00587,22,Male,Thika,Public,5.8,72.2,2.02,50.5,16,5.7,56.2,"32,777",59,,Yes,2024-09-18,C,synthetic_demo,0
+STU-00588,20,Female,Nairobi,Public,2.0,72.5,1.54,38.5,11,7.8,43.3,"25,659",46,Bachelor,Yes,2024-01-08,D,synthetic_demo,1
+STU-00589,20,Male,Nairobi,Public,4.5,66.5,2.51,62.75,12,5.5,46.8,"88,106",55,,Yes,2024-06-16,D,synthetic_demo,1
+STU-00590,18,Male,Nairobi,Public,4.2,77.0,1.97,49.25,12,7.3,46.3,,68,Secondary,Yes,2024-06-17,D,synthetic_demo,1
+STU-00591,22,Male,Other,Public,13.0,100.0,4.0,100.0,30,9.1,93.3,"63,478",71,Bachelor,Yes,2024-01-15,A+,synthetic_demo,0
+STU-00592,20,Male,Nairobi,Public,9.7,86.5,2.8,70.0,27,6.8,72.8,,59,Primary,Yes,2024-06-24,A,synthetic_demo,0
+STU-00593,20,Male,Mombasa,Public,0.3,65.5,2.17,54.25,15,7.0,46.4,"40,293",58,Primary,Yes,2024-02-11,D,synthetic_demo,1
+STU-00594,17,Prefer not to say,Other,Public,8.4,90.5,2.17,54.25,12,4.9,56.7,"43,099",72,Primary,Yes,2024-09-09,C,synthetic_demo,0
+STU-00595,20,Male,Mombasa,Public,4.2,68.4,2.3,57.5,6,,43.4,,not available,Bachelor,Yes,2024-09-16,D,synthetic_demo,1
+STU-00596,22,Prefer not to say,Mombasa,Public,12.7,84.7,2.77,69.25,24,5.7,77.4,,60,,Yes,2024-03-15,A,synthetic_demo,0
+STU-00597,20,Male,Mombasa,Public,4.4,84.1,2.1,52.5,11,6.2,63.4,"53,476",72,Primary,Yes,2024-06-11,B,synthetic_demo,0
+STU-00598,19,Male,Nakuru,Public,3.9,69.8,2.8,70.0,15,7.1,48.8,"77,438",64,Diploma,Yes,2024-10-09,D,synthetic_demo,1
+STU-00599,19,Male,Thika,Public,5.8,86.7,2.47,61.75,20,5.3,64.8,"5,000",71,Primary,Yes,2024-04-28,B,synthetic_demo,0
+STU-00600,23,Female,Nairobi,Public,6.1,92.7,3.03,75.75,17,6.5,62.4,,63,Diploma,Yes,2024-08-24,B,synthetic_demo,0
+STU-00601,19,Female,Nairobi,Public,7.5,77.5,2.9,72.5,24,7.6,60.5,,60,,Yes,2024-08-27,B,synthetic_demo,0
+STU-00602,22,Male,Nairobi,Public,4.8,83.1,,,14,7.3,69.0,"48,751",87,Bachelor,Yes,2024-11-08,B,synthetic_demo,0
+STU-00603,16,Female,Nairobi,Public,9.9,92.8,3.23,80.75,29,7.1,73.8,"47,625",69,Primary,Yes,2024-05-23,A,synthetic_demo,0
+STU-00604,19,Female,Thika,Public,0.3,81.3,2.16,54.0,17,6.4,58.3,"54,368",53,Diploma,Yes,2024-02-09,C,synthetic_demo,0
+STU-00605,21,Female,Nairobi,Public,7.1,99.8,3.07,76.75,25,5.9,80.8,"31,024",not available,Bachelor,Yes,2024-08-28,A,synthetic_demo,0
+STU-00606,18,Male,Eldoret,Public,6.3,99.6,2.5,62.5,22,6.0,72.3,"54,909",76,Secondary,Yes,2024-10-16,A,synthetic_demo,0
+STU-00607,19,Female,Nairobi,Public,5.5,80.6,2.89,72.25,22,,67.7,"53,685",not available,Secondary,Yes,2024-04-06,B,synthetic_demo,0
+STU-00608,21,Female,Nairobi,Public,10.4,90.8,3.03,75.75,24,7.2,70.1,"16,135",70,Secondary,Yes,2024-09-09,A,synthetic_demo,0
+STU-00609,22,Male,Nairobi,Public,0.6,80.0,,,5,7.0,46.1,,46,Primary,Yes,2024-07-02,D,synthetic_demo,1
+STU-00610,21,Male,Kisumu,Public,0.4,95.3,2.88,72.0,25,6.2,56.8,"17,357",75,,Yes,2024-12-07,C,synthetic_demo,0
+STU-00611,18,Prefer not to say,Mombasa,Public,7.2,100.0,2.08,52.0,20,6.7,69.2,,77,Bachelor,Yes,2024-11-28,B,synthetic_demo,0
+STU-00612,20,Male,Kisumu,Public,0.5,60.9,2.42,60.5,24,6.8,54.4,"37,452",65,Bachelor,Yes,2024-04-25,C,synthetic_demo,1
+STU-00613,21,Male,Nakuru,Public,2.2,93.3,2.35,58.75,15,5.0,65.6,,not available,Secondary,Yes,2024-01-28,B,synthetic_demo,0
+STU-00614,19,Female,Mombasa,Public,9.5,94.0,2.53,63.25,22,7.1,73.7,"70,408",62,Diploma,Yes,2024-08-19,A,synthetic_demo,0
+STU-00615,17,Male,Mombasa,Public,9.4,85.7,3.35,83.75,27,7.3,75.7,"62,721",71,Bachelor,Yes,2024-10-27,A,synthetic_demo,0
+STU-00616,19,Female,Eldoret,Public,4.9,87.1,1.76,44.0,18,5.5,57.5,,73,No formal education,Yes,2024-11-08,C,synthetic_demo,0
+STU-00617,19,Male,Eldoret,Public,12.8,76.3,3.68,92.0,30,8.1,84.8,"53,988",67,Diploma,Yes,2024-12-25,A,synthetic_demo,0
+STU-00618,16,Female,Nairobi,Public,4.9,87.9,3.37,84.25,24,6.6,80.8,"15,908",84,Primary,Yes,2024-03-13,A,synthetic_demo,0
+STU-00619,21,Female,Nairobi,Public,10.3,100.0,2.8,70.0,22,6.0,68.3,"33,844",65,Bachelor,Yes,2024-10-25,B,synthetic_demo,0
+STU-00620,19,Female,Other,Public,5.2,82.0,2.2,55.0,17,6.3,49.9,"39,452",not available,Certificate,Yes,2024-03-07,D,synthetic_demo,1
+STU-00621,20,Male,Eldoret,Public,6.8,87.0,3.02,75.5,17,7.6,73.3,"56,381",59,,Yes,2024-07-01,A,synthetic_demo,0
+STU-00622,20,Male,Nairobi,Public,7.9,75.1,2.46,61.5,25,6.0,63.0,"66,818",75,Certificate,Yes,2024-03-08,B,synthetic_demo,0
+STU-00623,18,Male,Nakuru,Public,0.0,70.1,1.41,35.25,9,,29.8,"76,666",51,Diploma,Yes,2024-05-13,E,synthetic_demo,1
+STU-00624,21,Male,Nairobi,Public,12.0,87.4,2.4,60.0,20,8.0,79.7,"44,737",not available,Bachelor,Yes,2024-09-25,A,synthetic_demo,0
+STU-00625,17,Female,Nakuru,Public,7.3,86.7,2.9,72.5,20,7.4,73.6,,72,Diploma,Yes,2024-05-23,A,synthetic_demo,0
+STU-00626,20,Female,Eldoret,Public,8.0,97.5,3.16,79.0,24,8.3,74.4,"47,663",64,Diploma,Yes,2024-09-09,A,synthetic_demo,0
+STU-00627,18,Male,Eldoret,Public,0.0,70.2,1.94,48.5,7,9.6,45.9,"64,360",60,,Yes,2024-04-25,D,synthetic_demo,1
+STU-00628,21,Male,Nairobi,Public,5.1,83.3,3.13,78.25,18,7.5,64.6,"75,393",not available,Bachelor,Yes,2024-01-14,B,synthetic_demo,0
+STU-00629,21,Female,Nairobi,Public,6.2,71.2,2.1,52.5,23,7.5,62.3,"35,629",63,No formal education,Yes,2024-12-01,B,synthetic_demo,0
+STU-00630,18,Female,Eldoret,Public,8.7,77.0,2.36,59.0,16,6.7,58.1,"31,117",66,Primary,Yes,2024-08-09,C,synthetic_demo,0
+STU-00631,19,Male,Mombasa,Public,13.8,92.5,3.35,83.75,23,6.3,84.0,"55,467",not available,Diploma,Yes,2024-01-23,A,synthetic_demo,0
+STU-00632,19,Female,Kisumu,Public,9.6,89.1,2.63,65.75,15,7.1,60.2,"13,654",69,Secondary,Yes,2024-10-26,B,synthetic_demo,0
+STU-00633,20,Female,Mombasa,Public,4.5,75.8,2.18,54.5,11,6.8,58.9,,55,Certificate,Yes,2024-07-06,C,synthetic_demo,0
+STU-00634,20,Female,Nakuru,Public,9.1,58.0,2.6,65.0,14,7.4,48.8,,59,,Yes,2024-06-23,D,synthetic_demo,1
+STU-00635,18,Male,Kisumu,Public,5.2,95.6,3.09,77.25,25,8.3,79.4,,not available,Secondary,Yes,2024-02-26,A,synthetic_demo,0
+STU-00636,21,Female,Thika,Public,4.6,57.5,1.84,46.0,15,6.9,38.0,"46,434",62,Diploma,Yes,2024-11-07,E,synthetic_demo,1
+STU-00637,19,Female,Nairobi,Public,12.8,98.4,2.61,65.25,23,6.6,74.3,"24,753",73,,No,2024-07-06,A,synthetic_demo,0
+STU-00638,18,Female,Mombasa,Public,5.7,96.6,1.98,49.5,13,6.6,56.0,"46,165",not available,Certificate,Yes,2024-02-17,C,synthetic_demo,0
+STU-00639,21,Female,Nairobi,Public,7.6,91.7,2.05,51.25,23,,58.0,"64,015",53,Bachelor,Yes,2024-06-23,C,synthetic_demo,0
+STU-00640,20,Male,Thika,Public,2.9,81.9,2.91,72.75,13,6.4,54.1,"63,528",74,Diploma,Yes,2024-06-28,C,synthetic_demo,1
+STU-00641,19,Female,Nakuru,Public,7.1,92.6,2.68,67.0,19,,71.0,,81,Bachelor,Yes,2024-05-03,A,synthetic_demo,0
+STU-00642,21,Male,Kisumu,Public,9.4,88.8,3.63,90.75,30,5.3,83.8,,74,,No,2024-02-04,A,synthetic_demo,0
+STU-00643,18,Female,Nairobi,Public,7.4,52.6,2.46,61.5,18,6.5,49.2,,not available,Diploma,Yes,2024-01-05,D,synthetic_demo,1
+STU-00644,19,Male,Nairobi,Public,6.2,84.8,2.46,61.5,12,7.2,56.6,"50,862",not available,Bachelor,Yes,2024-02-11,C,synthetic_demo,0
+STU-00645,21,Female,Kisumu,Public,10.2,83.2,,,24,9.2,76.4,"55,427",81,Secondary,Yes,2024-12-01,A,synthetic_demo,0
+STU-00646,18,Female,Nakuru,Public,8.2,79.5,3.17,79.25,15,6.3,77.0,"19,057",70,Diploma,Yes,2024-05-26,A,synthetic_demo,0
+STU-00647,23,Female,Mombasa,Public,5.3,96.2,1.71,42.75,23,,61.4,"27,555",not available,Diploma,Yes,2024-06-15,B,synthetic_demo,0
+STU-00648,17,Female,Eldoret,Public,8.8,99.1,3.77,94.25,28,6.7,84.7,"40,744",67,Diploma,Yes,2024-04-21,A,synthetic_demo,0
+STU-00649,20,Male,Nairobi,Public,0.0,84.4,,,7,,42.9,"56,157",83,Secondary,Yes,2024-06-02,D,synthetic_demo,1
+STU-00650,21,Female,Eldoret,Public,8.2,86.4,3.23,80.75,19,6.0,70.6,"49,587",73,Postgraduate,Yes,2024-10-05,A,synthetic_demo,0
+STU-00651,17,Male,Nairobi,Public,5.9,78.4,2.54,63.5,21,7.2,62.1,,61,,Yes,2024-11-26,B,synthetic_demo,0
+STU-00652,21,Male,Nakuru,Public,8.5,80.1,2.42,60.5,17,7.3,59.7,,66,Diploma,Yes,2024-03-10,C,synthetic_demo,0
+STU-00653,20,Male,Kisumu,Public,7.9,57.0,2.47,61.75,6,6.3,38.3,"62,585",64,Certificate,Yes,2024-09-06,E,synthetic_demo,1
+STU-00654,20,Female,Nairobi,Public,6.9,94.3,2.58,64.5,25,5.5,63.8,"39,026",58,Certificate,Yes,2024-03-12,B,synthetic_demo,0
+STU-00655,19,Male,Mombasa,Public,6.1,,3.55,88.75,24,5.4,80.2,"41,462",84,Diploma,Yes,2024-04-18,A,synthetic_demo,0
+STU-00656,20,Female,Nairobi,Public,8.9,72.5,3.12,78.0,19,5.7,58.1,"48,441",not available,Bachelor,Yes,2024-07-22,C,synthetic_demo,0
+STU-00657,18,Female,Kisumu,Public,7.1,79.2,3.19,79.75,21,7.7,67.1,"40,664",not available,Secondary,Yes,2024-12-25,B,synthetic_demo,0
+STU-00658,20,Female,Eldoret,Public,2.9,91.0,,,18,,64.3,"54,645",76,,Yes,2024-11-04,B,synthetic_demo,0
+STU-00659,21,Male,Nairobi,Public,3.7,82.1,2.17,54.25,21,7.2,59.7,"96,885",76,Bachelor,Yes,2024-01-26,C,synthetic_demo,0
+STU-00660,19,Male,Nairobi,Public,4.9,61.5,1.98,49.5,10,,32.6,,56,Bachelor,Yes,2024-10-24,E,synthetic_demo,1
+STU-00661,19,Female,Kisumu,Public,9.5,89.8,3.3,82.5,21,6.3,66.6,"37,282",60,Postgraduate,Yes,2024-07-21,B,synthetic_demo,0
+STU-00662,19,Female,Mombasa,Public,9.5,,2.26,56.5,18,6.6,50.0,"5,000",76,Primary,Yes,2024-06-03,D,synthetic_demo,1
+STU-00663,21,Male,Nairobi,Public,7.3,81.4,2.78,69.5,13,,64.9,"71,039",59,,Yes,2024-04-26,B,synthetic_demo,0
+STU-00664,19,Male,Thika,Public,4.0,70.9,2.43,60.75,12,7.4,53.4,"54,638",66,Secondary,Yes,2024-03-15,C,synthetic_demo,1
+STU-00665,16,Male,Nairobi,Public,0.6,69.5,2.03,50.75,19,,42.1,"30,565",69,Secondary,Yes,2024-06-01,D,synthetic_demo,1
+STU-00666,18,Prefer not to say,Kisumu,Public,2.2,74.8,2.55,63.75,13,,57.4,"68,741",69,,Yes,2024-09-06,C,synthetic_demo,0
+STU-00667,19,Male,Mombasa,Public,9.0,87.9,3.34,83.5,24,,81.7,,65,Bachelor,Yes,2024-11-22,A,synthetic_demo,0
+STU-00668,21,Male,Nairobi,Public,7.6,89.1,2.81,70.25,12,,68.9,,59,Bachelor,Yes,2024-11-21,B,synthetic_demo,0
+STU-00669,17,Female,Eldoret,Public,4.5,91.7,1.8,45.0,17,6.9,54.5,"57,409",69,Secondary,Yes,2024-02-05,C,synthetic_demo,1
+STU-00670,20,Female,Nakuru,Public,5.3,85.7,2.5,62.5,23,,65.7,,54,Bachelor,Yes,2024-08-05,B,synthetic_demo,0
+STU-00671,21,Male,Nairobi,Public,0.7,66.1,2.07,51.75,8,9.1,39.9,,62,Diploma,Yes,2024-04-07,E,synthetic_demo,1
+STU-00672,21,Female,Nairobi,Public,14.8,100.0,3.65,91.25,30,7.8,94.2,"74,818",79,Certificate,Yes,2024-10-25,A+,synthetic_demo,0
+STU-00673,20,Female,Kisumu,Public,4.0,82.8,3.21,80.25,26,8.5,65.7,,60,Secondary,Yes,2024-08-12,B,synthetic_demo,0
+STU-00674,19,Female,Nakuru,Public,4.1,80.2,2.93,73.25,19,9.0,56.9,"31,012",not available,Certificate,Yes,2024-12-25,C,synthetic_demo,0
+STU-00675,21,Female,Nairobi,Public,7.8,58.3,1.91,47.75,18,6.7,50.0,"60,867",not available,Bachelor,Yes,2024-05-13,C,synthetic_demo,1
+STU-00676,20,Female,Nairobi,Public,5.9,82.9,3.3,82.5,23,,49.3,"34,412",59,Diploma,Yes,2024-11-16,D,synthetic_demo,1
+STU-00677,19,Female,Nakuru,Public,6.7,96.9,2.38,59.5,21,6.7,64.4,,74,Certificate,Yes,2024-08-16,B,synthetic_demo,0
+STU-00678,22,Female,Nairobi,Public,4.4,73.7,2.85,71.25,19,,73.1,"60,078",51,,Yes,2024-05-02,A,synthetic_demo,0
+STU-00679,22,Male,Kisumu,Public,4.3,85.8,2.54,63.5,15,6.8,64.2,"64,396",73,Diploma,Yes,2024-06-01,B,synthetic_demo,0
+STU-00680,21,Male,Other,Public,0.0,80.6,2.51,62.75,22,5.9,44.5,"59,335",72,Diploma,Yes,2024-04-08,D,synthetic_demo,1
+STU-00681,19,Female,Mombasa,Public,5.1,85.5,2.66,66.5,16,6.1,61.3,,58,Bachelor,Yes,2024-12-08,B,synthetic_demo,0
+STU-00682,16,Female,Nairobi,Public,6.8,72.4,2.34,58.5,12,5.0,44.2,,78,Certificate,Yes,2024-01-03,D,synthetic_demo,1
+STU-00683,18,Female,Nakuru,Public,3.2,75.8,2.51,62.75,16,7.5,52.4,"57,560",49,Postgraduate,Yes,2024-02-15,C,synthetic_demo,1
+STU-00684,17,Female,Mombasa,Public,7.3,73.8,2.61,65.25,17,7.1,62.7,,59,No formal education,Yes,2024-02-16,B,synthetic_demo,0
+STU-00685,22,Female,Thika,Public,7.1,86.5,2.69,67.25,21,6.5,72.2,"40,538",76,Secondary,Yes,2024-01-12,A,synthetic_demo,0
+STU-00686,24,Female,Nairobi,Public,13.1,88.5,3.3,82.5,23,6.4,76.1,"37,493",not available,Secondary,Yes,2024-05-10,A,synthetic_demo,0
+STU-00687,19,Male,Kisumu,Public,8.4,72.2,3.38,84.5,8,,49.9,,not available,No formal education,Yes,2024-05-22,D,synthetic_demo,1
+STU-00688,24,Male,Mombasa,Public,10.4,89.9,3.57,89.25,26,,73.7,"37,714",80,Certificate,Yes,2024-11-01,A,synthetic_demo,0
+STU-00689,19,Male,Kisumu,Public,8.6,70.0,3.21,80.25,24,,68.7,"40,286",70,,Yes,2024-08-08,B,synthetic_demo,0
+STU-00690,20,Female,Nairobi,Public,8.4,72.9,2.58,64.5,20,7.2,64.4,"68,991",81,Diploma,Yes,2024-09-03,B,synthetic_demo,0
+STU-00691,20,Prefer not to say,Nairobi,Public,4.8,71.2,2.58,64.5,9,8.4,59.7,"39,188",not available,Bachelor,Yes,2024-01-11,C,synthetic_demo,0
+STU-00692,21,Male,Nairobi,Public,0.1,65.5,1.91,47.75,16,,41.2,"60,373",59,Secondary,Yes,2024-04-23,D,synthetic_demo,1
+STU-00693,20,Female,Nairobi,Public,5.0,94.6,2.75,68.75,26,6.0,68.7,"42,921",76,,Yes,2024-12-12,B,synthetic_demo,0
+STU-00694,20,Female,Nairobi,Public,0.0,91.5,1.77,44.25,7,5.2,40.0,"40,346",49,Secondary,Yes,2024-11-04,D,synthetic_demo,1
+STU-00695,23,Female,Thika,Public,13.0,78.1,3.24,81.0,23,6.7,76.5,"71,263",75,Primary,Yes,2024-08-19,A,synthetic_demo,0
+STU-00696,20,Male,Eldoret,Public,7.3,100.0,3.1,77.5,24,7.4,74.0,"65,113",69,Primary,Yes,2024-08-17,A,synthetic_demo,0
+STU-00697,20,Male,Nairobi,Public,5.2,88.6,2.79,69.75,19,7.1,53.6,,67,Diploma,Yes,2024-01-02,C,synthetic_demo,1
+STU-00698,21,Male,Nairobi,Public,9.7,92.2,2.71,67.75,18,5.1,64.1,,73,Secondary,Yes,2024-09-12,B,synthetic_demo,0
+STU-00699,20,Male,Eldoret,Public,9.2,,3.14,78.5,14,7.5,74.4,"59,651",58,Secondary,Yes,2024-12-17,A,synthetic_demo,0
+STU-00700,21,Male,Eldoret,Public,15.5,80.3,3.56,89.0,17,8.0,77.2,,73,Secondary,Yes,2024-04-26,A,synthetic_demo,0
+STU-00701,20,Female,Other,Public,5.8,100.0,3.09,77.25,20,8.2,71.6,"35,244",not available,Diploma,Yes,2024-02-17,A,synthetic_demo,0
+STU-00702,20,Prefer not to say,Nairobi,Public,9.6,78.3,3.2,80.0,20,8.4,67.2,"86,706",51,Secondary,Yes,2024-01-03,B,synthetic_demo,0
+STU-00703,24,Female,Mombasa,Public,5.9,72.0,2.34,58.5,19,8.8,53.2,"65,399",69,Secondary,Yes,2024-09-14,C,synthetic_demo,1
+STU-00704,16,Male,Mombasa,Public,6.2,93.5,4.0,100.0,24,6.8,84.4,,74,,Yes,2024-08-14,A,synthetic_demo,0
+STU-00705,20,Female,Nairobi,Public,8.7,83.3,3.23,80.75,23,6.7,83.3,"82,954",not available,Bachelor,Yes,2024-02-18,A,synthetic_demo,0
+STU-00706,16,Male,Nakuru,Public,0.3,69.8,2.73,68.25,4,,45.5,"42,289",67,,Yes,2024-04-24,D,synthetic_demo,1
+STU-00707,20,Female,Thika,Public,10.1,86.9,2.6,65.0,15,7.4,65.0,"82,551",75,Diploma,Yes,2024-08-26,B,synthetic_demo,0
+STU-00708,20,Male,Eldoret,Public,6.1,83.7,2.26,56.5,22,8.5,67.6,,82,Postgraduate,Yes,2024-09-25,B,synthetic_demo,0
+STU-00709,16,Female,Mombasa,Public,8.0,77.8,2.9,72.5,15,7.5,58.2,"46,859",86,Primary,Yes,2024-11-26,C,synthetic_demo,0
+STU-00710,22,Female,Nairobi,Public,5.3,52.2,2.9,72.5,20,7.0,56.6,,68,No formal education,Yes,2024-05-11,C,synthetic_demo,0
+STU-00711,21,Female,Nairobi,Public,2.7,87.1,2.06,51.5,18,8.3,66.3,"56,155",60,Bachelor,Yes,2024-08-11,B,synthetic_demo,0
+STU-00712,18,Male,Mombasa,Public,3.6,78.3,2.47,61.75,18,7.8,52.5,"64,868",80,,Yes,2024-07-20,C,synthetic_demo,1
+STU-00713,22,Female,Nakuru,Public,4.6,74.1,2.35,58.75,17,,48.3,,62,,Yes,2024-12-22,D,synthetic_demo,1
+STU-00714,19,Female,Thika,Public,4.1,82.3,2.87,71.75,25,7.7,65.5,"52,463",69,No formal education,Yes,2024-10-19,B,synthetic_demo,0
+STU-00715,19,Male,Kisumu,Public,1.3,,,,9,8.6,47.3,,68,Secondary,Yes,2024-11-28,D,synthetic_demo,1
+STU-00716,20,Female,Other,Public,0.6,69.0,3.44,86.0,15,6.8,60.2,"42,894",70,Bachelor,Yes,2024-08-21,B,synthetic_demo,0
+STU-00717,19,Male,Nakuru,Public,9.0,84.7,3.47,86.75,21,7.3,55.7,"53,276",63,Diploma,Yes,2024-10-20,C,synthetic_demo,0
+STU-00718,21,Female,Kisumu,Public,5.8,,2.9,72.5,22,11.0,52.9,,67,Diploma,Yes,2024-08-16,C,synthetic_demo,1
+STU-00719,20,Female,Other,Public,6.6,100.0,3.35,83.75,30,8.6,80.3,"48,139",62,,Yes,2024-11-23,A,synthetic_demo,0
+STU-00720,18,Female,Nairobi,Public,7.4,81.4,3.05,76.25,26,8.0,63.6,,45,Primary,Yes,2024-08-01,B,synthetic_demo,0
+STU-00721,21,Female,Mombasa,Public,6.9,87.1,3.01,75.25,16,7.6,65.5,"50,572",not available,Diploma,Yes,2024-12-14,B,synthetic_demo,0
+STU-00722,19,Female,Nairobi,Public,11.9,87.2,3.49,87.25,21,,84.8,"67,170",72,Diploma,Yes,2024-02-17,A,synthetic_demo,0
+STU-00723,19,Male,Nairobi,Public,5.2,91.8,2.8,70.0,10,7.1,62.4,"32,902",66,Diploma,Yes,2024-02-26,B,synthetic_demo,0
+STU-00724,18,Female,Mombasa,Public,4.8,79.8,2.37,59.25,15,9.1,67.6,"47,479",60,Certificate,Yes,2024-03-17,B,synthetic_demo,0
+STU-00725,20,Female,Eldoret,Public,3.5,74.0,2.37,59.25,14,5.6,53.5,"42,407",61,Primary,Yes,2024-07-16,C,synthetic_demo,1
+STU-00726,20,Female,Other,Public,13.3,86.5,3.25,81.25,29,6.7,88.0,"42,719",not available,Secondary,Yes,2024-12-01,A+,synthetic_demo,0
+STU-00727,21,Female,Mombasa,Public,6.1,74.6,2.66,66.5,15,,42.3,,46,Certificate,Yes,2024-12-23,D,synthetic_demo,1
+STU-00728,23,Male,Other,Public,2.4,79.6,2.72,68.0,10,6.4,56.5,"41,933",60,Certificate,Yes,2024-10-19,C,synthetic_demo,0
+STU-00729,18,Female,Nakuru,Public,6.1,72.8,2.39,59.75,17,5.9,50.1,,80,,Yes,2024-11-27,C,synthetic_demo,1
+STU-00730,20,Male,Nairobi,Public,4.7,83.9,2.51,62.75,7,7.3,62.4,"54,331",64,Diploma,Yes,2024-02-26,B,synthetic_demo,0
+STU-00731,19,Female,Nairobi,Public,3.8,91.4,2.22,55.5,16,4.8,53.6,,not available,Certificate,Yes,2024-04-25,C,synthetic_demo,1
+STU-00732,20,Female,Nairobi,Public,0.0,73.9,2.95,73.75,15,6.8,61.6,"64,279",not available,Bachelor,Yes,2024-08-21,B,synthetic_demo,0
+STU-00733,19,Female,Kisumu,Public,10.0,86.0,2.63,65.75,26,7.4,73.1,"46,967",68,Bachelor,Yes,2024-11-12,A,synthetic_demo,0
+STU-00734,21,Female,Nairobi,Public,18.0,67.0,2.72,68.0,21,7.6,71.6,"75,960",67,,Yes,2024-09-07,A,synthetic_demo,0
+STU-00735,20,Female,Nakuru,Public,6.6,69.3,3.15,78.75,24,7.7,56.5,"63,346",56,Secondary,Yes,2024-10-21,C,synthetic_demo,0
+STU-00736,18,Female,Kisumu,Public,7.8,75.5,2.84,71.0,16,,57.2,"22,720",84,Bachelor,Yes,2024-01-06,C,synthetic_demo,0
+STU-00737,19,Female,Mombasa,Public,7.8,84.1,3.47,86.75,19,7.4,61.1,"28,923",78,,Yes,2024-09-03,B,synthetic_demo,0
+STU-00738,19,Male,Nairobi,Public,5.8,100.0,2.68,67.0,15,6.3,79.0,,56,Diploma,Yes,2024-08-02,A,synthetic_demo,0
+STU-00739,19,Female,Nakuru,Public,8.4,89.1,2.53,63.25,18,5.1,67.0,"59,000",not available,Bachelor,Yes,2024-05-12,B,synthetic_demo,0
+STU-00740,18,Female,Nakuru,Public,5.1,73.7,3.22,80.5,21,,62.0,"49,871",not available,Certificate,Yes,2024-04-06,B,synthetic_demo,0
+STU-00741,21,Male,Nairobi,Public,6.3,66.0,,,9,5.4,43.0,"22,145",70,Diploma,Yes,2024-11-04,D,synthetic_demo,1
+STU-00742,18,Male,Kisumu,Public,2.5,63.5,2.83,70.75,12,8.9,35.7,"66,455",57,,Yes,2024-07-13,E,synthetic_demo,1
+STU-00743,21,Female,Other,Public,3.3,76.1,2.78,69.5,22,6.3,51.3,"42,657",66,Bachelor,No,2024-08-25,C,synthetic_demo,1
+STU-00744,18,Female,Nairobi,Public,6.9,91.7,2.94,73.5,14,6.4,65.8,,63,Certificate,Yes,2024-08-14,B,synthetic_demo,0
+STU-00745,18,Male,Mombasa,Public,11.7,92.9,2.6,65.0,15,7.9,67.3,"70,820",65,Bachelor,Yes,2024-08-17,B,synthetic_demo,0
+STU-00746,23,Male,Nakuru,Public,8.0,96.3,2.32,58.0,12,7.1,65.9,,56,Bachelor,Yes,2024-10-04,B,synthetic_demo,0
+STU-00747,19,Male,Mombasa,Public,2.0,81.1,2.09,52.25,14,6.5,52.2,"65,490",64,Diploma,Yes,2024-02-14,C,synthetic_demo,1
+STU-00748,19,Male,Nairobi,Public,1.7,69.6,2.58,64.5,18,7.2,52.6,"37,324",65,Bachelor,Yes,2024-09-18,C,synthetic_demo,1
+STU-00749,21,Male,Nakuru,Public,7.2,78.7,3.01,75.25,23,6.8,61.1,"53,162",80,No formal education,Yes,2024-09-11,B,synthetic_demo,0
+STU-00750,19,Male,Nakuru,Public,2.7,82.3,2.88,72.0,22,7.0,59.2,"19,128",72,Secondary,Yes,2024-08-05,C,synthetic_demo,0
+STU-00751,18,Male,Kisumu,Public,3.0,75.0,2.48,62.0,16,8.6,52.9,"57,488",50,Diploma,Yes,2024-01-21,C,synthetic_demo,1
+STU-00752,16,Female,Nairobi,Public,3.2,90.7,2.98,74.5,23,6.9,62.3,"77,720",70,Primary,Yes,2024-01-16,B,synthetic_demo,0
+STU-00753,19,Male,Nairobi,Public,8.0,77.2,2.73,68.25,26,,71.9,"47,458",67,Postgraduate,Yes,2024-08-09,A,synthetic_demo,0
+STU-00754,17,Male,Nairobi,Public,7.7,69.2,2.24,56.0,19,7.9,63.2,"57,066",56,,Yes,2024-08-24,B,synthetic_demo,0
+STU-00755,18,Prefer not to say,Nairobi,Public,5.8,0.0,2.27,56.75,15,,62.4,"30,113",65,Diploma,Yes,2024-06-03,B,synthetic_demo,0
+STU-00756,16,Male,Eldoret,Public,10.6,91.5,3.43,85.75,18,7.3,72.1,"43,227",64,Diploma,Yes,2024-02-15,A,synthetic_demo,0
+STU-00757,17,Female,Other,Public,5.0,78.9,2.76,69.0,13,6.1,53.8,"78,260",80,Diploma,Yes,2024-03-08,C,synthetic_demo,1
+STU-00758,19,Female,Nairobi,Public,4.4,82.3,2.82,70.5,23,6.9,67.0,,45,,Yes,2024-10-12,B,synthetic_demo,0
+STU-00759,21,Female,Nairobi,Public,6.1,95.1,2.18,54.5,12,,62.4,"52,805",68,Certificate,No,2024-05-06,B,synthetic_demo,0
+STU-00760,20,Female,Mombasa,Public,5.4,86.2,2.59,64.75,21,,64.8,"41,487",58,Certificate,Yes,2024-02-13,B,synthetic_demo,0
+STU-00761,18,Male,Other,Public,2.1,91.4,3.08,77.0,16,6.6,69.5,"10,958",not available,Bachelor,Yes,2024-09-13,B,synthetic_demo,0
+STU-00762,18,Female,Eldoret,Public,4.0,77.7,2.33,58.25,17,6.1,52.6,"22,490",71,Certificate,Yes,2024-04-24,C,synthetic_demo,1
+STU-00763,18,Female,Kisumu,Public,4.8,61.1,1.92,48.0,13,7.1,41.2,"15,915",61,No formal education,Yes,2024-09-11,D,synthetic_demo,1
+STU-00764,19,Male,Nairobi,Public,5.2,77.5,2.61,65.25,7,,54.9,"51,072",49,Secondary,Yes,2024-11-16,C,synthetic_demo,1
+STU-00765,23,Male,Mombasa,Public,6.4,84.0,3.33,83.25,22,7.3,74.3,,69,,Yes,2024-04-24,A,synthetic_demo,0
+STU-00766,17,Male,Other,Public,6.2,70.5,2.01,50.25,8,6.8,36.9,"71,310",56,Diploma,Yes,2024-02-25,E,synthetic_demo,1
+STU-00767,21,Female,Nairobi,Public,2.1,92.3,2.56,64.0,17,10.1,66.8,,52,Bachelor,Yes,2024-08-08,B,synthetic_demo,0
+STU-00768,16,Male,Nairobi,Public,4.0,77.8,1.69,42.25,10,,34.5,"78,964",73,Bachelor,Yes,2024-08-05,E,synthetic_demo,1
+STU-00769,20,Male,Thika,Public,1.9,65.1,1.75,43.75,11,5.2,33.4,"46,589",69,Secondary,Yes,2024-07-19,E,synthetic_demo,1
+STU-00770,22,Female,Mombasa,Public,0.0,78.3,2.06,51.5,12,6.9,46.0,,55,Diploma,Yes,2024-11-23,D,synthetic_demo,1
+STU-00771,19,Female,Eldoret,Public,7.2,85.5,2.58,64.5,17,7.5,61.9,,66,,Yes,2024-12-06,B,synthetic_demo,0
+STU-00772,21,Female,Nairobi,Public,3.0,88.0,2.27,56.75,14,8.8,63.7,"44,093",63,,Yes,2024-09-27,B,synthetic_demo,0
+STU-00773,19,Male,Mombasa,Public,2.8,82.9,,,8,,51.2,"34,250",not available,Certificate,Yes,2024-04-20,C,synthetic_demo,1
+STU-00774,21,Male,Other,Public,6.7,87.7,3.0,75.0,13,6.4,65.4,"71,419",56,Postgraduate,Yes,2024-10-26,B,synthetic_demo,0
+STU-00775,21,Male,Eldoret,Public,7.2,,3.08,77.0,21,5.8,64.4,"82,798",66,,Yes,2024-06-11,B,synthetic_demo,0
+STU-00776,18,Male,Kisumu,Public,5.7,,2.96,74.0,13,6.6,62.9,,75,Bachelor,No,2024-04-28,B,synthetic_demo,0
+STU-00777,19,Female,Kisumu,Public,10.8,89.5,3.34,83.5,20,4.4,74.4,"50,549",71,Bachelor,Yes,2024-09-04,A,synthetic_demo,0
+STU-00778,24,Male,Nairobi,Public,8.9,89.6,2.54,63.5,26,7.8,70.8,"50,545",54,Primary,Yes,2024-01-25,A,synthetic_demo,0
+STU-00779,18,Female,Nairobi,Public,8.7,75.1,2.13,53.25,20,7.0,60.3,"29,663",70,Secondary,Yes,2024-02-10,B,synthetic_demo,0
+STU-00780,19,Female,Eldoret,Public,11.5,94.5,2.8,70.0,22,6.8,63.8,"25,679",71,Postgraduate,Yes,2024-12-22,B,synthetic_demo,0
+STU-00781,21,Female,Nakuru,Public,8.9,82.5,3.01,75.25,15,8.1,77.9,"47,897",67,Certificate,Yes,2024-06-28,A,synthetic_demo,0
+STU-00782,20,Female,Nairobi,Public,8.3,90.5,3.29,82.25,28,6.5,87.0,"81,438",77,Primary,Yes,2024-05-10,A+,synthetic_demo,0
+STU-00783,21,Female,Nairobi,Public,3.3,92.0,2.18,54.5,16,5.9,60.0,,63,Diploma,Yes,2024-10-19,B,synthetic_demo,0
+STU-00784,19,Male,Nakuru,Public,1.2,74.0,2.39,59.75,13,5.7,56.6,"60,037",not available,Bachelor,Yes,2024-04-18,C,synthetic_demo,0
+STU-00785,21,Male,Nairobi,Public,7.2,87.5,2.4,60.0,23,,68.1,"68,790",68,Primary,Yes,2024-11-11,B,synthetic_demo,0
+STU-00786,17,Male,Mombasa,Public,13.2,78.5,3.34,83.5,23,7.5,73.7,"47,220",62,Secondary,Yes,2024-03-08,A,synthetic_demo,0
+STU-00787,22,Male,Other,Public,3.8,80.9,2.63,65.75,7,7.9,53.6,,76,Secondary,Yes,2024-02-16,C,synthetic_demo,1
+STU-00788,20,Female,Nairobi,Public,8.1,81.9,2.39,59.75,19,6.5,56.2,,58,Diploma,Yes,2024-03-16,C,synthetic_demo,0
+STU-00789,18,Female,Mombasa,Public,1.9,77.0,2.59,64.75,12,6.4,56.2,"47,865",not available,No formal education,Yes,2024-06-21,C,synthetic_demo,0
+STU-00790,21,Male,Nakuru,Public,12.1,85.5,3.27,81.75,25,8.2,74.3,"39,642",not available,Bachelor,Yes,2024-01-19,A,synthetic_demo,0
+STU-00791,19,Male,Nairobi,Public,10.8,91.4,3.94,98.5,25,,93.6,"42,109",78,Secondary,Yes,2024-01-18,A+,synthetic_demo,0
+STU-00792,21,Female,Eldoret,Public,12.9,91.4,2.92,73.0,28,8.4,75.7,"8,816",60,Diploma,Yes,2024-05-11,A,synthetic_demo,0
+STU-00793,18,Male,Nairobi,Public,5.9,96.1,2.06,51.5,27,7.5,61.1,"72,415",not available,,Yes,2024-09-22,B,synthetic_demo,0
+STU-00794,21,Female,Mombasa,Public,1.1,88.0,1.43,35.75,13,7.5,40.6,,79,,Yes,2024-12-27,D,synthetic_demo,1
+STU-00795,19,Female,Other,Public,4.4,74.1,2.65,66.25,18,8.0,56.7,"35,316",67,Diploma,Yes,2024-02-10,C,synthetic_demo,0
+STU-00796,19,Male,Kisumu,Public,11.6,80.3,2.52,63.0,21,4.7,69.7,"57,532",80,Certificate,Yes,2024-10-13,B,synthetic_demo,0
+STU-00797,22,Male,Eldoret,Public,2.9,84.2,2.47,61.75,24,8.0,64.8,"33,706",82,Certificate,Yes,2024-04-26,B,synthetic_demo,0
+STU-00798,20,Female,Nakuru,Public,0.0,65.7,1.42,35.5,12,,42.2,,58,Diploma,Yes,2024-07-14,D,synthetic_demo,1
+STU-00799,19,Female,Mombasa,Public,10.8,95.4,3.42,85.5,18,9.8,78.2,,67,Bachelor,Yes,2024-11-28,A,synthetic_demo,0
+STU-00800,18,Prefer not to say,Nairobi,Public,2.8,69.1,3.18,79.5,14,7.5,52.3,"52,716",not available,,Yes,2024-01-19,C,synthetic_demo,1
+STU-00801,18,Female,Mombasa,Public,15.7,81.2,3.44,86.0,20,6.2,73.7,"73,807",72,,Yes,2024-01-23,A,synthetic_demo,0
+STU-00802,18,Female,Thika,Public,0.0,63.7,2.53,63.25,10,,34.3,"55,015",46,Secondary,Yes,2024-06-13,E,synthetic_demo,1
+STU-00803,20,Female,Mombasa,Public,1.2,76.4,2.49,62.25,18,7.0,47.2,"65,163",not available,Secondary,Yes,2024-11-03,D,synthetic_demo,1
+STU-00804,17,Female,Kisumu,Public,9.4,86.7,2.82,70.5,15,7.4,61.6,"75,664",70,,Yes,2024-04-12,B,synthetic_demo,0
+STU-00805,19,Female,Other,Public,2.5,,2.48,62.0,17,7.3,32.3,"56,119",56,Secondary,Yes,2024-06-15,E,synthetic_demo,1
+STU-00806,18,Female,Nairobi,Public,0.0,69.3,,,15,7.2,53.4,"47,626",72,Primary,Yes,2024-09-09,C,synthetic_demo,1
+STU-00807,20,Male,Thika,Public,10.2,79.0,3.15,78.75,21,6.6,65.4,"5,845",77,Postgraduate,Yes,2024-08-11,B,synthetic_demo,0
+STU-00808,17,Female,Nairobi,Public,11.4,84.0,1.66,41.5,16,5.0,65.3,"29,548",73,Bachelor,Yes,2024-01-05,B,synthetic_demo,0
+STU-00809,20,Male,Thika,Public,6.4,83.5,3.36,84.0,23,7.8,60.2,"63,536",71,Secondary,Yes,2024-08-27,B,synthetic_demo,0
+STU-00810,19,Male,Nairobi,Public,9.8,82.3,2.74,68.5,16,6.5,60.5,,64,Certificate,Yes,2024-08-09,B,synthetic_demo,0
+STU-00811,20,Male,Nakuru,Public,10.2,88.1,3.16,79.0,26,6.4,78.1,"73,828",not available,Bachelor,Yes,2024-06-27,A,synthetic_demo,0
+STU-00812,21,Male,Mombasa,Public,7.0,75.2,2.76,69.0,18,6.4,58.7,"30,581",57,Diploma,Yes,2024-04-12,C,synthetic_demo,0
+STU-00813,19,Female,Nairobi,Public,11.7,0.0,2.97,74.25,14,6.3,60.7,"49,651",64,,Yes,2024-10-19,B,synthetic_demo,0
+STU-00814,19,Female,Nakuru,Public,1.2,73.2,2.07,51.75,13,8.0,46.9,"83,924",64,Primary,Yes,2024-07-27,D,synthetic_demo,1
+STU-00815,18,Female,Nairobi,Public,6.3,79.6,1.91,47.75,17,,60.0,"62,251",62,No formal education,Yes,2024-12-13,C,synthetic_demo,0
+STU-00816,18,Female,Nakuru,Public,11.7,75.1,2.6,65.0,20,5.8,58.3,"93,958",58,Diploma,Yes,2024-09-11,C,synthetic_demo,0
+STU-00817,19,Male,Kisumu,Public,2.5,82.6,1.64,41.0,17,6.2,51.1,,not available,Primary,Yes,2024-08-17,C,synthetic_demo,1
+STU-00818,19,Female,Mombasa,Public,0.0,92.4,,,10,5.9,56.7,,not available,Diploma,Yes,2024-07-09,C,synthetic_demo,0
+STU-00819,19,Male,Nairobi,Public,6.9,87.8,2.64,66.0,15,6.6,62.4,"75,578",84,Diploma,Yes,2024-08-11,B,synthetic_demo,0
+STU-00820,17,Male,Thika,Public,9.1,72.8,2.59,64.75,16,7.4,60.7,"73,988",not available,Primary,Yes,2024-08-01,B,synthetic_demo,0
+STU-00821,19,Male,Nairobi,Public,6.8,82.4,2.57,64.25,15,6.2,59.9,"18,149",not available,,Yes,2024-10-13,C,synthetic_demo,0
+STU-00822,19,Male,Nakuru,Public,3.8,87.7,2.47,61.75,29,5.3,64.9,"26,575",81,No formal education,Yes,2024-12-13,B,synthetic_demo,0
+STU-00823,21,Male,Nairobi,Public,6.7,83.4,2.69,67.25,17,6.8,64.6,"73,243",not available,,Yes,2024-09-05,B,synthetic_demo,0
+STU-00824,22,Female,Kisumu,Public,10.4,100.0,3.63,90.75,30,6.5,96.8,"32,357",not available,Secondary,Yes,2024-02-23,A+,synthetic_demo,0
+STU-00825,20,Female,Eldoret,Public,11.3,93.5,3.08,77.0,14,8.0,81.9,,not available,Secondary,Yes,2024-12-18,A,synthetic_demo,0
+STU-00826,22,Female,Kisumu,Public,0.0,87.1,2.39,59.75,9,5.4,54.1,"5,000",67,Diploma,Yes,2024-10-13,C,synthetic_demo,1
+STU-00827,22,Female,Nairobi,Public,1.8,64.7,2.27,56.75,9,,42.1,"39,311",not available,Bachelor,Yes,2024-03-05,D,synthetic_demo,1
+STU-00828,18,Female,Nakuru,Public,10.1,82.4,3.0,75.0,16,7.3,72.4,"36,220",not available,Diploma,Yes,2024-05-13,A,synthetic_demo,0
+STU-00829,20,Female,Kisumu,Public,8.0,84.7,2.93,73.25,12,6.0,65.9,"75,776",70,Diploma,Yes,2024-12-03,B,synthetic_demo,0
+STU-00830,19,Female,Kisumu,Public,5.8,86.2,2.45,61.25,21,8.1,65.0,"48,447",not available,,Yes,2024-11-21,B,synthetic_demo,0
+STU-00831,21,Male,Nairobi,Public,6.8,91.7,,,26,6.8,68.3,"38,345",69,No formal education,Yes,2024-09-13,B,synthetic_demo,0
+STU-00832,18,Female,Other,Public,5.1,81.5,2.22,55.5,15,5.3,59.3,"53,177",60,Secondary,Yes,2024-01-04,C,synthetic_demo,0
+STU-00833,20,Male,Thika,Public,9.0,76.1,2.41,60.25,22,,61.9,"64,919",58,Diploma,Yes,2024-12-10,B,synthetic_demo,0
+STU-00834,16,Female,Kisumu,Public,2.6,,2.24,56.0,11,7.0,58.6,"15,788",54,Postgraduate,Yes,2024-09-06,C,synthetic_demo,0
+STU-00835,22,Female,Nairobi,Public,5.7,88.1,3.34,83.5,25,5.9,64.3,,59,Diploma,Yes,2024-01-27,B,synthetic_demo,0
+STU-00836,21,Female,Kisumu,Public,2.5,87.8,2.54,63.5,17,5.9,54.1,"51,800",77,Bachelor,Yes,2024-03-04,C,synthetic_demo,1
+STU-00837,20,Male,Thika,Public,3.3,47.7,,,13,,40.5,"73,635",74,Bachelor,Yes,2024-06-21,D,synthetic_demo,1
+STU-00838,18,Female,Nairobi,Public,5.5,85.7,2.42,60.5,14,6.6,70.2,,56,Bachelor,Yes,2024-08-03,A,synthetic_demo,0
+STU-00839,19,Female,Kisumu,Public,7.7,87.2,2.63,65.75,16,7.6,60.6,"77,575",66,Certificate,Yes,2024-05-23,B,synthetic_demo,0
+STU-00840,18,Male,Nairobi,Public,6.3,79.9,2.81,70.25,13,7.4,55.6,"35,802",76,,Yes,2024-07-05,C,synthetic_demo,0
+STU-00841,18,Female,Kisumu,Public,0.0,70.9,1.83,45.75,13,7.0,47.2,,67,,Yes,2024-06-26,D,synthetic_demo,1
+STU-00842,20,Male,Kisumu,Public,3.8,94.4,3.22,80.5,22,6.5,72.8,"65,763",93,Secondary,Yes,2024-08-21,A,synthetic_demo,0
+STU-00843,21,Female,Nairobi,Public,13.0,100.0,2.92,73.0,28,8.2,87.6,"61,844",62,,Yes,2024-09-05,A+,synthetic_demo,0
+STU-00844,18,Male,Thika,Public,0.8,,2.31,57.75,9,7.2,41.3,"67,493",not available,Bachelor,Yes,2024-09-18,D,synthetic_demo,1
+STU-00845,20,Male,Kisumu,Public,10.1,80.8,2.95,73.75,15,5.3,70.0,,55,Secondary,Yes,2024-06-17,B,synthetic_demo,0
+STU-00846,20,Female,Nairobi,Public,8.9,80.1,2.83,70.75,27,6.7,70.9,"56,193",83,No formal education,Yes,2024-04-01,A,synthetic_demo,0
+STU-00847,18,Female,Nakuru,Public,5.5,65.4,2.22,55.5,13,8.0,50.2,,not available,Bachelor,Yes,2024-06-01,C,synthetic_demo,1
+STU-00848,24,Female,Nairobi,Public,8.8,93.4,2.78,69.5,28,9.0,86.8,"9,092",87,Primary,Yes,2024-02-17,A+,synthetic_demo,0
+STU-00849,21,Prefer not to say,Eldoret,Public,2.3,90.0,2.83,70.75,13,9.6,67.5,"14,712",79,,Yes,2024-10-03,B,synthetic_demo,0
+STU-00850,19,Female,Nairobi,Public,2.5,65.4,2.61,65.25,16,6.4,43.6,"85,887",62,Secondary,Yes,2024-01-18,D,synthetic_demo,1
+STU-00851,18,Male,Eldoret,Public,8.3,84.6,2.61,65.25,13,7.0,61.3,"59,831",72,,Yes,2024-07-19,B,synthetic_demo,0
+STU-00852,23,Female,Eldoret,Public,4.0,68.5,2.18,54.5,9,6.5,51.5,"73,229",57,Certificate,Yes,2024-08-09,C,synthetic_demo,1
+STU-00853,21,Male,Eldoret,Public,11.6,94.6,2.9,72.5,24,4.7,72.8,"34,752",68,Bachelor,Yes,2024-02-01,A,synthetic_demo,0
+STU-00854,18,Female,Eldoret,Public,10.8,85.2,3.07,76.75,22,7.2,89.0,"28,407",63,,Yes,2024-03-05,A+,synthetic_demo,0
+STU-00855,18,Male,Mombasa,Public,7.1,81.8,2.85,71.25,18,6.0,70.9,"5,000",59,Bachelor,Yes,2024-07-04,A,synthetic_demo,0
+STU-00856,21,Male,Other,Public,9.0,78.0,2.94,73.5,19,,0.0,"60,732",not available,Certificate,Yes,2024-04-19,C,synthetic_demo,1
+STU-00857,20,Male,Nairobi,Public,10.0,88.2,2.75,68.75,30,7.8,68.5,"37,697",60,Diploma,Yes,2024-08-22,B,synthetic_demo,0
+STU-00858,22,Male,Nairobi,Public,13.2,90.3,3.38,84.5,27,5.6,87.6,"72,261",83,Diploma,Yes,2024-08-23,A+,synthetic_demo,0
+STU-00859,20,Female,Eldoret,Public,7.3,93.8,2.85,71.25,18,6.4,64.3,,90,Primary,Yes,2024-02-02,B,synthetic_demo,0
+STU-00860,20,Male,Nairobi,Public,0.2,75.2,2.04,51.0,4,9.6,43.5,,55,Postgraduate,Yes,2024-11-09,D,synthetic_demo,1
+STU-00861,20,Female,Nakuru,Public,10.4,78.0,2.62,65.5,17,,64.8,"67,511",not available,Bachelor,Yes,2024-09-11,B,synthetic_demo,0
+STU-00862,19,Female,Nakuru,Public,9.6,72.9,2.44,61.0,16,7.8,60.8,"43,202",not available,Bachelor,Yes,2024-10-20,B,synthetic_demo,0
+STU-00863,20,Female,Eldoret,Public,1.6,,2.56,64.0,10,6.1,44.8,"41,330",not available,Bachelor,Yes,2024-06-28,D,synthetic_demo,1
+STU-00864,16,Male,Mombasa,Public,5.2,,2.17,54.25,16,6.1,64.7,,68,Diploma,Yes,2024-02-08,B,synthetic_demo,0
+STU-00865,18,Female,Nairobi,Public,2.9,88.5,3.28,82.0,18,7.4,64.2,,not available,,Yes,2024-04-18,B,synthetic_demo,0
+STU-00866,16,Male,Nairobi,Public,8.7,100.0,2.66,66.5,30,6.7,87.0,,72,Diploma,Yes,2024-02-09,A+,synthetic_demo,0
+STU-00867,21,Male,Nairobi,Public,8.1,,2.25,56.25,20,7.7,61.3,"54,962",63,Primary,Yes,2024-09-17,B,synthetic_demo,0
+STU-00868,21,Female,Kisumu,Public,5.7,90.9,2.36,59.0,23,7.2,74.6,,54,,Yes,2024-08-15,A,synthetic_demo,0
+STU-00869,38,Male,Thika,Public,24.7,67.9,2.33,58.25,14,5.5,51.1,"32,521",not available,Secondary,Yes,2024-07-16,C,synthetic_demo,1
+STU-00870,16,Male,Mombasa,Public,5.2,92.5,3.05,76.25,27,7.9,75.8,"9,547",not available,,Yes,2024-02-06,A,synthetic_demo,0
+STU-00871,20,Female,Mombasa,Public,3.6,90.2,3.13,78.25,18,6.9,63.7,"66,649",54,Secondary,Yes,2024-07-10,B,synthetic_demo,0
+STU-00872,22,Female,Nairobi,Public,6.3,75.0,2.57,64.25,23,7.0,55.6,"81,780",60,Secondary,Yes,2024-01-13,C,synthetic_demo,0
+STU-00873,21,Female,Mombasa,Public,7.2,74.4,2.65,66.25,16,7.2,55.5,"57,180",66,Secondary,Yes,2024-02-20,C,synthetic_demo,0
+STU-00874,20,Male,Nakuru,Public,9.7,83.7,3.18,79.5,21,8.0,69.4,,73,Diploma,Yes,2024-07-11,B,synthetic_demo,0
+STU-00875,21,Female,Nakuru,Public,9.2,69.3,3.23,80.75,21,6.0,69.1,"49,036",62,Certificate,Yes,2024-04-19,B,synthetic_demo,0
+STU-00876,16,Female,Nakuru,Public,9.1,78.4,2.99,74.75,17,5.5,60.1,,69,Diploma,Yes,2024-03-25,B,synthetic_demo,0
+STU-00877,20,Male,Nairobi,Public,12.3,84.2,2.88,72.0,20,5.8,70.8,"45,833",69,Secondary,Yes,2024-08-12,A,synthetic_demo,0
+STU-00878,20,Male,Nakuru,Public,5.9,94.4,2.05,51.25,14,8.5,65.4,"58,752",69,Certificate,Yes,2024-12-22,B,synthetic_demo,0
+STU-00879,19,Male,Mombasa,Public,6.5,78.6,2.81,70.25,22,6.2,75.8,,not available,,No,2024-12-06,A,synthetic_demo,0
+STU-00880,21,Female,Nairobi,Public,3.7,91.8,3.31,82.75,14,,61.4,"78,077",not available,Secondary,Yes,2024-04-28,B,synthetic_demo,0
+STU-00881,18,Female,Kisumu,Public,7.7,95.8,2.45,61.25,21,9.5,70.8,"73,622",52,,Yes,2024-06-26,A,synthetic_demo,0
+STU-00882,18,Male,Nakuru,Public,6.1,88.3,2.78,69.5,19,5.5,67.1,,not available,Secondary,Yes,2024-09-01,B,synthetic_demo,0
+STU-00883,17,Female,Nairobi,Public,5.2,80.5,2.28,57.0,16,,54.0,"40,753",not available,Secondary,Yes,2024-09-09,C,synthetic_demo,1
+STU-00884,20,Female,Mombasa,Public,2.0,68.6,2.26,56.5,15,6.7,46.0,"61,593",58,Secondary,Yes,2024-12-18,D,synthetic_demo,1
+STU-00885,21,Male,Eldoret,Public,6.3,83.7,2.93,73.25,19,8.5,69.9,"91,141",67,Postgraduate,Yes,2024-02-13,B,synthetic_demo,0
+STU-00886,19,Male,Kisumu,Public,10.0,100.0,2.98,74.5,25,6.9,74.3,"70,078",76,,Yes,2024-11-25,A,synthetic_demo,0
+STU-00887,23,Female,Nairobi,Public,2.6,54.1,1.86,46.5,3,5.8,24.8,,62,Secondary,Yes,2024-09-09,E,synthetic_demo,1
+STU-00888,19,Male,Eldoret,Public,3.4,82.9,3.34,83.5,26,7.3,67.6,"38,108",72,Bachelor,Yes,2024-07-18,B,synthetic_demo,0
+STU-00889,22,Male,Mombasa,Public,0.0,80.8,2.35,58.75,16,6.2,50.1,"30,980",76,Diploma,Yes,2024-12-04,C,synthetic_demo,1
+STU-00890,20,Female,Mombasa,Public,5.7,100.0,2.78,69.5,27,6.3,71.4,"43,911",not available,Bachelor,Yes,2024-10-13,A,synthetic_demo,0
+STU-00891,21,Female,Mombasa,Public,3.9,80.2,3.12,78.0,18,7.9,66.7,"51,712",78,,Yes,2024-11-20,B,synthetic_demo,0
+STU-00892,19,Male,Nairobi,Public,10.6,83.4,2.85,71.25,23,6.2,69.9,,62,Postgraduate,Yes,2024-12-27,B,synthetic_demo,0
+STU-00893,18,Male,Mombasa,Public,8.3,68.6,3.0,75.0,24,,66.3,,77,Bachelor,Yes,2024-06-05,B,synthetic_demo,0
+STU-00894,19,Male,Other,Public,6.5,85.0,2.72,68.0,24,7.4,59.9,"60,478",59,Diploma,Yes,2024-11-09,C,synthetic_demo,0
+STU-00895,19,Male,Nairobi,Public,8.3,93.2,3.04,76.0,24,7.3,78.7,"50,090",not available,,Yes,2024-06-17,A,synthetic_demo,0
+STU-00896,18,Male,Nakuru,Public,8.0,,2.64,66.0,11,6.1,56.6,"5,000",55,Secondary,Yes,2024-01-09,C,synthetic_demo,0
+STU-00897,20,Female,Kisumu,Public,8.7,100.0,3.72,93.0,20,8.3,70.5,,62,,Yes,2024-11-27,A,synthetic_demo,0
+STU-00898,17,Female,Kisumu,Public,5.2,77.5,2.47,61.75,24,6.6,54.7,"77,277",69,Diploma,Yes,2024-11-09,C,synthetic_demo,1
+STU-00899,19,Male,Nairobi,Public,11.2,100.0,3.42,85.5,23,6.4,81.2,"72,574",74,Primary,Yes,2024-07-11,A,synthetic_demo,0
+STU-00900,20,Female,Nairobi,Public,2.9,74.0,2.92,73.0,19,8.5,51.0,"26,547",61,Diploma,Yes,2024-04-18,C,synthetic_demo,1
+STU-00901,20,Male,Nairobi,Public,12.0,100.0,3.3,82.5,22,5.2,79.7,"38,666",not available,Secondary,Yes,2024-06-25,A,synthetic_demo,0
+STU-00902,19,Male,Other,Public,4.0,89.8,3.18,79.5,14,6.3,56.9,"16,028",not available,Primary,Yes,2024-02-03,C,synthetic_demo,0
+STU-00903,19,Male,Thika,Public,10.5,83.5,3.51,87.75,30,,78.3,"36,932",64,Diploma,Yes,2024-11-09,A,synthetic_demo,0
+STU-00904,19,Female,Nakuru,Public,5.9,98.0,2.35,58.75,17,7.3,76.5,,63,,Yes,2024-05-06,A,synthetic_demo,0
+STU-00905,20,Female,Nairobi,Private,6.2,74.8,,,14,8.8,61.8,,51,Secondary,Yes,2024-04-03,B,synthetic_demo,0
+STU-00906,18,Female,Nairobi,Public,7.6,95.6,3.54,88.5,28,6.4,81.8,,not available,,Yes,2024-01-20,A,synthetic_demo,0
+STU-00907,18,Male,Mombasa,Public,3.7,84.3,2.58,64.5,16,7.6,66.5,"78,628",81,Certificate,Yes,2024-06-03,B,synthetic_demo,0
+STU-00908,18,Female,Thika,Public,0.0,74.0,2.81,70.25,16,7.2,47.2,"57,713",42,Primary,Yes,2024-09-13,D,synthetic_demo,1
+STU-00909,21,Male,Mombasa,Public,0.0,65.4,2.06,51.5,18,6.9,39.6,"77,218",69,,Yes,2024-08-13,E,synthetic_demo,1
+STU-00910,18,Male,Nakuru,Public,5.1,72.7,2.7,67.5,15,,61.8,,60,Primary,No,2024-06-14,B,synthetic_demo,0
+STU-00911,16,Female,Other,Public,7.7,95.8,2.71,67.75,14,7.6,73.8,"64,281",64,Primary,Yes,2024-02-01,A,synthetic_demo,0
+STU-00912,20,Female,Kisumu,Public,5.8,73.8,2.41,60.25,23,7.1,61.5,"51,213",65,Certificate,Yes,2024-11-12,B,synthetic_demo,0
+STU-00913,17,Female,Thika,Public,5.1,86.7,1.89,47.25,16,5.5,54.2,,48,No formal education,Yes,2024-02-22,C,synthetic_demo,1
+STU-00914,18,Female,Nairobi,Public,10.0,82.0,2.44,61.0,21,8.0,63.5,,67,No formal education,Yes,2024-10-28,B,synthetic_demo,0
+STU-00915,21,Female,Nairobi,Public,8.4,86.3,,,19,7.6,62.8,"5,000",65,Secondary,Yes,2024-05-27,B,synthetic_demo,0
+STU-00916,17,Female,Nairobi,Public,0.8,75.5,2.71,67.75,24,8.6,58.6,"53,797",50,Secondary,Yes,2024-10-19,C,synthetic_demo,0
+STU-00917,22,Male,Eldoret,Public,12.3,100.0,3.56,89.0,24,6.0,73.5,"61,261",69,,Yes,2024-03-12,A,synthetic_demo,0
+STU-00918,18,Female,Nakuru,Public,6.8,84.5,2.08,52.0,21,6.2,67.5,"39,123",not available,,No,2024-02-04,B,synthetic_demo,0
+STU-00919,20,Female,Eldoret,Public,12.1,61.0,1.7,42.5,17,8.4,51.1,"23,499",55,Bachelor,Yes,2024-03-13,C,synthetic_demo,1
+STU-00920,19,Male,Nairobi,Public,3.2,93.2,3.31,82.75,24,,68.5,"68,016",59,Secondary,Yes,2024-08-26,B,synthetic_demo,0
+STU-00921,18,Female,Mombasa,Public,0.0,88.8,2.46,61.5,13,5.9,57.8,"93,442",72,Secondary,Yes,2024-12-05,C,synthetic_demo,0
+STU-00922,21,Female,Nairobi,Public,1.7,80.4,2.87,71.75,19,8.7,66.6,"24,761",58,Postgraduate,Yes,2024-06-01,B,synthetic_demo,0
+STU-00923,16,Male,Nairobi,Public,11.4,,3.75,93.75,27,6.2,71.8,"34,209",69,Secondary,Yes,2024-06-05,A,synthetic_demo,0
+STU-00924,22,Female,Eldoret,Public,7.5,98.8,2.85,71.25,13,8.8,-1.0,"71,486",71,Postgraduate,Yes,2024-02-24,A,synthetic_demo,1
+STU-00925,20,Male,Nairobi,Public,4.8,72.9,2.6,65.0,21,9.7,62.7,"20,403",59,Primary,Yes,2024-05-04,B,synthetic_demo,0
+STU-00926,20,Female,Nairobi,Public,3.2,76.9,1.6,40.0,22,6.9,54.8,"24,589",not available,,Yes,2024-09-02,C,synthetic_demo,1
+STU-00927,22,Female,Nairobi,Public,4.5,73.8,1.66,41.5,22,,57.1,"66,370",62,Secondary,Yes,2024-12-23,C,synthetic_demo,0
+STU-00928,19,Male,Kisumu,Public,10.4,76.6,2.67,66.75,16,7.1,64.9,"35,579",not available,Bachelor,Yes,2024-10-23,B,synthetic_demo,0
+STU-00929,20,Female,Nairobi,Public,6.7,84.1,2.06,51.5,18,6.3,55.2,"24,265",not available,Postgraduate,Yes,2024-03-22,C,synthetic_demo,0
+STU-00930,20,Male,Mombasa,Public,7.9,77.7,2.43,60.75,17,7.1,69.0,"29,297",66,Diploma,Yes,2024-06-06,B,synthetic_demo,0
+STU-00931,19,Prefer not to say,Nairobi,Public,0.9,85.9,2.45,61.25,13,,53.6,"94,175",54,Postgraduate,No,2024-07-01,C,synthetic_demo,1
+STU-00932,17,Female,Kisumu,Public,3.4,78.6,2.67,66.75,14,8.4,51.7,"45,278",74,Primary,Yes,2024-11-06,C,synthetic_demo,1
+STU-00933,19,Female,Nairobi,Public,11.3,79.6,2.97,74.25,19,8.2,78.7,"74,221",not available,Diploma,Yes,2024-07-08,A,synthetic_demo,0
+STU-00934,22,Female,Nairobi,Public,14.2,80.8,3.48,87.0,30,,80.9,"41,121",not available,Diploma,Yes,2024-05-02,A,synthetic_demo,0
+STU-00935,20,Male,Mombasa,Public,9.3,100.0,2.59,64.75,24,5.8,76.4,,72,Diploma,Yes,2024-09-12,A,synthetic_demo,0
+STU-00936,18,Female,Nairobi,Public,10.6,79.0,2.65,66.25,19,7.5,68.9,,58,Secondary,Yes,2024-05-07,B,synthetic_demo,0
+STU-00937,21,Female,Mombasa,Public,4.8,84.2,2.01,50.25,20,7.8,55.0,"46,989",52,Certificate,Yes,2024-11-06,C,synthetic_demo,0
+STU-00938,40,Prefer not to say,Nairobi,Public,29.8,70.6,2.83,70.75,12,5.2,54.7,,45,Secondary,Yes,2024-04-25,C,synthetic_demo,1
+STU-00939,20,Female,Nairobi,Public,5.2,82.3,2.27,56.75,29,5.2,53.2,"69,913",59,Diploma,Yes,2024-08-13,C,synthetic_demo,1
+STU-00940,19,Male,Nakuru,Public,3.5,70.9,,,19,8.3,49.5,,68,Bachelor,Yes,2024-12-27,D,synthetic_demo,1
+STU-00941,21,Female,Nairobi,Public,8.1,70.3,2.88,72.0,20,7.5,63.0,"66,222",not available,Secondary,Yes,2024-06-05,B,synthetic_demo,0
+STU-00942,19,Prefer not to say,Nakuru,Public,7.6,72.7,2.97,74.25,21,7.3,58.0,"34,748",not available,Primary,No,2024-05-28,C,synthetic_demo,0
+STU-00943,20,Female,Kisumu,Public,1.0,70.8,2.16,54.0,13,7.0,53.1,"74,552",51,Postgraduate,Yes,2024-07-06,C,synthetic_demo,1
+STU-00944,20,Female,Nakuru,Public,2.1,87.5,2.79,69.75,18,7.9,52.8,"32,971",71,Secondary,Yes,2024-09-10,C,synthetic_demo,1
+STU-00945,19,Male,Nairobi,Public,9.0,76.4,2.57,64.25,12,7.5,49.4,,65,Secondary,Yes,2024-07-17,D,synthetic_demo,1
+STU-00946,19,Female,Nairobi,Public,7.8,98.4,,,22,6.7,73.3,"26,554",67,,Yes,2024-01-08,A,synthetic_demo,0
+STU-00947,21,Male,Nakuru,Public,9.1,90.5,2.98,74.5,25,7.1,75.5,"6,736",58,,Yes,2024-06-14,A,synthetic_demo,0
+STU-00948,17,Male,Nairobi,Public,6.4,87.9,3.31,82.75,21,7.5,66.4,"55,926",76,Secondary,Yes,2024-05-16,B,synthetic_demo,0
+STU-00949,20,Male,Nairobi,Public,6.0,82.0,2.33,58.25,13,7.3,54.8,"63,647",63,Bachelor,Yes,2024-09-27,C,synthetic_demo,1
+STU-00950,19,Male,Mombasa,Public,7.3,84.4,3.28,82.0,24,7.5,79.3,"20,947",45,Bachelor,Yes,2024-11-02,A,synthetic_demo,0
+STU-00951,22,Female,Nairobi,Public,6.2,80.1,2.85,71.25,15,7.2,72.8,,74,,Yes,2024-10-13,A,synthetic_demo,0
+STU-00952,19,Female,Mombasa,Public,9.6,89.7,3.25,81.25,22,7.3,68.4,"23,653",not available,Secondary,Yes,2024-07-01,B,synthetic_demo,0
+STU-00953,16,Female,Nairobi,Public,2.5,88.7,2.86,71.5,21,,63.0,,56,Diploma,Yes,2024-03-23,B,synthetic_demo,0
+STU-00954,20,Male,Nairobi,Public,0.0,70.5,2.11,52.75,11,6.0,51.6,"48,017",59,No formal education,Yes,2024-01-18,C,synthetic_demo,1
+STU-00955,20,Female,Thika,Public,12.8,86.6,,,20,5.9,70.2,"11,186",62,Diploma,Yes,2024-03-25,A,synthetic_demo,0
+STU-00956,17,Female,Nairobi,Public,1.4,66.9,2.96,74.0,16,5.8,57.2,,84,No formal education,Yes,2024-04-17,C,synthetic_demo,0
+STU-00957,17,Male,Mombasa,Public,2.9,100.0,3.2,80.0,11,,72.8,"69,197",66,Secondary,Yes,2024-03-28,A,synthetic_demo,0
+STU-00958,21,Female,Mombasa,Public,6.7,85.1,2.45,61.25,25,6.9,64.6,"66,054",65,Secondary,Yes,2024-10-10,B,synthetic_demo,0
+STU-00959,17,Female,Nairobi,Public,3.5,86.4,2.18,54.5,20,5.6,48.5,"33,323",58,Certificate,Yes,2024-04-05,D,synthetic_demo,1
+STU-00960,20,Male,Thika,Public,4.2,87.5,3.06,76.5,17,9.5,69.5,,74,Secondary,Yes,2024-04-19,B,synthetic_demo,0
+STU-00961,20,Male,Thika,Public,7.0,57.9,3.14,78.5,21,6.0,65.4,"71,547",62,Bachelor,Yes,2024-12-27,B,synthetic_demo,0
+STU-00962,18,Female,Nairobi,Public,12.0,75.5,2.85,71.25,21,7.4,62.7,,not available,Diploma,Yes,2024-03-06,B,synthetic_demo,0
+STU-00963,20,Female,Nairobi,Public,3.7,71.1,2.23,55.75,14,7.1,53.9,"53,766",56,Bachelor,Yes,2024-03-22,C,synthetic_demo,1
+STU-00964,20,Male,Nairobi,Public,6.7,84.4,2.58,64.5,14,6.6,59.5,,60,Secondary,Yes,2024-05-06,C,synthetic_demo,0
+STU-00965,21,Female,Nairobi,Public,8.5,67.2,2.75,68.75,13,30.0,58.1,"42,055",61,Certificate,No,2024-11-02,C,synthetic_demo,0
+STU-00966,19,Female,Mombasa,Public,5.9,94.6,2.51,62.75,14,5.9,56.3,"67,720",90,Bachelor,Yes,2024-08-15,C,synthetic_demo,0
+STU-00967,19,Female,Eldoret,Public,0.7,73.8,3.04,76.0,27,5.8,60.9,"45,324",66,Secondary,Yes,2024-12-13,B,synthetic_demo,0
+STU-00968,20,Male,Nairobi,Public,5.7,62.5,3.09,77.25,18,,47.3,"54,794",65,Diploma,Yes,2024-12-26,D,synthetic_demo,1
+STU-00969,18,Male,Nairobi,Public,10.0,71.1,2.62,65.5,14,7.4,55.4,,57,Bachelor,Yes,2024-04-03,C,synthetic_demo,0
+STU-00970,18,Male,Nairobi,Public,6.9,74.7,2.53,63.25,20,6.5,52.0,,66,Diploma,Yes,2024-01-02,C,synthetic_demo,1
+STU-00971,18,Female,Mombasa,Public,12.2,86.1,2.17,54.25,16,6.1,70.2,"41,279",57,Postgraduate,Yes,2024-02-03,A,synthetic_demo,0
+STU-00972,20,Female,Nakuru,Public,6.4,100.0,2.7,67.5,23,5.1,66.6,,65,Bachelor,Yes,2024-09-05,B,synthetic_demo,0
+STU-00973,21,Male,Mombasa,Public,3.5,79.7,3.19,79.75,9,7.5,63.0,"60,555",62,Certificate,No,2024-02-28,B,synthetic_demo,0
+STU-00974,18,Female,Eldoret,Public,2.0,63.6,2.25,56.25,16,5.8,46.2,"33,023",58,Primary,Yes,2024-05-12,D,synthetic_demo,1
+STU-00975,19,Male,Kisumu,Public,4.3,64.3,2.92,73.0,14,7.6,57.3,"62,714",not available,Bachelor,Yes,2024-12-10,C,synthetic_demo,0
+STU-00976,16,Female,Thika,Public,8.0,78.0,2.34,58.5,14,6.7,58.0,"12,735",not available,,Yes,2024-03-15,C,synthetic_demo,0
+STU-00977,18,Female,Eldoret,Public,2.8,71.2,2.87,71.75,16,,65.9,,59,Secondary,Yes,2024-02-16,B,synthetic_demo,0
+STU-00978,21,Male,Nairobi,Public,2.1,86.4,3.07,76.75,13,5.5,56.9,"56,070",81,Bachelor,Yes,2024-11-28,C,synthetic_demo,0
+STU-00979,18,Female,Nairobi,Public,3.0,71.2,2.55,63.75,15,6.8,42.0,"10,332",not available,Primary,Yes,2024-10-14,D,synthetic_demo,1
+STU-00980,20,Female,Nairobi,Public,1.0,76.5,3.34,83.5,24,,63.5,"40,635",not available,Bachelor,Yes,2024-05-21,B,synthetic_demo,0
+STU-00981,18,Male,Nairobi,Public,0.2,71.5,2.28,57.0,18,7.8,40.8,"76,855",51,Secondary,Yes,2024-11-08,D,synthetic_demo,1
+STU-00982,22,Female,Nairobi,Public,10.7,80.0,2.42,60.5,22,4.7,60.2,"46,392",71,Diploma,No,2024-09-25,B,synthetic_demo,0
+STU-00983,20,Male,Nairobi,Public,5.4,85.6,2.68,67.0,26,7.3,81.9,"62,610",60,Primary,Yes,2024-07-27,A,synthetic_demo,0
+STU-00984,20,Female,Kisumu,Public,9.3,85.9,2.98,74.5,22,7.9,72.9,"28,227",80,No formal education,No,2024-01-19,A,synthetic_demo,0
+STU-00985,22,Male,Nakuru,Public,10.8,100.0,3.33,83.25,30,5.9,89.2,,76,Secondary,Yes,2024-08-21,A+,synthetic_demo,0
+STU-00986,17,Male,Nairobi,Public,10.1,79.1,3.09,77.25,29,,66.6,"38,591",67,,Yes,2024-01-06,B,synthetic_demo,0
+STU-00987,19,Male,Nairobi,Public,12.0,79.4,3.85,96.25,26,,82.9,"61,389",64,No formal education,Yes,2024-02-11,A,synthetic_demo,0
+STU-00988,19,Female,Kisumu,Public,9.1,96.5,2.81,70.25,26,,79.7,,71,Primary,Yes,2024-01-21,A,synthetic_demo,0
+STU-00989,20,Female,Other,Public,10.8,95.8,,,12,4.1,61.0,"40,158",64,,Yes,2024-02-07,B,synthetic_demo,0
+STU-00990,20,Female,Nairobi,Public,3.6,82.0,2.09,52.25,10,6.7,47.2,,61,,Yes,2024-02-10,D,synthetic_demo,1
+STU-00991,17,Female,Mombasa,Public,2.1,88.4,2.7,67.5,22,5.4,58.1,"25,055",70,,Yes,2024-03-19,C,synthetic_demo,0
+STU-00992,22,Female,Thika,Public,9.8,89.9,2.78,69.5,17,6.2,71.1,"41,491",66,Secondary,No,2024-07-16,A,synthetic_demo,0
+STU-00993,22,Female,Nairobi,Public,2.4,57.6,2.35,58.75,14,6.7,28.9,"31,524",59,Secondary,Yes,2024-12-13,E,synthetic_demo,1
+STU-00994,22,Male,Kisumu,Public,1.5,100.0,3.37,84.25,21,7.6,79.1,"57,822",65,Secondary,Yes,2024-10-09,A,synthetic_demo,0
+STU-00995,19,Female,Kisumu,Public,11.3,74.2,3.31,82.75,25,6.8,78.3,"49,610",71,Secondary,Yes,2024-05-24,A,synthetic_demo,0
+STU-00996,19,Female,Mombasa,Public,6.9,73.0,1.75,43.75,2,9.4,55.9,"90,489",47,Diploma,Yes,2024-06-24,C,synthetic_demo,0
+STU-00997,20,Female,Mombasa,Public,2.6,80.1,2.42,60.5,20,7.0,42.2,,53,Primary,Yes,2024-05-14,D,synthetic_demo,1
+STU-00998,22,Male,Nairobi,Public,2.7,57.0,2.11,52.75,12,7.9,38.6,,64,Postgraduate,Yes,2024-08-11,E,synthetic_demo,1
+STU-00999,19,Female,Other,Public,5.1,72.7,2.12,53.0,16,7.2,59.0,,63,Diploma,Yes,2024-03-18,C,synthetic_demo,0
+STU-01000,19,Female,Nairobi,Public,0.1,91.5,2.72,68.0,15,7.5,43.7,"37,658",67,,Yes,2024-02-27,D,synthetic_demo,1
+STU-01001,20,Male,Nairobi,Public,0.6,85.8,,,20,,61.8,"71,488",59,Secondary,Yes,2024-09-12,B,synthetic_demo,0
+STU-01002,17,Female,Other,Public,10.7,87.9,3.7,92.5,26,8.1,65.5,"38,503",66,Certificate,Yes,2024-07-16,B,synthetic_demo,0
+STU-01003,21,Female,Nairobi,Public,9.8,96.8,,,24,8.1,70.9,"39,218",64,Primary,Yes,2024-06-23,A,synthetic_demo,0
+STU-01004,19,Male,Nairobi,Public,8.3,93.7,2.29,57.25,15,,64.2,"73,638",78,Diploma,Yes,2024-01-07,B,synthetic_demo,0
+STU-01005,19,Female,Thika,Public,2.5,82.8,,,15,7.0,47.0,,59,Diploma,Yes,2024-04-24,D,synthetic_demo,1
+STU-01006,19,Female,Kisumu,Public,0.0,91.6,2.45,61.25,15,7.0,58.7,"53,547",not available,,Yes,2024-11-06,C,synthetic_demo,0
+STU-01007,19,Male,Eldoret,Public,6.0,84.6,3.01,75.25,12,8.6,67.8,"70,308",71,Certificate,Yes,2024-09-04,B,synthetic_demo,0
+STU-01008,20,Female,Nairobi,Public,5.4,98.5,3.01,75.25,20,6.9,64.2,"37,653",67,Secondary,Yes,2024-10-28,B,synthetic_demo,0
+STU-01009,20,Female,Mombasa,Public,2.7,70.2,2.27,56.75,16,6.9,53.8,"76,914",60,Secondary,Yes,2024-05-05,C,synthetic_demo,1
+STU-01010,18,Male,Kisumu,Public,4.7,76.4,2.2,55.0,23,6.5,51.2,"12,211",58,Secondary,Yes,2024-04-02,C,synthetic_demo,1
+STU-01011,20,Male,Kisumu,Public,5.3,89.9,2.29,57.25,20,7.6,56.9,,80,Bachelor,Yes,2024-01-23,C,synthetic_demo,0
+STU-01012,18,Male,Nairobi,Public,9.1,89.7,2.51,62.75,20,6.9,71.1,,45,Postgraduate,Yes,2024-04-18,A,synthetic_demo,0
+STU-01013,19,Female,Mombasa,Public,6.8,84.0,3.11,77.75,18,8.0,65.6,"45,062",not available,Secondary,Yes,2024-06-27,B,synthetic_demo,0
+STU-01014,22,Male,Nairobi,Public,10.7,74.6,3.06,76.5,25,5.7,72.4,"65,006",62,Primary,Yes,2024-01-07,A,synthetic_demo,0
+STU-01015,19,Female,Mombasa,Public,7.2,100.0,,,23,6.5,73.5,,69,Secondary,Yes,2024-02-24,A,synthetic_demo,0
+STU-01016,19,Female,Kisumu,Public,4.7,83.3,2.96,74.0,19,5.6,69.9,"36,829",58,Bachelor,Yes,2024-04-16,B,synthetic_demo,0
+STU-01017,20,Female,Thika,Public,7.3,69.0,,,15,7.2,52.8,"5,000",58,,Yes,2024-08-20,C,synthetic_demo,1
+STU-01018,18,Female,Nairobi,Public,6.2,79.3,2.75,68.75,22,5.6,59.2,,50,Diploma,Yes,2024-08-24,C,synthetic_demo,0
+STU-01019,19,Male,Nairobi,Public,10.8,80.2,2.82,70.5,16,7.3,67.2,"74,138",not available,Secondary,Yes,2024-03-23,B,synthetic_demo,0
+STU-01020,16,Female,Nairobi,Public,8.1,84.4,2.64,66.0,27,,68.0,"85,598",not available,Diploma,Yes,2024-11-18,B,synthetic_demo,0
+STU-01021,19,Male,Nairobi,Public,3.0,71.1,2.41,60.25,9,6.9,43.8,"30,029",70,,Yes,2024-10-25,D,synthetic_demo,1
+STU-01022,22,Male,Nakuru,Public,3.9,80.5,2.54,63.5,14,8.2,61.6,"32,293",75,Diploma,Yes,2024-06-23,B,synthetic_demo,0
+STU-01023,22,Female,Other,Public,4.6,77.2,2.82,70.5,17,8.0,57.7,"57,576",52,Postgraduate,Yes,2024-09-14,C,synthetic_demo,0
+STU-01024,22,Female,Kisumu,Public,5.7,79.7,2.84,71.0,20,7.2,68.1,"73,915",74,Secondary,Yes,2024-01-06,B,synthetic_demo,0
+STU-01025,18,Male,Kisumu,Public,3.9,90.5,2.99,74.75,12,8.1,67.6,"32,510",not available,Primary,Yes,2024-05-03,B,synthetic_demo,0
+STU-01026,16,Male,Nakuru,Public,3.9,67.8,2.5,62.5,7,6.2,54.0,,64,Secondary,Yes,2024-06-06,C,synthetic_demo,1
+STU-01027,19,Male,Nairobi,Public,8.2,80.1,2.87,71.75,23,5.7,66.2,"34,124",60,Diploma,Yes,2024-07-09,B,synthetic_demo,0
+STU-01028,20,Female,Nakuru,Public,6.9,63.1,2.91,72.75,15,7.5,56.2,,63,Diploma,Yes,2024-02-02,C,synthetic_demo,0
+STU-01029,20,Female,Mombasa,Public,4.5,61.7,2.9,72.5,13,6.6,58.1,,57,Bachelor,Yes,2024-06-09,C,synthetic_demo,0
+STU-01030,20,Male,Nairobi,Public,6.0,75.4,2.14,53.5,11,6.7,51.9,"32,509",50,Postgraduate,Yes,2024-06-05,C,synthetic_demo,1
+STU-01031,20,Female,Other,Public,9.1,89.4,3.46,86.5,25,5.7,85.3,"52,553",75,Secondary,Yes,2024-07-09,A+,synthetic_demo,0
+STU-01032,18,Female,Kisumu,Public,4.4,91.6,2.2,55.0,19,7.6,61.8,"54,194",56,Diploma,Yes,2024-01-23,B,synthetic_demo,0
+STU-01033,20,Female,Nairobi,Public,3.7,74.1,2.44,61.0,14,8.4,56.7,,79,Certificate,Yes,2024-11-07,C,synthetic_demo,0
+STU-01034,20,Female,Thika,Public,8.9,93.4,3.1,77.5,19,5.4,86.9,"67,456",72,Certificate,Yes,2024-12-11,A+,synthetic_demo,0
+STU-01035,16,Male,Nairobi,Public,6.6,82.8,2.69,67.25,19,7.1,69.7,,73,Bachelor,Yes,2024-09-27,B,synthetic_demo,0
+STU-01036,22,Female,Nakuru,Public,8.6,84.0,2.45,61.25,23,6.8,74.7,"19,729",62,Postgraduate,Yes,2024-08-18,A,synthetic_demo,0
+STU-01037,20,Prefer not to say,Mombasa,Public,2.6,54.1,2.56,64.0,16,6.9,54.8,"5,057",66,Bachelor,Yes,2024-03-27,C,synthetic_demo,1
+STU-01038,24,Male,Thika,Public,3.4,88.3,2.23,55.75,10,6.6,42.8,,53,Secondary,Yes,2024-12-03,D,synthetic_demo,1
+STU-01039,20,Female,Nairobi,Public,6.5,93.7,2.81,70.25,20,6.2,72.5,,not available,Secondary,Yes,2024-08-18,A,synthetic_demo,0
+STU-01040,19,Female,Eldoret,Public,8.6,78.9,2.92,73.0,20,6.0,52.6,"75,067",77,Certificate,Yes,2024-06-16,C,synthetic_demo,1
+STU-01041,19,Female,Other,Public,2.6,77.6,2.95,73.75,24,,72.0,"90,382",61,Primary,Yes,2024-02-09,A,synthetic_demo,0
+STU-01042,18,Female,Eldoret,Public,0.2,62.7,2.08,52.0,10,7.6,48.5,"31,960",not available,Bachelor,Yes,2024-10-11,D,synthetic_demo,1
+STU-01043,22,Male,Nairobi,Public,5.1,71.0,2.97,74.25,15,6.3,67.4,"30,640",not available,Postgraduate,Yes,2024-08-19,B,synthetic_demo,0
+STU-01044,22,Female,Kisumu,Public,7.0,94.7,3.59,89.75,15,8.0,64.2,"41,514",not available,Diploma,Yes,2024-07-21,B,synthetic_demo,0
+STU-01045,18,Male,Nairobi,Public,2.0,60.1,2.74,68.5,8,7.5,48.4,"90,976",not available,Postgraduate,Yes,2024-10-22,D,synthetic_demo,1
+STU-01046,18,Male,Mombasa,Public,5.7,80.8,,,20,6.3,69.3,,not available,,Yes,2024-06-24,B,synthetic_demo,0
+STU-01047,19,Female,Nairobi,Public,5.3,75.0,2.89,72.25,20,,61.7,"49,286",66,Certificate,Yes,2024-10-19,B,synthetic_demo,0
+STU-01048,22,Female,Nairobi,Public,5.3,75.7,1.82,45.5,21,7.9,46.9,"50,094",62,Postgraduate,Yes,2024-08-03,D,synthetic_demo,1
+STU-01049,21,Female,Nairobi,Public,10.9,81.7,3.45,86.25,26,5.3,65.8,,79,Postgraduate,Yes,2024-01-24,B,synthetic_demo,0
+STU-01050,19,Male,Kisumu,Public,0.0,62.9,1.89,47.25,2,6.9,28.8,"23,342",42,Certificate,Yes,2024-09-07,E,synthetic_demo,1
+STU-01051,21,Male,Nairobi,Public,1.9,83.8,2.87,71.75,9,4.8,61.7,"88,116",68,Secondary,No,2024-03-15,B,synthetic_demo,0
+STU-01052,21,Female,Nairobi,Public,6.7,93.3,2.72,68.0,29,,67.2,,59,Certificate,Yes,2024-04-23,B,synthetic_demo,0
+STU-01053,19,Male,Mombasa,Public,4.4,80.4,2.62,65.5,11,7.5,45.3,"45,663",not available,Postgraduate,Yes,2024-08-14,D,synthetic_demo,1
+STU-01054,19,Male,Mombasa,Public,1.9,,3.12,78.0,25,6.8,72.2,"91,112",not available,Certificate,Yes,2024-03-20,A,synthetic_demo,0
+STU-01055,19,Female,Kisumu,Public,7.3,76.7,2.89,72.25,16,6.3,59.2,"48,928",59,Secondary,Yes,2024-01-26,C,synthetic_demo,0
+STU-01056,22,Female,Thika,Public,0.0,65.3,1.88,47.0,14,5.7,35.3,"14,532",55,Secondary,Yes,2024-09-23,E,synthetic_demo,1
+STU-01057,21,Female,Nairobi,Public,5.3,74.8,,,18,9.5,56.9,"49,084",89,Postgraduate,Yes,2024-10-26,C,synthetic_demo,0
+STU-01058,18,Male,Nairobi,Public,8.8,71.1,2.36,59.0,13,8.3,60.4,,67,Bachelor,Yes,2024-11-05,B,synthetic_demo,0
+STU-01059,19,Male,Thika,Public,9.2,74.1,1.97,49.25,25,6.3,59.3,"26,543",not available,Secondary,Yes,2024-02-25,C,synthetic_demo,0
+STU-01060,24,Male,Nairobi,Public,8.5,86.4,3.04,76.0,26,6.6,73.7,,62,Secondary,Yes,2024-06-20,A,synthetic_demo,0
+STU-01061,19,Male,Nakuru,Public,0.0,92.3,2.65,66.25,16,8.2,58.7,,not available,Certificate,Yes,2024-02-20,C,synthetic_demo,0
+STU-01062,18,Female,Kisumu,Public,6.0,81.3,3.4,85.0,17,8.3,67.9,"71,149",56,Certificate,Yes,2024-02-07,B,synthetic_demo,0
+STU-01063,21,Male,Other,Public,3.6,80.7,2.26,56.5,17,7.4,55.3,"75,296",48,Certificate,Yes,2024-01-13,C,synthetic_demo,0
+STU-01064,19,Female,Mombasa,Public,1.8,83.4,3.14,78.5,25,7.2,65.8,"51,319",64,Secondary,Yes,2024-08-14,B,synthetic_demo,0
+STU-01065,25,Male,Other,Public,10.2,88.4,,,29,8.9,80.1,"5,000",not available,Diploma,Yes,2024-08-13,A,synthetic_demo,0
+STU-01066,21,Female,Nakuru,Public,6.5,77.4,3.34,83.5,24,,68.9,"39,242",64,Certificate,Yes,2024-10-08,B,synthetic_demo,0
+STU-01067,20,Female,Mombasa,Public,8.1,82.3,3.1,77.5,22,7.5,67.9,"79,910",82,,Yes,2024-11-08,B,synthetic_demo,0
+STU-01068,22,Female,Nairobi,Public,2.5,89.4,2.2,55.0,9,7.5,51.9,"43,616",72,,Yes,2024-01-01,C,synthetic_demo,1
+STU-01069,21,Male,Nairobi,Public,9.5,82.8,3.31,82.75,23,4.8,81.4,"41,974",82,Certificate,Yes,2024-08-17,A,synthetic_demo,0
+STU-01070,17,Male,Eldoret,Public,4.6,89.2,2.63,65.75,13,5.6,48.7,,58,Bachelor,Yes,2024-12-17,D,synthetic_demo,1
+STU-01071,19,Female,Nairobi,Public,19.6,92.3,3.03,75.75,17,7.7,89.0,"66,622",70,Bachelor,Yes,2024-06-02,A+,synthetic_demo,0
+STU-01072,17,Prefer not to say,Nairobi,Public,10.3,95.1,3.62,90.5,30,,-1.0,"43,695",71,No formal education,Yes,2024-03-27,A+,synthetic_demo,1
+STU-01073,18,Male,Mombasa,Public,7.7,93.3,3.98,99.5,25,6.1,100.0,,54,Secondary,Yes,2024-02-13,A+,synthetic_demo,0
+STU-01074,18,Male,Kisumu,Public,11.4,82.3,3.16,79.0,16,7.7,65.9,"32,962",77,Primary,Yes,2024-09-01,B,synthetic_demo,0
+STU-01075,21,Male,Nairobi,Public,0.0,82.2,2.14,53.5,15,7.8,49.9,"32,928",71,Primary,Yes,2024-12-27,D,synthetic_demo,1
+STU-01076,20,Male,Thika,Public,19.0,98.4,2.83,70.75,22,8.6,71.4,,62,,Yes,2024-12-16,A,synthetic_demo,0
+STU-01077,20,Female,Eldoret,Public,8.1,86.3,3.3,82.5,14,7.5,60.1,,61,,Yes,2024-11-10,B,synthetic_demo,0
+STU-01078,21,Male,Nairobi,Public,4.5,92.4,3.13,78.25,16,,69.6,"32,658",70,Certificate,Yes,2024-03-03,B,synthetic_demo,0
+STU-01079,19,Male,Nakuru,Public,5.2,74.5,2.0,50.0,10,4.7,50.6,"33,998",not available,Diploma,Yes,2024-08-03,C,synthetic_demo,1
+STU-01080,20,Male,Eldoret,Public,8.4,78.6,2.95,73.75,21,,62.5,"50,190",48,Postgraduate,Yes,2024-09-21,B,synthetic_demo,0
+STU-01081,21,Female,Nairobi,Public,6.5,76.5,2.46,61.5,13,,54.2,"66,131",53,Bachelor,Yes,2024-03-20,C,synthetic_demo,1
+STU-01082,20,Male,Nairobi,Public,7.8,74.8,,,14,7.4,50.0,"61,654",not available,Primary,Yes,2024-08-15,D,synthetic_demo,1
+STU-01083,19,Male,Mombasa,Public,1.0,85.6,2.66,66.5,11,8.3,69.3,"26,346",not available,Secondary,Yes,2024-10-22,B,synthetic_demo,0
+STU-01084,19,Female,Eldoret,Public,5.0,98.8,3.46,86.5,28,,77.4,"50,467",79,,Yes,2024-06-15,A,synthetic_demo,0
+STU-01085,21,Male,Other,Public,11.3,86.0,3.01,75.25,13,6.8,75.5,"42,997",69,No formal education,Yes,2024-05-21,A,synthetic_demo,0
+STU-01086,19,Male,Nairobi,Public,9.3,100.0,2.6,65.0,25,7.4,72.7,,66,Primary,Yes,2024-05-05,A,synthetic_demo,0
+STU-01087,19,Male,Nairobi,Public,8.2,79.2,2.54,63.5,12,7.4,54.6,"24,970",62,Secondary,Yes,2024-05-28,C,synthetic_demo,1
+STU-01088,22,Male,Nairobi,Public,8.7,79.3,2.49,62.25,17,6.9,63.0,,67,No formal education,Yes,2024-07-18,B,synthetic_demo,0
+STU-01089,19,Male,Nairobi,Public,5.8,79.0,2.44,61.0,20,5.4,62.7,"21,831",not available,Secondary,Yes,2024-04-19,B,synthetic_demo,0
+STU-01090,20,Female,Nakuru,Public,12.6,83.6,3.31,82.75,26,6.2,84.5,"28,322",not available,Diploma,Yes,2024-08-03,A,synthetic_demo,0
+STU-01091,18,Male,Mombasa,Public,6.8,,,,18,8.2,75.4,,54,,Yes,2024-02-12,A,synthetic_demo,0
+STU-01092,19,Female,Nairobi,Public,3.0,60.7,2.78,69.5,14,8.0,37.2,"48,593",57,Bachelor,Yes,2024-12-05,E,synthetic_demo,1
+STU-01093,18,Female,Mombasa,Public,10.9,88.8,,,10,8.1,74.0,,72,Primary,Yes,2024-10-04,A,synthetic_demo,0
+STU-01094,18,Female,Mombasa,Public,1.1,78.9,2.69,67.25,23,7.5,60.3,"81,946",63,,Yes,2024-01-21,B,synthetic_demo,0
+STU-01095,21,Female,Thika,Public,1.5,65.0,2.88,72.0,8,7.4,0.0,"71,917",67,,Yes,2024-11-20,E,synthetic_demo,1
+STU-01096,16,Male,Kisumu,Public,0.0,67.0,2.74,68.5,13,,43.0,"62,724",not available,Bachelor,Yes,2024-12-25,D,synthetic_demo,1
+STU-01097,17,Male,Kisumu,Public,1.8,96.5,2.2,55.0,20,7.6,67.5,"43,407",82,Diploma,Yes,2024-05-25,B,synthetic_demo,0
+STU-01098,21,Female,Nairobi,Public,8.0,94.7,2.93,73.25,30,5.7,64.6,,72,Primary,Yes,2024-08-09,B,synthetic_demo,0
+STU-01099,20,Female,Kisumu,Public,10.2,87.2,2.75,68.75,20,,63.0,"29,479",73,Bachelor,Yes,2024-02-28,B,synthetic_demo,0
+STU-01100,20,Male,Kisumu,Public,11.7,83.0,3.38,84.5,23,6.8,74.6,,74,,Yes,2024-07-23,A,synthetic_demo,0
+STU-01101,20,Female,Nairobi,Public,6.0,74.6,2.13,53.25,17,,55.5,"66,777",60,Bachelor,Yes,2024-07-21,C,synthetic_demo,0
+STU-01102,21,Female,Nairobi,Public,12.4,98.7,3.73,93.25,20,6.6,82.2,"40,216",84,Certificate,Yes,2024-06-14,A,synthetic_demo,0
+STU-01103,21,Male,Nairobi,Public,6.8,90.3,3.18,79.5,18,7.8,66.7,,84,No formal education,Yes,2024-02-09,B,synthetic_demo,0
+STU-01104,16,Female,Thika,Public,0.2,78.7,2.15,53.75,21,7.4,55.3,,79,Bachelor,Yes,2024-11-18,C,synthetic_demo,0
+STU-01105,20,Male,Nairobi,Public,0.0,66.5,2.3,57.5,13,6.3,46.1,"44,111",56,Secondary,Yes,2024-02-11,D,synthetic_demo,1
+STU-01106,23,Male,Nairobi,Public,10.6,74.2,2.68,67.0,21,7.7,69.9,"42,204",not available,Diploma,Yes,2024-05-21,B,synthetic_demo,0
+STU-01107,22,Male,Thika,Public,0.2,68.7,1.92,48.0,13,8.2,43.5,,62,Bachelor,Yes,2024-06-28,D,synthetic_demo,1
+STU-01108,21,Female,Mombasa,Public,1.6,83.0,2.98,74.5,22,,58.7,,61,Bachelor,Yes,2024-03-24,C,synthetic_demo,0
+STU-01109,19,Female,Nairobi,Public,0.4,77.1,2.15,53.75,11,7.7,54.2,"12,637",not available,Diploma,Yes,2024-11-22,C,synthetic_demo,1
+STU-01110,22,Female,Mombasa,Public,8.1,75.0,3.4,85.0,18,6.5,68.2,,76,Bachelor,Yes,2024-10-10,B,synthetic_demo,0
+STU-01111,23,Female,Mombasa,Public,6.5,78.6,2.36,59.0,23,8.9,59.3,"22,730",52,Diploma,Yes,2024-09-07,C,synthetic_demo,0
+STU-01112,19,Female,Kisumu,Public,4.7,78.4,2.34,58.5,17,7.3,57.9,"39,659",not available,Primary,Yes,2024-05-19,C,synthetic_demo,0
+STU-01113,22,Male,Nairobi,Public,0.0,78.4,,,12,,48.1,"16,042",65,Secondary,Yes,2024-08-21,D,synthetic_demo,1
+STU-01114,19,Male,Eldoret,Public,3.8,74.6,2.29,57.25,8,7.4,52.3,"37,508",69,,Yes,2024-12-11,C,synthetic_demo,1
+STU-01115,20,Male,Kisumu,Public,1.7,75.9,1.81,45.25,16,7.7,53.6,"58,373",not available,Secondary,Yes,2024-09-03,C,synthetic_demo,1
+STU-01116,21,Female,Mombasa,Public,9.2,91.7,3.42,85.5,24,7.2,84.5,"31,614",69,Secondary,Yes,2024-03-01,A,synthetic_demo,0
+STU-01117,20,Male,Mombasa,Public,0.0,65.7,2.74,68.5,19,8.1,46.8,"68,772",74,Bachelor,Yes,2024-11-09,D,synthetic_demo,1
+STU-01118,20,Female,Mombasa,Public,12.3,79.0,3.03,75.75,17,7.5,70.8,"46,867",75,Diploma,Yes,2024-07-24,A,synthetic_demo,0
+STU-01119,22,Male,Mombasa,Public,8.8,94.1,3.55,88.75,18,6.9,83.0,"24,828",86,Primary,Yes,2024-11-03,A,synthetic_demo,0
+STU-01120,20,Female,Nairobi,Public,8.3,78.2,2.04,51.0,16,6.6,53.3,"55,767",74,Diploma,Yes,2024-04-09,C,synthetic_demo,1
+STU-01121,17,Prefer not to say,Nairobi,Public,7.1,89.4,2.93,73.25,18,6.2,70.0,"69,308",63,Bachelor,Yes,2024-10-12,B,synthetic_demo,0
+STU-01122,18,Female,Mombasa,Public,6.5,76.6,3.14,78.5,17,8.9,63.4,,61,Diploma,Yes,2024-04-08,B,synthetic_demo,0
+STU-01123,19,Prefer not to say,Nairobi,Public,7.2,77.1,3.02,75.5,19,6.5,68.0,"76,814",70,Primary,Yes,2024-06-26,B,synthetic_demo,0
+STU-01124,20,Male,Nairobi,Public,7.0,86.7,2.45,61.25,17,9.0,61.6,,62,Primary,Yes,2024-03-12,B,synthetic_demo,0
+STU-01125,17,Female,Nakuru,Public,9.2,81.6,3.05,76.25,13,6.0,55.1,"28,124",63,,Yes,2024-04-13,C,synthetic_demo,0
+STU-01126,21,Male,Eldoret,Public,9.6,,3.28,82.0,24,6.5,78.9,"52,112",72,Bachelor,Yes,2024-08-11,A,synthetic_demo,0
+STU-01127,16,Male,Kisumu,Public,0.0,77.5,2.72,68.0,18,6.8,54.0,"5,000",not available,Bachelor,Yes,2024-09-02,C,synthetic_demo,1
+STU-01128,18,Female,Nakuru,Public,4.6,70.3,2.37,59.25,7,5.7,51.2,"25,688",74,Diploma,Yes,2024-11-06,C,synthetic_demo,1
+STU-01129,19,Male,Nairobi,Public,8.4,76.4,2.95,73.75,15,7.0,59.9,,70,No formal education,No,2024-04-24,C,synthetic_demo,0
+STU-01130,18,Female,Nairobi,Public,0.0,71.4,0.97,24.25,6,7.1,33.6,"39,226",46,Diploma,Yes,2024-02-24,E,synthetic_demo,1
+STU-01131,17,Prefer not to say,Eldoret,Public,4.5,82.2,2.51,62.75,12,6.6,64.3,,71,,Yes,2024-09-11,B,synthetic_demo,0
+STU-01132,20,Female,Nairobi,Public,1.8,65.1,2.38,59.5,7,,43.4,"63,786",67,Secondary,Yes,2024-04-22,D,synthetic_demo,1
+STU-01133,19,Female,Nairobi,Public,0.0,81.7,2.23,55.75,19,7.9,60.8,"56,190",68,Certificate,Yes,2024-10-05,B,synthetic_demo,0
+STU-01134,19,Male,Eldoret,Public,3.0,86.4,,,20,,57.2,"56,726",75,Secondary,Yes,2024-06-03,C,synthetic_demo,0
+STU-01135,19,Female,Nairobi,Public,11.1,87.6,3.75,93.75,19,7.9,77.7,,80,Postgraduate,Yes,2024-11-06,A,synthetic_demo,0
+STU-01136,18,Female,Nairobi,Public,5.2,64.1,2.06,51.5,9,5.2,42.7,"64,404",not available,Bachelor,Yes,2024-03-15,D,synthetic_demo,1
+STU-01137,19,Male,Mombasa,Public,13.3,96.7,3.33,83.25,26,5.6,74.1,"30,725",66,Diploma,Yes,2024-02-18,A,synthetic_demo,0
+STU-01138,21,Female,Nairobi,Public,3.1,90.2,3.12,78.0,19,,66.4,"57,904",50,,Yes,2024-05-04,B,synthetic_demo,0
+STU-01139,17,Female,Nairobi,Public,2.6,80.9,2.76,69.0,19,5.6,63.7,"63,429",56,Secondary,Yes,2024-05-20,B,synthetic_demo,0
+STU-01140,19,Female,Nairobi,Public,7.0,85.7,3.53,88.25,20,6.1,74.9,"46,075",not available,Secondary,Yes,2024-01-25,A,synthetic_demo,0
+STU-01141,16,Female,Other,Public,0.0,60.8,2.21,55.25,9,,51.0,"5,000",47,Diploma,Yes,2024-06-05,C,synthetic_demo,1
+STU-01142,21,Male,Nairobi,Public,2.3,69.7,2.88,72.0,16,6.2,51.2,"32,631",60,Certificate,Yes,2024-03-21,C,synthetic_demo,1
+STU-01143,19,Female,Mombasa,Public,0.0,70.2,2.11,52.75,4,7.8,27.4,,53,Diploma,Yes,2024-02-19,E,synthetic_demo,1
+STU-01144,21,Female,Other,Public,4.1,79.1,2.81,70.25,20,8.2,67.2,"63,120",68,Diploma,Yes,2024-10-25,B,synthetic_demo,0
+STU-01145,19,Male,Mombasa,Public,4.5,77.9,2.55,63.75,16,8.6,51.4,"19,558",72,No formal education,Yes,2024-02-19,C,synthetic_demo,1
+STU-01146,20,Female,Kisumu,Public,4.8,73.2,2.22,55.5,14,5.9,54.1,"32,270",61,Secondary,Yes,2024-07-17,C,synthetic_demo,1
+STU-01147,22,Female,Kisumu,Public,8.6,80.7,3.04,76.0,14,,61.9,,82,Diploma,Yes,2024-11-20,B,synthetic_demo,0
+STU-01148,21,Female,Nakuru,Public,3.2,76.1,,,19,8.6,59.2,"62,157",54,Bachelor,Yes,2024-09-03,C,synthetic_demo,0
+STU-01149,21,Female,Nairobi,Public,10.9,80.5,2.76,69.0,11,6.6,74.1,,58,No formal education,Yes,2024-03-17,A,synthetic_demo,0
+STU-01150,20,Male,Mombasa,Public,8.1,80.3,2.98,74.5,29,7.3,76.3,,not available,,Yes,2024-10-26,A,synthetic_demo,0
+STU-01151,21,Female,Nairobi,Public,10.7,92.6,2.29,57.25,21,6.7,80.8,"54,007",72,,Yes,2024-06-25,A,synthetic_demo,0
+STU-01152,21,Female,Nairobi,Public,2.1,76.8,,,12,8.3,58.2,"40,066",not available,Bachelor,Yes,2024-06-16,C,synthetic_demo,0
+STU-01153,19,Female,Kisumu,Public,5.4,87.4,2.49,62.25,17,7.9,67.0,"53,947",65,Certificate,Yes,2024-09-13,B,synthetic_demo,0
+STU-01154,20,Male,Kisumu,Public,6.3,77.5,2.89,72.25,20,8.4,67.8,"5,122",80,Diploma,Yes,2024-04-23,B,synthetic_demo,0
+STU-01155,21,Female,Nakuru,Public,6.2,81.6,2.54,63.5,21,6.3,67.3,"16,946",60,Secondary,Yes,2024-06-07,B,synthetic_demo,0
+STU-01156,20,Female,Mombasa,Public,3.1,74.8,,,14,,41.4,,68,Secondary,Yes,2024-09-08,D,synthetic_demo,1
+STU-01157,20,Male,Nairobi,Public,3.4,65.5,1.94,48.5,18,5.9,39.1,"62,191",66,Primary,Yes,2024-03-02,E,synthetic_demo,1
+STU-01158,17,Male,Mombasa,Public,15.0,78.3,2.61,65.25,22,,69.1,"38,768",74,Postgraduate,Yes,2024-11-28,B,synthetic_demo,0
+STU-01159,23,Female,Nairobi,Public,3.9,72.8,2.61,65.25,13,7.5,47.4,,74,Bachelor,Yes,2024-05-03,D,synthetic_demo,1
+STU-01160,18,Male,Thika,Public,4.1,82.1,,,19,6.3,56.3,"54,348",not available,Certificate,Yes,2024-12-27,C,synthetic_demo,0
+STU-01161,19,Male,Thika,Public,8.9,90.3,2.47,61.75,15,7.3,55.9,,70,Certificate,Yes,2024-04-09,C,synthetic_demo,0
+STU-01162,22,Male,Eldoret,Public,6.0,57.5,2.87,71.75,12,6.5,42.4,"52,938",71,Primary,Yes,2024-02-22,D,synthetic_demo,1
+STU-01163,20,Female,Kisumu,Public,7.0,87.6,3.59,89.75,30,6.5,79.0,"42,809",81,Bachelor,Yes,2024-09-05,A,synthetic_demo,0
+STU-01164,17,Female,Thika,Public,12.8,,3.06,76.5,25,7.4,62.0,"55,557",not available,,Yes,2024-02-25,B,synthetic_demo,0
+STU-01165,22,Male,Mombasa,Public,0.0,77.8,2.1,52.5,7,7.0,40.0,"32,961",33,Secondary,Yes,2024-01-27,E,synthetic_demo,1
+STU-01166,18,Female,Nairobi,Public,1.8,74.4,2.9,72.5,22,7.6,62.6,"37,225",70,Postgraduate,Yes,2024-09-18,B,synthetic_demo,0
+STU-01167,19,Male,Mombasa,Public,3.1,90.4,3.34,83.5,23,7.1,69.6,"35,842",81,Bachelor,Yes,2024-07-20,B,synthetic_demo,0
+STU-01168,22,Female,Nairobi,Public,4.6,78.1,2.46,61.5,19,6.7,54.2,"55,376",not available,Secondary,Yes,2024-03-10,C,synthetic_demo,1
+STU-01169,21,Female,Kisumu,Public,7.1,86.2,2.77,69.25,17,7.2,81.5,"86,546",81,Primary,Yes,2024-05-10,A,synthetic_demo,0
+STU-01170,19,Male,Mombasa,Public,4.6,86.4,3.05,76.25,21,8.3,61.7,"6,359",67,Bachelor,Yes,2024-03-09,B,synthetic_demo,0
+STU-01171,20,Female,Kisumu,Public,4.2,81.7,3.81,95.25,16,6.5,74.5,"41,910",70,Secondary,Yes,2024-12-28,A,synthetic_demo,0
+STU-01172,20,Male,Nairobi,Public,1.8,88.1,1.88,47.0,18,,55.6,"9,929",71,Primary,Yes,2024-06-07,C,synthetic_demo,0
+STU-01173,19,Male,Nairobi,Public,0.0,79.2,2.76,69.0,23,6.9,67.9,"5,000",58,Primary,Yes,2024-04-24,B,synthetic_demo,0
+STU-01174,20,Female,Kisumu,Public,9.7,85.1,2.79,69.75,17,7.2,63.4,"52,801",74,Bachelor,Yes,2024-09-21,B,synthetic_demo,0
+STU-01175,19,Male,Nakuru,Public,6.8,69.8,3.06,76.5,22,,52.9,,76,Postgraduate,Yes,2024-07-17,C,synthetic_demo,1
+STU-01176,20,Male,Nairobi,Public,5.5,72.9,2.59,64.75,18,7.9,54.5,"44,783",66,,Yes,2024-02-22,C,synthetic_demo,1
+STU-01177,17,Male,Eldoret,Public,0.0,65.4,2.01,50.25,10,,22.4,"74,020",49,Bachelor,Yes,2024-07-09,E,synthetic_demo,1
+STU-01178,16,Male,Nairobi,Public,6.3,62.1,2.39,59.75,10,6.6,54.1,"70,451",50,Secondary,Yes,2024-03-03,C,synthetic_demo,1
+STU-01179,17,Male,Kisumu,Public,10.3,99.3,2.99,74.75,23,7.7,75.4,,66,Bachelor,Yes,2024-01-25,A,synthetic_demo,0
+STU-01180,21,Female,Mombasa,Public,0.4,58.8,2.07,51.75,18,6.8,50.2,"35,797",65,Secondary,Yes,2024-05-07,C,synthetic_demo,1
+STU-01181,19,Male,Nairobi,Public,3.8,93.8,3.45,86.25,17,7.5,77.6,"44,166",55,Secondary,Yes,2024-06-19,A,synthetic_demo,0
+STU-01182,22,Male,Kisumu,Public,2.9,87.5,2.28,57.0,18,6.7,60.5,"38,377",59,,Yes,2024-01-27,B,synthetic_demo,0
+STU-01183,18,Male,Nairobi,Public,9.1,91.3,3.71,92.75,25,7.1,72.9,"63,050",83,Bachelor,Yes,2024-01-13,A,synthetic_demo,0
+STU-01184,19,Female,Other,Public,4.6,59.0,2.09,52.25,9,7.8,45.0,"61,823",65,Secondary,Yes,2024-05-16,D,synthetic_demo,1
+STU-01185,20,Male,Kisumu,Public,5.4,82.9,,,22,6.4,62.2,"13,627",58,Secondary,Yes,2024-03-25,B,synthetic_demo,0
+STU-01186,19,Male,Nairobi,Public,5.2,88.4,2.87,71.75,28,7.0,71.8,"53,547",69,Certificate,Yes,2024-09-14,A,synthetic_demo,0
+STU-01187,17,Female,Mombasa,Public,12.7,71.7,,,16,8.2,64.6,"50,417",72,Certificate,Yes,2024-11-23,B,synthetic_demo,0
+STU-01188,21,Female,Mombasa,Public,7.7,86.8,3.07,76.75,19,6.9,73.8,"30,414",not available,Diploma,Yes,2024-02-22,A,synthetic_demo,0
+STU-01189,19,Female,Nairobi,Public,4.7,80.1,2.2,55.0,10,6.3,50.8,"39,766",73,No formal education,Yes,2024-06-16,C,synthetic_demo,1
+STU-01190,21,Female,Mombasa,Public,7.5,76.6,2.62,65.5,15,5.7,60.9,"47,495",73,Secondary,Yes,2024-12-01,B,synthetic_demo,0
+STU-01191,23,Male,Nakuru,Public,3.6,94.3,2.52,63.0,15,7.5,62.1,,62,,Yes,2024-02-13,B,synthetic_demo,0
+STU-01192,18,Female,Kisumu,Public,4.1,90.6,3.0,75.0,17,7.2,69.8,"25,888",54,Bachelor,Yes,2024-02-21,B,synthetic_demo,0
+STU-01193,22,Female,Other,Public,0.0,61.2,2.22,55.5,10,7.3,49.5,"43,222",57,Primary,Yes,2024-12-07,D,synthetic_demo,1
+STU-01194,20,Female,Nairobi,Public,8.1,85.9,3.58,89.5,20,6.3,73.6,"55,248",59,Diploma,Yes,2024-08-20,A,synthetic_demo,0
+STU-01195,21,Male,Mombasa,Public,1.0,79.5,2.91,72.75,21,7.0,63.8,"46,370",73,,Yes,2024-09-27,B,synthetic_demo,0
+STU-01196,21,Male,Kisumu,Public,2.2,70.6,2.15,53.75,16,6.5,47.6,"68,747",55,Certificate,Yes,2024-11-19,D,synthetic_demo,1
+STU-01197,18,Male,Kisumu,Public,8.6,97.2,2.72,68.0,26,6.1,78.1,"46,848",not available,Primary,Yes,2024-03-27,A,synthetic_demo,0
+STU-01198,17,Male,Nairobi,Public,7.8,83.9,3.36,84.0,26,4.7,82.7,,85,Diploma,Yes,2024-09-25,A,synthetic_demo,0
+STU-01199,21,Male,Nairobi,Public,2.2,83.1,2.21,55.25,11,5.3,52.0,"119,411",70,Secondary,Yes,2024-07-04,C,synthetic_demo,1
+STU-01200,19,Female,Nairobi,Public,12.4,82.4,3.42,85.5,23,8.1,78.7,"37,722",82,Bachelor,Yes,2024-02-04,A,synthetic_demo,0
+STU-01201,18,Female,Kisumu,Public,6.3,79.5,1.87,46.75,13,6.2,55.6,"32,444",59,Bachelor,Yes,2024-03-04,C,synthetic_demo,0
+STU-01202,21,Male,Nakuru,Public,7.7,92.9,2.62,65.5,20,7.5,69.7,"33,406",81,Certificate,Yes,2024-01-23,B,synthetic_demo,0
+STU-01203,20,Male,Nairobi,Public,5.2,,2.59,64.75,15,7.3,51.0,,not available,Secondary,Yes,2024-09-20,C,synthetic_demo,1
+STU-01204,19,Female,Eldoret,Public,6.8,89.7,2.76,69.0,14,7.1,60.0,"54,414",65,Primary,Yes,2024-09-25,C,synthetic_demo,0
+STU-01205,21,Female,Nairobi,Public,13.9,87.2,4.0,100.0,25,7.0,88.2,"54,715",73,Diploma,Yes,2024-09-21,A+,synthetic_demo,0
+STU-01206,22,Female,Kisumu,Public,7.6,86.2,3.73,93.25,22,7.2,78.2,"25,524",64,Bachelor,Yes,2024-11-20,A,synthetic_demo,0
+STU-01207,17,Female,Kisumu,Public,8.6,95.9,2.96,74.0,28,8.0,81.3,,73,Diploma,Yes,2024-09-22,A,synthetic_demo,0
+STU-01208,17,Female,Kisumu,Public,0.9,62.0,2.58,64.5,21,7.7,47.1,"57,426",81,Secondary,Yes,2024-10-27,D,synthetic_demo,1
+STU-01209,19,Female,Nairobi,Public,1.9,79.3,2.14,53.5,19,7.3,44.8,"39,776",63,Bachelor,Yes,2024-03-07,D,synthetic_demo,1
+STU-01210,20,Female,Nairobi,Public,8.2,86.9,2.88,72.0,14,,65.7,"25,127",84,,Yes,2024-09-03,B,synthetic_demo,0
+STU-01211,21,Male,Nakuru,Public,0.0,67.1,2.13,53.25,17,,53.0,,71,Diploma,Yes,2024-07-28,C,synthetic_demo,1
+STU-01212,20,Female,Kisumu,Public,3.6,74.4,2.36,59.0,18,5.5,55.1,,61,Diploma,Yes,2024-05-03,C,synthetic_demo,0
+STU-01213,20,Female,Eldoret,Public,11.0,93.5,2.72,68.0,20,8.2,74.8,"46,328",64,Bachelor,Yes,2024-06-14,A,synthetic_demo,0
+STU-01214,18,Female,Nakuru,Public,8.9,65.9,,,20,8.2,58.6,"48,627",not available,No formal education,Yes,2024-06-20,C,synthetic_demo,0
+STU-01215,17,Prefer not to say,Eldoret,Public,7.3,73.3,2.74,68.5,23,6.7,59.8,"72,756",55,Diploma,Yes,2024-03-18,C,synthetic_demo,0
+STU-01216,18,Male,Nakuru,Public,4.8,79.6,1.69,42.25,10,7.1,35.9,"31,980",56,Secondary,Yes,2024-03-24,E,synthetic_demo,1
+STU-01217,17,Male,Nakuru,Public,0.5,69.5,1.65,41.25,12,,42.2,,66,Certificate,Yes,2024-04-18,D,synthetic_demo,1
+STU-01218,21,Male,Nakuru,Public,6.4,58.7,2.59,64.75,16,,50.8,"66,588",58,,Yes,2024-08-20,C,synthetic_demo,1
+STU-01219,17,Male,Nairobi,Public,11.7,82.3,,,30,6.5,84.7,,64,Certificate,Yes,2024-05-08,A,synthetic_demo,0
+STU-01220,19,Male,Thika,Public,11.0,84.1,3.43,85.75,19,6.1,80.4,"53,644",60,Certificate,Yes,2024-03-09,A,synthetic_demo,0
+STU-01221,16,Female,Other,Public,1.8,68.9,3.26,81.5,11,7.4,54.0,,39,Postgraduate,Yes,2024-04-13,C,synthetic_demo,1
+STU-01222,20,Male,Eldoret,Public,7.6,76.5,2.68,67.0,20,,60.5,"50,038",62,Primary,Yes,2024-01-19,B,synthetic_demo,0
+STU-01223,20,Male,Mombasa,Public,5.7,72.1,3.01,75.25,25,5.0,68.0,"37,339",not available,Diploma,Yes,2024-11-01,B,synthetic_demo,0
+STU-01224,23,Male,Nairobi,Public,12.2,87.6,,,27,5.6,73.2,"62,920",73,Secondary,Yes,2024-10-23,A,synthetic_demo,0
+STU-01225,21,Female,Kisumu,Public,8.2,78.7,2.67,66.75,16,4.9,62.5,"56,348",70,,Yes,2024-02-27,B,synthetic_demo,0
+STU-01226,18,Male,Eldoret,Public,6.7,88.5,2.19,54.75,24,,65.1,"56,510",60,Secondary,Yes,2024-07-21,B,synthetic_demo,0
+STU-01227,16,Female,Mombasa,Public,6.9,83.0,2.04,51.0,13,7.5,63.1,"29,140",50,Secondary,Yes,2024-10-12,B,synthetic_demo,0
+STU-01228,20,Male,Nakuru,Public,6.6,85.4,2.32,58.0,18,7.6,64.2,,74,Secondary,Yes,2024-12-25,B,synthetic_demo,0
+STU-01229,21,Female,Other,Public,2.6,86.0,3.2,80.0,22,6.9,67.7,,52,Postgraduate,Yes,2024-07-09,B,synthetic_demo,0
+STU-01230,19,Female,Mombasa,Public,6.7,90.0,2.88,72.0,22,30.0,66.8,"13,227",67,Postgraduate,No,2024-06-23,B,synthetic_demo,0
+STU-01231,19,Male,Other,Public,9.8,100.0,3.41,85.25,15,7.5,81.4,,68,Certificate,No,2024-04-23,A,synthetic_demo,0
+STU-01232,21,Female,Nairobi,Public,7.0,77.0,3.34,83.5,17,7.0,61.6,,70,,Yes,2024-08-22,B,synthetic_demo,0
+STU-01233,20,Male,Nairobi,Public,0.0,79.8,1.96,49.0,8,6.2,48.4,"39,947",56,Secondary,Yes,2024-05-09,D,synthetic_demo,1
+STU-01234,20,Female,Kisumu,Public,3.8,69.9,3.05,76.25,15,6.6,54.6,,not available,Diploma,Yes,2024-05-07,C,synthetic_demo,1
+STU-01235,19,Male,Nairobi,Public,13.9,88.9,2.95,73.75,28,5.7,81.8,"21,233",not available,Diploma,Yes,2024-03-26,A,synthetic_demo,0
+STU-01236,19,Prefer not to say,Mombasa,Public,11.0,86.9,2.43,60.75,19,8.9,73.8,"38,235",69,Diploma,Yes,2024-11-04,A,synthetic_demo,0
+STU-01237,22,Male,Eldoret,Public,6.4,84.1,2.49,62.25,15,7.4,52.0,,61,,Yes,2024-07-15,C,synthetic_demo,1
+STU-01238,22,Male,Other,Public,9.3,91.6,3.23,80.75,13,6.4,78.9,"83,286",62,Secondary,Yes,2024-11-02,A,synthetic_demo,0
+STU-01239,19,Male,Nakuru,Public,4.1,65.1,2.19,54.75,7,,40.2,"54,969",79,Primary,Yes,2024-02-20,D,synthetic_demo,1
+STU-01240,17,Male,Nairobi,Public,5.6,75.9,3.01,75.25,14,9.3,63.2,"52,084",not available,Primary,Yes,2024-06-27,B,synthetic_demo,0
+STU-01241,17,Male,Nairobi,Public,0.7,77.9,1.99,49.75,15,5.4,47.7,"57,259",71,Diploma,Yes,2024-01-01,D,synthetic_demo,1
+STU-01242,20,Male,Mombasa,Public,6.1,94.9,3.08,77.0,19,5.6,74.1,"50,094",74,Certificate,Yes,2024-12-18,A,synthetic_demo,0
+STU-01243,18,Female,Nairobi,Public,8.6,67.6,2.4,60.0,16,9.6,52.3,"60,047",not available,Bachelor,Yes,2024-11-13,C,synthetic_demo,1
+STU-01244,18,Female,Thika,Public,8.6,68.3,2.75,68.75,15,7.8,70.1,,95,Secondary,Yes,2024-07-08,A,synthetic_demo,0
+STU-01245,20,Male,Other,Public,14.0,100.0,2.46,61.5,24,7.9,69.9,"52,868",62,,Yes,2024-01-21,B,synthetic_demo,0
+STU-01246,19,Male,Eldoret,Public,7.1,76.2,2.3,57.5,16,5.8,56.9,"50,053",78,Certificate,Yes,2024-08-04,C,synthetic_demo,0
+STU-01247,19,Male,Nairobi,Public,12.7,86.3,2.81,70.25,18,7.7,84.8,"67,637",73,Diploma,Yes,2024-08-13,A,synthetic_demo,0
+STU-01248,20,Female,Nairobi,Public,9.1,89.2,3.3,82.5,27,5.0,69.9,,not available,Secondary,Yes,2024-01-09,B,synthetic_demo,0
+STU-01249,20,Female,Mombasa,Public,10.6,87.0,,,27,5.0,82.2,,80,Bachelor,Yes,2024-07-23,A,synthetic_demo,0
+STU-01250,22,Male,Eldoret,Public,0.0,61.7,1.63,40.75,6,6.9,30.2,,not available,Bachelor,Yes,2024-07-17,E,synthetic_demo,1
+STU-01251,18,Male,Kisumu,Private,11.2,94.8,2.47,61.75,15,6.2,63.3,"64,367",70,,Yes,2024-11-14,B,synthetic_demo,0
+STU-01252,20,Female,Nairobi,Public,5.5,93.6,3.64,91.0,22,7.1,68.8,"38,857",60,Diploma,Yes,2024-10-01,B,synthetic_demo,0
+STU-01253,20,Male,Mombasa,Public,7.7,83.4,3.53,88.25,26,7.1,62.7,"59,303",82,Diploma,Yes,2024-01-26,B,synthetic_demo,0
+STU-01254,19,Female,Mombasa,Public,0.0,56.9,2.77,69.25,20,5.8,51.2,"33,563",44,Bachelor,Yes,2024-05-17,C,synthetic_demo,1
+STU-01255,23,Female,Other,Public,0.0,83.7,2.46,61.5,10,,41.0,"30,027",63,,Yes,2024-11-18,D,synthetic_demo,1
+STU-01256,20,Male,Nairobi,Public,6.2,79.0,1.9,47.5,15,,52.6,"69,466",69,Certificate,Yes,2024-01-11,C,synthetic_demo,1
+STU-01257,19,Female,Nairobi,Public,8.8,94.0,3.59,89.75,25,5.9,69.8,,not available,Diploma,Yes,2024-02-19,B,synthetic_demo,0
+STU-01258,19,Female,Nairobi,Public,6.1,,2.41,60.25,19,7.4,62.8,"35,078",63,No formal education,Yes,2024-04-25,B,synthetic_demo,0
+STU-01259,19,Female,Nakuru,Public,10.4,87.4,2.77,69.25,30,6.0,75.4,,52,Certificate,Yes,2024-12-19,A,synthetic_demo,0
+STU-01260,17,Female,Nairobi,Public,10.0,95.1,,,25,8.5,79.5,"72,626",68,Bachelor,Yes,2024-07-24,A,synthetic_demo,0
+STU-01261,20,Female,Kisumu,Public,1.8,69.2,3.15,78.75,13,8.3,55.5,,77,Bachelor,Yes,2024-03-01,C,synthetic_demo,0
+STU-01262,18,Female,Nakuru,Public,4.5,92.6,,,15,6.5,52.4,"54,977",70,,Yes,2024-01-08,C,synthetic_demo,1
+STU-01263,20,Male,Mombasa,Public,4.0,91.2,2.77,69.25,21,5.2,68.5,,73,Secondary,Yes,2024-08-24,B,synthetic_demo,0
+STU-01264,22,Prefer not to say,Nakuru,Public,5.8,67.7,1.97,49.25,21,6.0,55.9,"40,966",68,Secondary,Yes,2024-01-08,C,synthetic_demo,0
+STU-01265,19,Female,Nairobi,Public,6.0,98.2,2.99,74.75,27,6.9,72.9,,69,Primary,No,2024-01-17,A,synthetic_demo,0
+STU-01266,16,Female,Thika,Public,16.8,87.0,2.57,64.25,20,5.1,74.8,"79,076",89,Primary,Yes,2024-09-07,A,synthetic_demo,0
+STU-01267,17,Male,Thika,Public,4.2,72.9,3.39,84.75,16,6.2,56.7,"38,430",36,Bachelor,Yes,2024-02-27,C,synthetic_demo,0
+STU-01268,19,Male,Mombasa,Public,5.1,77.3,3.13,78.25,21,8.4,65.9,"55,090",49,Diploma,Yes,2024-09-28,B,synthetic_demo,0
+STU-01269,20,Male,Kisumu,Public,8.0,98.3,2.98,74.5,27,6.7,81.7,,67,,Yes,2024-09-15,A,synthetic_demo,0
+STU-01270,19,Male,Nairobi,Public,7.0,0.0,,,15,6.9,59.0,,80,Primary,Yes,2024-11-06,C,synthetic_demo,0
+STU-01271,21,Male,Nairobi,Public,2.8,92.9,,,10,5.8,55.9,"24,909",64,Bachelor,Yes,2024-06-17,C,synthetic_demo,0
+STU-01272,19,Female,Nairobi,Public,1.9,79.7,2.57,64.25,12,7.4,45.8,"46,724",74,,Yes,2024-10-17,D,synthetic_demo,1
+STU-01273,20,Male,Kisumu,Public,9.1,100.0,2.22,55.5,26,5.9,62.8,"56,243",not available,Secondary,Yes,2024-03-20,B,synthetic_demo,0
+STU-01274,19,Male,Other,Public,2.1,82.7,2.54,63.5,16,8.7,63.0,,68,,No,2024-09-05,B,synthetic_demo,0
+STU-01275,20,Female,Nairobi,Public,7.7,81.0,2.12,53.0,17,7.1,57.4,"55,512",75,Diploma,Yes,2024-01-09,C,synthetic_demo,0
+STU-01276,17,Male,Kisumu,Public,1.7,80.0,2.85,71.25,15,6.2,57.2,"41,760",71,,Yes,2024-07-24,C,synthetic_demo,0
+STU-01277,18,Female,Kisumu,Public,4.1,75.9,2.39,59.75,20,5.6,44.6,"30,537",57,Bachelor,No,2024-06-10,D,synthetic_demo,1
+STU-01278,20,Male,Mombasa,Public,11.0,70.2,3.17,79.25,17,6.5,64.0,"12,584",52,Diploma,Yes,2024-03-11,B,synthetic_demo,0
+STU-01279,20,Female,Kisumu,Public,4.0,83.5,2.65,66.25,27,6.9,65.3,"38,922",67,Secondary,Yes,2024-04-07,B,synthetic_demo,0
+STU-01280,20,Female,Nakuru,Public,0.0,90.3,2.06,51.5,11,,53.3,"59,631",45,Certificate,Yes,2024-11-15,C,synthetic_demo,1
+STU-01281,18,Male,Nairobi,Public,8.4,82.2,3.35,83.75,19,6.0,66.9,"63,624",not available,,Yes,2024-07-04,B,synthetic_demo,0
+STU-01282,22,Female,Nairobi,Public,2.4,85.5,2.28,57.0,21,6.3,62.6,,65,Diploma,Yes,2024-11-28,B,synthetic_demo,0
+STU-01283,18,Female,Eldoret,Public,7.8,74.2,2.95,73.75,20,6.2,59.5,"43,125",not available,Primary,Yes,2024-04-08,C,synthetic_demo,0
+STU-01284,21,Female,Mombasa,Public,8.1,74.4,2.41,60.25,15,6.4,52.7,"94,819",66,No formal education,No,2024-02-18,C,synthetic_demo,1
+STU-01285,17,Male,Mombasa,Public,9.1,96.5,2.94,73.5,13,7.7,71.9,"42,016",69,Certificate,Yes,2024-09-16,A,synthetic_demo,0
+STU-01286,20,Male,Kisumu,Public,6.6,89.6,2.46,61.5,14,7.8,48.2,,58,Diploma,Yes,2024-05-13,D,synthetic_demo,1
+STU-01287,18,Male,Eldoret,Public,4.8,77.5,2.09,52.25,21,7.8,60.5,"59,982",72,Diploma,Yes,2024-05-06,B,synthetic_demo,0
+STU-01288,20,Female,Mombasa,Public,2.9,73.7,2.9,72.5,11,8.8,57.4,"56,710",48,Bachelor,Yes,2024-01-11,C,synthetic_demo,0
+STU-01289,23,Male,Nairobi,Public,14.3,89.1,3.76,94.0,29,6.4,79.3,"77,841",68,,Yes,2024-11-03,A,synthetic_demo,0
+STU-01290,19,Male,Nairobi,Public,9.2,79.2,2.56,64.0,24,5.8,74.2,"76,333",65,Bachelor,Yes,2024-03-13,A,synthetic_demo,0
+STU-01291,21,Female,Nakuru,Public,10.8,100.0,3.52,88.0,28,6.9,87.8,"33,067",88,Primary,Yes,2024-07-18,A+,synthetic_demo,0
+STU-01292,16,Female,Kisumu,Public,4.1,81.9,2.56,64.0,17,,63.7,"26,691",76,No formal education,Yes,2024-11-10,B,synthetic_demo,0
+STU-01293,22,Female,Eldoret,Public,0.0,79.2,1.68,42.0,11,7.0,38.9,,58,No formal education,Yes,2024-11-21,E,synthetic_demo,1
+STU-01294,16,Female,Nairobi,Public,6.5,93.5,2.51,62.75,14,,60.2,"26,641",70,Secondary,Yes,2024-09-27,B,synthetic_demo,0
+STU-01295,20,Female,Nairobi,Public,7.1,86.7,2.51,62.75,22,,62.7,,not available,Primary,Yes,2024-05-16,B,synthetic_demo,0
+STU-01296,18,Female,Thika,Public,12.8,84.2,3.51,87.75,30,7.9,72.9,"44,654",71,Certificate,Yes,2024-04-19,A,synthetic_demo,0
+STU-01297,18,Male,Thika,Public,11.3,85.2,3.15,78.75,28,8.9,68.9,"28,342",57,Primary,Yes,2024-03-23,B,synthetic_demo,0
+STU-01298,19,Female,Kisumu,Public,11.4,60.5,,,19,,50.9,"63,739",55,Certificate,Yes,2024-09-27,C,synthetic_demo,1
+STU-01299,18,Male,Eldoret,Public,10.3,95.5,2.93,73.25,14,6.3,63.0,"57,060",74,Bachelor,Yes,2024-03-08,B,synthetic_demo,0
+STU-01300,20,Male,Kisumu,Public,4.4,70.1,2.78,69.5,11,7.9,55.7,"43,827",64,Primary,Yes,2024-03-09,C,synthetic_demo,0
+STU-01301,19,Male,Kisumu,Public,6.0,95.8,2.56,64.0,19,,66.7,,70,Secondary,Yes,2024-01-02,B,synthetic_demo,0
+STU-01302,17,Female,Mombasa,Public,10.9,77.5,2.69,67.25,23,7.9,64.6,,not available,,Yes,2024-04-25,B,synthetic_demo,0
+STU-01303,25,Female,Nakuru,Public,11.0,86.8,4.0,100.0,30,7.2,84.8,,100,Primary,No,2024-08-17,A,synthetic_demo,0
+STU-01304,20,Female,Mombasa,Public,12.4,91.2,,,18,8.4,72.1,"39,195",60,,Yes,2024-09-15,A,synthetic_demo,0
+STU-01305,19,Male,Other,Public,6.6,86.3,3.33,83.25,26,8.9,72.0,,68,Certificate,Yes,2024-05-01,A,synthetic_demo,0
+STU-01306,20,Female,Nairobi,Public,9.5,69.1,2.26,56.5,17,6.3,55.9,"5,000",63,Certificate,Yes,2024-01-09,C,synthetic_demo,0
+STU-01307,20,Male,Nairobi,Public,2.2,81.4,2.79,69.75,17,,55.8,"26,657",66,Diploma,Yes,2024-05-09,C,synthetic_demo,0
+STU-01308,20,Female,Nairobi,Public,6.9,86.4,,,26,7.1,65.5,,64,Postgraduate,Yes,2024-05-24,B,synthetic_demo,0
+STU-01309,20,Female,Mombasa,Public,5.6,80.0,2.74,68.5,10,6.0,49.0,"74,064",68,Bachelor,Yes,2024-07-15,D,synthetic_demo,1
+STU-01310,23,Female,Nairobi,Public,7.4,77.2,2.39,59.75,19,7.4,62.7,"67,570",81,Secondary,Yes,2024-09-21,B,synthetic_demo,0
+STU-01311,19,Male,Mombasa,Public,0.4,80.3,2.92,73.0,15,6.7,53.6,"44,633",66,Certificate,Yes,2024-02-09,C,synthetic_demo,1
+STU-01312,21,Female,Kisumu,Public,3.2,87.8,2.65,66.25,17,6.6,55.6,"26,023",59,Primary,Yes,2024-06-10,C,synthetic_demo,0
+STU-01313,18,Male,Nairobi,Public,8.0,87.9,,,23,8.4,79.5,"45,910",78,,Yes,2024-04-25,A,synthetic_demo,0
+STU-01314,21,Male,Kisumu,Public,5.6,72.2,2.65,66.25,16,6.2,62.8,"54,565",39,Certificate,Yes,2024-08-19,B,synthetic_demo,0
+STU-01315,18,Male,Eldoret,Public,4.8,96.2,2.76,69.0,15,8.1,60.3,,39,Primary,Yes,2024-03-19,B,synthetic_demo,0
+STU-01316,19,Male,Kisumu,Public,8.4,99.5,2.97,74.25,26,6.4,81.8,"22,234",79,Bachelor,Yes,2024-09-17,A,synthetic_demo,0
+STU-01317,20,Male,Mombasa,Public,7.3,73.7,2.88,72.0,19,7.2,72.1,"53,853",68,Diploma,Yes,2024-07-10,A,synthetic_demo,0
+STU-01318,22,Female,Nairobi,Public,2.1,84.3,3.52,88.0,24,6.8,74.7,"58,905",56,Diploma,Yes,2024-08-04,A,synthetic_demo,0
+STU-01319,17,Female,Nairobi,Public,16.0,84.6,,,30,6.5,94.8,"68,831",84,Primary,Yes,2024-07-01,A+,synthetic_demo,0
+STU-01320,17,Prefer not to say,Kisumu,Public,8.5,71.5,2.81,70.25,28,8.5,61.4,,71,Certificate,Yes,2024-02-25,B,synthetic_demo,0
+STU-01321,18,Male,Nairobi,Public,0.7,80.9,2.46,61.5,7,,48.9,"48,951",53,Secondary,Yes,2024-10-04,D,synthetic_demo,1
+STU-01322,18,Male,Nairobi,Public,4.8,82.0,2.85,71.25,23,7.1,69.4,"52,759",71,,Yes,2024-06-12,B,synthetic_demo,0
+STU-01323,22,Male,Nakuru,Public,6.0,68.9,2.63,65.75,20,,54.6,,65,Diploma,Yes,2024-11-03,C,synthetic_demo,1
+STU-01324,18,Female,Nairobi,Public,6.2,90.4,3.44,86.0,26,5.5,71.8,"48,526",68,Bachelor,Yes,2024-04-24,A,synthetic_demo,0
+STU-01325,17,Male,Kisumu,Public,7.3,90.5,3.0,75.0,22,4.8,77.6,"8,974",74,Bachelor,Yes,2024-04-17,A,synthetic_demo,0
+STU-01326,20,Female,Mombasa,Public,12.5,100.0,3.68,92.0,27,6.3,86.8,"96,720",not available,Primary,Yes,2024-12-07,A+,synthetic_demo,0
+STU-01327,19,Male,Mombasa,Public,0.9,80.1,,,16,7.3,61.0,"41,576",36,Secondary,Yes,2024-11-04,B,synthetic_demo,0
+STU-01328,20,Male,Nakuru,Public,3.1,93.9,2.34,58.5,17,6.2,66.7,"50,884",79,Bachelor,Yes,2024-09-27,B,synthetic_demo,0
+STU-01329,21,Female,Nakuru,Public,11.0,84.6,3.4,85.0,24,6.2,79.2,"46,837",not available,Secondary,Yes,2024-07-17,A,synthetic_demo,0
+STU-01330,18,Female,Nairobi,Public,9.6,70.3,2.78,69.5,16,9.8,57.2,"59,724",69,Secondary,Yes,2024-04-28,C,synthetic_demo,0
+STU-01331,20,Female,Kisumu,Public,2.5,67.7,2.51,62.75,16,6.7,53.3,"35,482",58,,Yes,2024-07-04,C,synthetic_demo,1
+STU-01332,21,Male,Nairobi,Public,0.0,77.6,2.6,65.0,13,6.8,47.4,"37,112",63,Bachelor,Yes,2024-01-09,D,synthetic_demo,1
+STU-01333,19,Female,Thika,Public,4.8,77.8,1.57,39.25,7,6.5,32.8,"61,675",57,No formal education,Yes,2024-07-25,E,synthetic_demo,1
+STU-01334,19,Female,Kisumu,Public,4.0,89.8,2.01,50.25,15,6.4,48.1,,57,Bachelor,Yes,2024-01-04,D,synthetic_demo,1
+STU-01335,21,Male,Nairobi,Public,9.4,76.7,2.83,70.75,18,,67.6,"75,572",49,No formal education,Yes,2024-09-01,B,synthetic_demo,0
+STU-01336,24,Male,Nakuru,Public,3.0,72.8,2.3,57.5,16,,44.9,"89,596",63,Secondary,Yes,2024-04-18,D,synthetic_demo,1
+STU-01337,19,Male,Eldoret,Public,7.5,71.6,2.22,55.5,15,8.7,73.9,"52,090",not available,Diploma,Yes,2024-03-14,A,synthetic_demo,0
+STU-01338,20,Male,Nairobi,Public,5.5,80.8,2.31,57.75,15,7.5,63.7,"52,082",74,Bachelor,Yes,2024-07-12,B,synthetic_demo,0
+STU-01339,17,Male,Nakuru,Public,3.3,79.0,,,16,7.3,57.2,"23,461",65,Bachelor,Yes,2024-04-08,C,synthetic_demo,0
+STU-01340,16,Male,Nairobi,Public,0.0,,1.96,49.0,10,6.2,39.1,"57,696",47,No formal education,No,2024-07-11,E,synthetic_demo,1
+STU-01341,20,Male,Eldoret,Public,5.8,88.5,3.07,76.75,18,6.9,71.1,"55,558",not available,Bachelor,Yes,2024-02-20,A,synthetic_demo,0
+STU-01342,20,Female,Nakuru,Public,10.3,91.5,3.46,86.5,19,6.4,80.7,"52,059",49,Certificate,Yes,2024-05-20,A,synthetic_demo,0
+STU-01343,21,Female,Thika,Public,5.3,76.8,2.83,70.75,21,7.7,64.3,,75,Bachelor,Yes,2024-09-23,B,synthetic_demo,0
+STU-01344,19,Male,Nairobi,Public,8.3,86.0,2.52,63.0,21,9.6,71.7,"81,049",not available,Secondary,Yes,2024-08-16,A,synthetic_demo,0
+STU-01345,18,Female,Other,Public,3.3,84.9,2.52,63.0,19,7.7,48.5,"35,059",77,Secondary,Yes,2024-04-04,D,synthetic_demo,1
+STU-01346,16,Female,Thika,Public,5.3,94.6,2.56,64.0,16,6.5,65.1,"47,617",72,Bachelor,Yes,2024-03-04,B,synthetic_demo,0
+STU-01347,20,Male,Nakuru,Public,5.7,88.5,3.02,75.5,13,7.0,66.0,"93,749",58,Diploma,Yes,2024-08-24,B,synthetic_demo,0
+STU-01348,21,Female,Nairobi,Public,7.3,,3.76,94.0,19,6.3,70.5,"85,981",78,Secondary,Yes,2024-06-01,A,synthetic_demo,0
+STU-01349,18,Male,Kisumu,Public,3.2,77.7,3.1,77.5,26,6.0,67.7,"42,725",56,Certificate,Yes,2024-07-24,B,synthetic_demo,0
+STU-01350,19,Male,Nakuru,Public,6.9,74.8,2.73,68.25,13,6.8,58.2,"69,397",54,Secondary,Yes,2024-07-25,C,synthetic_demo,0
+STU-01351,17,Male,Nakuru,Public,6.6,92.3,2.95,73.75,20,6.5,69.2,,73,Diploma,Yes,2024-08-02,B,synthetic_demo,0
+STU-01352,20,Male,Nairobi,Public,2.9,83.4,2.06,51.5,20,4.8,47.7,,60,Primary,Yes,2024-02-14,D,synthetic_demo,1
+STU-01353,20,Male,Nairobi,Public,1.7,75.4,2.85,71.25,21,6.4,70.0,"76,980",not available,Primary,Yes,2024-04-03,A,synthetic_demo,0
+STU-01354,19,Male,Nairobi,Public,3.5,60.3,2.49,62.25,7,7.6,35.7,,63,No formal education,Yes,2024-01-26,E,synthetic_demo,1
+STU-01355,20,Prefer not to say,Mombasa,Public,6.5,71.9,3.57,89.25,14,8.2,66.0,"52,832",70,,Yes,2024-08-19,B,synthetic_demo,0
+STU-01356,20,Male,Nairobi,Public,8.5,93.7,3.05,76.25,17,,69.3,"51,551",66,Certificate,Yes,2024-04-17,B,synthetic_demo,0
+STU-01357,20,Female,Nairobi,Public,5.6,98.5,2.89,72.25,21,6.2,63.5,"74,231",75,Primary,Yes,2024-02-09,B,synthetic_demo,0
+STU-01358,19,Female,Eldoret,Public,7.5,80.1,3.19,79.75,22,6.7,63.2,"54,666",70,Certificate,Yes,2024-06-19,B,synthetic_demo,0
+STU-01359,22,Male,Nakuru,Public,1.7,73.9,2.74,68.5,12,5.9,54.8,"60,010",62,,Yes,2024-02-07,C,synthetic_demo,1
+STU-01360,17,Male,Kisumu,Public,7.8,84.2,2.73,68.25,17,6.8,59.9,"48,529",55,Postgraduate,Yes,2024-10-21,C,synthetic_demo,0
+STU-01361,16,Female,Nairobi,Public,5.1,89.5,3.18,79.5,27,6.5,61.3,,69,Bachelor,Yes,2024-04-16,B,synthetic_demo,0
+STU-01362,18,Female,Nairobi,Public,1.5,100.0,3.4,85.0,18,5.7,72.5,"29,857",68,Postgraduate,Yes,2024-06-22,A,synthetic_demo,0
+STU-01363,17,Female,Mombasa,Public,4.8,74.9,2.42,60.5,17,8.2,73.5,"50,561",72,Diploma,Yes,2024-02-05,A,synthetic_demo,0
+STU-01364,19,Male,Nairobi,Public,3.7,85.6,2.53,63.25,16,7.2,55.9,,47,Primary,Yes,2024-10-28,C,synthetic_demo,0
+STU-01365,19,Female,Nairobi,Public,3.1,73.3,2.87,71.75,15,,59.4,"39,393",71,Primary,Yes,2024-03-20,C,synthetic_demo,0
+STU-01366,19,Male,Mombasa,Public,0.8,79.6,2.4,60.0,12,5.8,46.8,"38,753",72,Secondary,Yes,2024-07-18,D,synthetic_demo,1
+STU-01367,19,Prefer not to say,Mombasa,Public,9.8,100.0,3.9,97.5,22,9.1,89.9,"73,999",82,Certificate,Yes,2024-08-27,A+,synthetic_demo,0
+STU-01368,19,Male,Eldoret,Public,9.2,81.6,2.72,68.0,25,8.4,74.5,"71,551",not available,Secondary,Yes,2024-02-12,A,synthetic_demo,0
+STU-01369,19,Female,Eldoret,Public,4.1,73.3,2.71,67.75,16,8.6,48.1,"30,908",56,Secondary,Yes,2024-04-22,D,synthetic_demo,1
+STU-01370,18,Female,Nairobi,Public,12.5,75.0,2.81,70.25,19,8.3,62.7,"36,548",49,Bachelor,Yes,2024-02-17,B,synthetic_demo,0
+STU-01371,20,Female,Other,Public,6.7,0.0,,,23,7.0,58.0,"62,050",60,Primary,Yes,2024-07-19,C,synthetic_demo,0
+STU-01372,19,Female,Kisumu,Public,10.0,100.0,2.67,66.75,28,6.3,82.6,"57,506",72,Primary,Yes,2024-05-26,A,synthetic_demo,0
+STU-01373,17,Female,Nairobi,Public,4.4,55.0,2.1,52.5,12,7.3,39.7,"45,320",68,Bachelor,Yes,2024-01-14,E,synthetic_demo,1
+STU-01374,22,Male,Thika,Public,7.4,97.1,,,21,7.0,81.9,"13,890",76,Diploma,Yes,2024-05-11,A,synthetic_demo,0
+STU-01375,19,Female,Nairobi,Public,2.5,73.4,2.86,71.5,15,6.1,66.8,"87,937",60,Diploma,Yes,2024-11-05,B,synthetic_demo,0
+STU-01376,21,Female,Eldoret,Public,2.9,84.4,2.95,73.75,27,7.8,58.3,"41,772",not available,Postgraduate,Yes,2024-07-23,C,synthetic_demo,0
+STU-01377,21,Female,Nairobi,Public,3.7,88.5,2.9,72.5,25,5.6,61.0,,not available,Primary,Yes,2024-01-03,B,synthetic_demo,0
+STU-01378,18,Prefer not to say,Nairobi,Public,6.9,78.8,2.92,73.0,21,8.8,66.6,"57,465",58,Bachelor,Yes,2024-07-21,B,synthetic_demo,0
+STU-01379,23,Female,Eldoret,Public,2.9,78.2,1.8,45.0,10,8.3,48.5,"37,903",not available,No formal education,Yes,2024-06-08,D,synthetic_demo,1
+STU-01380,18,Female,Mombasa,Public,0.0,80.1,2.47,61.75,19,9.2,53.2,"26,823",71,Primary,Yes,2024-12-19,C,synthetic_demo,1
+STU-01381,19,Female,Nairobi,Public,11.7,91.5,2.4,60.0,26,6.9,55.2,"25,538",not available,Postgraduate,Yes,2024-01-26,C,synthetic_demo,0
+STU-01382,18,Female,Eldoret,Public,1.7,89.6,2.88,72.0,16,8.5,61.6,"36,722",not available,Certificate,Yes,2024-02-16,B,synthetic_demo,0
+STU-01383,19,Female,Eldoret,Public,10.0,85.3,3.4,85.0,23,5.0,71.1,,61,Secondary,Yes,2024-06-04,A,synthetic_demo,0
+STU-01384,18,Male,Mombasa,Public,3.3,83.2,1.6,40.0,19,8.1,53.5,"40,414",37,,Yes,2024-09-22,C,synthetic_demo,1
+STU-01385,20,Female,Nairobi,Public,7.7,100.0,2.67,66.75,25,8.5,71.4,"60,000",69,Secondary,Yes,2024-11-20,A,synthetic_demo,0
+STU-01386,20,Female,Nairobi,Public,1.5,78.5,2.7,67.5,10,4.7,40.8,"48,239",51,Secondary,Yes,2024-04-05,D,synthetic_demo,1
+STU-01387,21,Male,Thika,Public,6.8,83.1,1.87,46.75,12,,50.1,,63,Secondary,Yes,2024-06-07,C,synthetic_demo,1
+STU-01388,21,Male,Nakuru,Public,2.5,77.3,2.62,65.5,12,7.0,54.5,"48,321",not available,No formal education,Yes,2024-08-05,C,synthetic_demo,1
+STU-01389,19,Female,Nakuru,Public,7.9,77.7,2.92,73.0,22,6.5,59.2,"70,830",65,Bachelor,Yes,2024-02-22,C,synthetic_demo,0
+STU-01390,20,Female,Kisumu,Public,3.5,71.1,1.97,49.25,16,5.5,42.4,,46,Bachelor,Yes,2024-09-19,D,synthetic_demo,1
+STU-01391,19,Female,Nairobi,Public,2.8,86.0,2.88,72.0,13,6.0,59.8,,69,Certificate,Yes,2024-09-12,C,synthetic_demo,0
+STU-01392,20,Male,Nairobi,Public,5.5,85.4,2.05,51.25,18,5.0,55.0,"67,617",63,Diploma,Yes,2024-01-28,C,synthetic_demo,0
+STU-01393,19,Male,Eldoret,Public,10.7,94.9,3.41,85.25,19,,72.3,"57,320",59,Secondary,Yes,2024-09-17,A,synthetic_demo,0
+STU-01394,18,Male,Nairobi,Public,11.3,91.1,3.15,78.75,23,8.6,0.0,"84,112",57,Bachelor,Yes,2024-01-01,A,synthetic_demo,1
+STU-01395,19,Male,Mombasa,Public,1.6,72.3,2.28,57.0,16,5.5,54.3,"45,561",67,Secondary,Yes,2024-09-08,C,synthetic_demo,1
+STU-01396,20,Female,Nairobi,Public,5.2,,2.4,60.0,13,6.8,52.8,"78,900",70,Bachelor,Yes,2024-01-04,C,synthetic_demo,1
+STU-01397,18,Male,Eldoret,Public,5.0,,3.24,81.0,20,7.4,75.1,,83,Bachelor,Yes,2024-06-20,A,synthetic_demo,0
+STU-01398,18,Male,Mombasa,Public,6.7,95.6,2.91,72.75,20,,-1.0,"35,417",70,,Yes,2024-08-20,B,synthetic_demo,1
+STU-01399,16,Male,Other,Public,7.5,98.6,2.55,63.75,19,8.5,58.2,,85,Bachelor,Yes,2024-10-12,C,synthetic_demo,0
+STU-01400,18,Female,Nakuru,Public,0.6,55.8,,,16,7.0,38.5,"61,366",90,Certificate,No,2024-04-11,E,synthetic_demo,1
+STU-01401,19,Male,Mombasa,Public,8.8,86.4,,,20,7.6,72.5,,68,Secondary,No,2024-01-22,A,synthetic_demo,0
+STU-01402,20,Male,Mombasa,Public,9.1,66.7,2.95,73.75,11,6.5,64.8,"69,149",75,Primary,Yes,2024-03-25,B,synthetic_demo,0
+STU-01403,22,Female,Mombasa,Public,0.0,78.7,2.42,60.5,17,7.1,54.1,"53,395",55,Bachelor,Yes,2024-07-09,C,synthetic_demo,1
+STU-01404,19,Male,Thika,Public,7.4,85.9,3.85,96.25,23,9.1,78.6,"67,518",63,Primary,Yes,2024-10-09,A,synthetic_demo,0
+STU-01405,18,Female,Nairobi,Public,9.7,87.2,2.68,67.0,18,9.2,65.4,"45,664",79,Diploma,Yes,2024-04-17,B,synthetic_demo,0
+STU-01406,18,Female,Nairobi,Public,4.7,77.7,2.16,54.0,15,5.6,62.7,"49,493",64,Bachelor,Yes,2024-09-09,B,synthetic_demo,0
+STU-01407,17,Female,Kisumu,Public,10.2,96.9,3.55,88.75,26,7.3,85.7,"35,506",68,Primary,Yes,2024-02-02,A+,synthetic_demo,0
+STU-01408,23,Prefer not to say,Nakuru,Public,9.0,91.3,2.75,68.75,23,7.0,74.3,"28,935",not available,Bachelor,Yes,2024-04-06,A,synthetic_demo,0
+STU-01409,20,Male,Mombasa,Public,4.2,57.0,2.94,73.5,15,,42.7,"41,184",52,Secondary,Yes,2024-01-10,D,synthetic_demo,1
+STU-01410,16,Female,Kisumu,Public,0.3,81.8,2.68,67.0,18,8.6,61.2,"85,587",not available,Secondary,Yes,2024-04-10,B,synthetic_demo,0
+STU-01411,20,Female,Nakuru,Public,6.0,,3.77,94.25,24,7.2,77.5,"57,582",75,,Yes,2024-02-17,A,synthetic_demo,0
+STU-01412,18,Female,Mombasa,Public,5.5,77.0,3.18,79.5,22,7.0,63.5,"63,291",70,Secondary,Yes,2024-10-09,B,synthetic_demo,0
+STU-01413,18,Male,Nairobi,Public,10.9,85.8,3.54,88.5,25,6.7,78.7,"26,216",not available,Secondary,Yes,2024-03-05,A,synthetic_demo,0
+STU-01414,21,Male,Other,Public,6.4,85.3,2.43,60.75,13,4.0,54.6,"5,000",84,,Yes,2024-11-10,C,synthetic_demo,1
+STU-01415,19,Female,Mombasa,Public,2.2,67.3,2.29,57.25,13,7.9,46.4,"35,850",56,Diploma,Yes,2024-01-23,D,synthetic_demo,1
+STU-01416,21,Male,Mombasa,Public,11.1,94.6,2.96,74.0,23,6.4,78.9,"64,473",76,Certificate,Yes,2024-01-13,A,synthetic_demo,0
+STU-01417,18,Male,Nairobi,Public,0.5,67.6,1.62,40.5,8,8.3,42.2,"33,696",59,Bachelor,Yes,2024-04-03,D,synthetic_demo,1
+STU-01418,18,Female,Kisumu,Public,4.0,72.0,2.17,54.25,19,6.4,64.9,"70,367",67,Primary,Yes,2024-09-26,B,synthetic_demo,0
+STU-01419,18,Female,Nairobi,Public,5.0,88.7,2.28,57.0,16,7.3,65.2,"21,004",66,Secondary,Yes,2024-05-03,B,synthetic_demo,0
+STU-01420,22,Male,Kisumu,Public,7.8,91.7,2.89,72.25,11,4.1,64.6,"57,021",62,Primary,Yes,2024-06-14,B,synthetic_demo,0
+STU-01421,18,Male,Mombasa,Public,9.8,88.9,3.01,75.25,23,9.8,73.5,,not available,Secondary,Yes,2024-08-15,A,synthetic_demo,0
+STU-01422,19,Female,Nakuru,Public,0.0,66.2,2.39,59.75,5,9.9,46.0,,71,,Yes,2024-10-10,D,synthetic_demo,1
+STU-01423,21,Female,Nairobi,Public,6.9,91.7,2.75,68.75,10,6.8,62.8,"48,830",62,,Yes,2024-04-15,B,synthetic_demo,0
+STU-01424,18,Male,Mombasa,Public,4.9,71.2,,,21,8.2,58.9,,52,Secondary,Yes,2024-03-12,C,synthetic_demo,0
+STU-01425,17,Female,Kisumu,Public,7.4,89.2,2.78,69.5,20,6.7,61.2,,not available,,Yes,2024-03-24,B,synthetic_demo,0
+STU-01426,18,Female,Eldoret,Public,10.2,81.9,2.59,64.75,13,7.3,58.8,"51,687",64,No formal education,Yes,2024-06-25,C,synthetic_demo,0
+STU-01427,18,Female,Thika,Public,8.3,88.5,,,25,8.1,72.8,"62,800",81,Certificate,Yes,2024-05-22,A,synthetic_demo,0
+STU-01428,16,Female,Nairobi,Public,5.5,81.5,3.29,82.25,24,,60.0,"11,778",66,No formal education,Yes,2024-03-07,B,synthetic_demo,0
+STU-01429,19,Female,Nakuru,Public,14.1,100.0,3.23,80.75,19,,83.3,"45,256",77,Diploma,Yes,2024-12-08,A,synthetic_demo,0
+STU-01430,21,Male,Eldoret,Public,1.3,78.2,2.34,58.5,14,4.4,40.5,"27,040",not available,Diploma,Yes,2024-09-16,D,synthetic_demo,1
+STU-01431,18,Male,Mombasa,Public,1.0,67.7,2.54,63.5,14,7.9,35.4,"45,661",not available,Bachelor,Yes,2024-04-18,E,synthetic_demo,1
+STU-01432,19,Male,Nairobi,Public,0.0,82.6,,,16,6.7,53.1,"69,568",not available,Secondary,Yes,2024-09-20,C,synthetic_demo,1
+STU-01433,21,Male,Mombasa,Public,6.5,72.3,2.86,71.5,17,9.4,64.6,"40,713",57,Secondary,Yes,2024-06-14,B,synthetic_demo,0
+STU-01434,21,Female,Nairobi,Public,0.0,89.3,1.92,48.0,0,5.8,34.1,"64,039",62,Primary,Yes,2024-05-24,E,synthetic_demo,1
+STU-01435,20,Male,Nakuru,Public,5.0,69.7,2.35,58.75,8,5.6,52.4,,not available,Secondary,Yes,2024-09-10,C,synthetic_demo,1
+STU-01436,16,Female,Kisumu,Public,0.0,86.2,2.24,56.0,24,,64.8,"35,883",not available,Postgraduate,Yes,2024-10-14,B,synthetic_demo,0
+STU-01437,20,Female,Eldoret,Public,10.4,99.3,3.32,83.0,24,5.7,80.3,"48,912",80,Diploma,Yes,2024-09-27,A,synthetic_demo,0
+STU-01438,20,Male,Nairobi,Public,7.4,,2.96,74.0,22,6.4,67.9,"51,876",not available,Primary,Yes,2024-07-16,B,synthetic_demo,0
+STU-01439,19,Male,Nairobi,Public,8.6,80.8,3.43,85.75,16,7.2,66.0,,not available,Secondary,Yes,2024-02-27,B,synthetic_demo,0
+STU-01440,19,Female,Mombasa,Public,11.0,82.0,2.73,68.25,22,5.7,65.8,,57,Certificate,Yes,2024-04-18,B,synthetic_demo,0
+STU-01441,19,Male,Kisumu,Public,4.9,93.8,2.69,67.25,18,6.8,64.2,"31,113",not available,Bachelor,Yes,2024-07-25,B,synthetic_demo,0
+STU-01442,17,Male,Nairobi,Public,4.9,89.8,2.4,60.0,8,8.1,59.5,"35,822",68,Bachelor,Yes,2024-01-21,C,synthetic_demo,0
+STU-01443,17,Male,Nairobi,Public,4.9,0.0,2.49,62.25,21,5.9,54.4,,53,,Yes,2024-07-11,C,synthetic_demo,1
+STU-01444,18,Female,Kisumu,Public,5.0,90.7,2.9,72.5,16,8.3,70.8,"71,936",58,,Yes,2024-04-12,A,synthetic_demo,0
+STU-01445,20,Female,Other,Public,7.5,81.4,3.06,76.5,24,6.4,61.0,"87,701",72,Secondary,Yes,2024-04-03,B,synthetic_demo,0
+STU-01446,19,Prefer not to say,Nairobi,Public,0.0,77.1,1.81,45.25,13,,43.5,,64,Secondary,Yes,2024-10-05,D,synthetic_demo,1
+STU-01447,18,Male,Mombasa,Public,3.6,80.9,2.58,64.5,16,6.9,68.3,"53,705",63,Primary,Yes,2024-03-10,B,synthetic_demo,0
+STU-01448,21,Male,Thika,Public,8.2,84.3,2.05,51.25,15,7.3,64.6,,not available,Certificate,Yes,2024-05-04,B,synthetic_demo,0
+STU-01449,21,Male,Thika,Public,5.8,78.7,3.01,75.25,19,5.9,65.8,,63,Secondary,Yes,2024-10-08,B,synthetic_demo,0
+STU-01450,16,Male,Kisumu,Public,9.8,86.8,2.94,73.5,17,,73.4,"75,284",79,Primary,Yes,2024-11-02,A,synthetic_demo,0
+STU-01451,20,Male,Kisumu,Public,3.0,79.7,,,17,7.4,56.4,"30,958",50,Secondary,Yes,2024-02-19,C,synthetic_demo,0
+STU-01452,24,Male,Nairobi,Public,0.0,66.1,2.06,51.5,9,,32.5,,56,Bachelor,Yes,2024-12-26,E,synthetic_demo,1
+STU-01453,20,Female,Thika,Public,4.9,74.8,2.85,71.25,20,5.5,71.6,"42,356",56,Secondary,Yes,2024-04-18,A,synthetic_demo,0
+STU-01454,20,Male,Mombasa,Public,3.8,87.0,2.65,66.25,14,7.3,67.7,"50,289",68,Bachelor,Yes,2024-11-10,B,synthetic_demo,0
+STU-01455,21,Female,Nairobi,Public,14.0,86.6,2.83,70.75,16,6.4,71.7,"72,274",75,Primary,Yes,2024-05-15,A,synthetic_demo,0
+STU-01456,20,Female,Eldoret,Public,6.1,87.6,2.24,56.0,7,7.2,69.1,,54,Primary,Yes,2024-09-15,B,synthetic_demo,0
+STU-01457,17,Female,Mombasa,Public,11.2,80.4,2.92,73.0,21,6.6,74.9,"50,689",not available,Bachelor,Yes,2024-10-12,A,synthetic_demo,0
+STU-01458,20,Female,Nakuru,Public,11.1,97.5,2.13,53.25,21,6.5,77.9,"40,803",75,Postgraduate,Yes,2024-08-25,A,synthetic_demo,0
+STU-01459,23,Female,Nakuru,Public,6.8,79.4,3.18,79.5,19,6.1,67.9,,57,Bachelor,Yes,2024-10-12,B,synthetic_demo,0
+STU-01460,19,Male,Mombasa,Public,6.0,82.6,3.47,86.75,22,6.5,71.4,"87,121",69,Certificate,Yes,2024-10-17,A,synthetic_demo,0
+STU-01461,20,Female,Nakuru,Public,9.1,83.2,2.91,72.75,17,,53.4,"65,142",77,,Yes,2024-10-24,C,synthetic_demo,1
+STU-01462,22,Female,Kisumu,Public,8.9,86.7,1.92,48.0,12,,58.3,"42,779",55,Secondary,Yes,2024-04-26,C,synthetic_demo,0
+STU-01463,17,Male,Nairobi,Public,5.0,81.8,2.89,72.25,20,5.7,70.2,"63,213",not available,Diploma,Yes,2024-06-05,A,synthetic_demo,0
+STU-01464,18,Female,Nakuru,Public,2.7,,2.14,53.5,20,5.4,49.9,"50,736",65,Secondary,Yes,2024-08-20,D,synthetic_demo,1
+STU-01465,20,Female,Nairobi,Public,0.0,54.1,2.11,52.75,7,5.5,29.7,"17,132",62,Bachelor,Yes,2024-05-19,E,synthetic_demo,1
+STU-01466,17,Female,Mombasa,Public,5.4,,2.32,58.0,19,8.4,62.4,,73,,No,2024-09-04,B,synthetic_demo,0
+STU-01467,22,Female,Nairobi,Public,2.9,78.8,3.14,78.5,23,7.4,68.1,,94,Diploma,Yes,2024-08-13,B,synthetic_demo,0
+STU-01468,22,Male,Kisumu,Public,2.7,89.4,2.05,51.25,5,5.3,51.0,"43,929",64,Secondary,Yes,2024-10-19,C,synthetic_demo,1
+STU-01469,18,Male,Nairobi,Public,4.7,74.7,3.18,79.5,11,5.9,57.3,,64,,Yes,2024-10-08,C,synthetic_demo,0
+STU-01470,19,Male,Eldoret,Public,11.0,90.0,3.04,76.0,23,8.7,79.5,"43,881",67,Certificate,Yes,2024-10-28,A,synthetic_demo,0
+STU-01471,22,Female,Kisumu,Public,0.0,77.0,2.71,67.75,13,9.0,62.8,"34,226",66,Bachelor,Yes,2024-01-15,B,synthetic_demo,0
+STU-01472,20,Male,Thika,Public,0.4,55.9,1.98,49.5,14,7.8,27.9,"25,910",52,Diploma,Yes,2024-06-13,E,synthetic_demo,1
+STU-01473,21,Male,Mombasa,Public,5.8,82.2,3.13,78.25,24,6.4,64.5,"86,995",65,Diploma,Yes,2024-05-05,B,synthetic_demo,0
+STU-01474,21,Female,Kisumu,Public,10.4,86.0,2.91,72.75,17,6.6,57.8,"37,777",67,No formal education,Yes,2024-05-20,C,synthetic_demo,0
+STU-01475,18,Male,Mombasa,Public,5.5,74.0,3.27,81.75,17,5.4,59.8,"35,032",54,Diploma,Yes,2024-10-03,C,synthetic_demo,0
+STU-01476,20,Male,Nairobi,Public,10.1,82.3,2.25,56.25,10,7.9,58.5,"21,928",54,Secondary,Yes,2024-01-19,C,synthetic_demo,0
+STU-01477,18,Female,Nairobi,Public,7.3,82.3,3.35,83.75,24,,68.9,"45,574",88,Diploma,Yes,2024-04-11,B,synthetic_demo,0
+STU-01478,23,Female,Nairobi,Public,7.5,93.6,2.62,65.5,26,6.4,71.5,"22,987",84,Primary,Yes,2024-08-11,A,synthetic_demo,0
+STU-01479,19,Female,Kisumu,Public,2.8,71.5,2.12,53.0,19,,41.9,"37,789",not available,Diploma,Yes,2024-12-16,D,synthetic_demo,1
+STU-01480,17,Female,Nairobi,Public,1.7,89.8,2.94,73.5,26,8.1,67.7,,60,,Yes,2024-09-09,B,synthetic_demo,0
+STU-01481,19,Male,Nairobi,Public,5.6,74.2,2.65,66.25,30,6.5,71.4,"39,073",71,No formal education,Yes,2024-04-16,A,synthetic_demo,0
+STU-01482,19,Female,Kisumu,Public,9.1,97.0,2.76,69.0,12,,83.9,"43,507",66,Diploma,Yes,2024-02-24,A,synthetic_demo,0
+STU-01483,19,Female,Nairobi,Public,6.4,77.3,2.87,71.75,11,6.2,46.6,,54,Postgraduate,Yes,2024-06-26,D,synthetic_demo,1
+STU-01484,20,Female,Nakuru,Public,6.3,75.4,2.1,52.5,13,6.3,50.3,"16,339",45,Diploma,Yes,2024-12-03,C,synthetic_demo,1
+STU-01485,19,Female,Nairobi,Public,8.9,87.7,3.27,81.75,17,6.2,70.8,"55,238",69,Bachelor,Yes,2024-09-25,A,synthetic_demo,0
+STU-01486,20,Female,Nairobi,Public,0.1,79.4,2.43,60.75,20,8.1,61.2,"76,475",not available,Bachelor,Yes,2024-10-04,B,synthetic_demo,0
+STU-01487,23,Female,Nairobi,Public,5.1,94.3,2.51,62.75,27,7.4,60.6,"34,587",81,Secondary,Yes,2024-08-04,B,synthetic_demo,0
+STU-01488,20,Male,Nairobi,Public,6.1,77.8,3.15,78.75,19,7.4,72.9,"52,470",45,,Yes,2024-01-23,A,synthetic_demo,0
+STU-01489,22,Female,Mombasa,Public,6.0,86.2,2.96,74.0,15,4.3,67.4,"84,925",70,Secondary,Yes,2024-12-23,B,synthetic_demo,0
+STU-01490,19,Male,Nakuru,Public,1.5,74.6,2.49,62.25,16,8.8,62.2,"44,976",74,,Yes,2024-09-16,B,synthetic_demo,0
+STU-01491,21,Male,Nairobi,Public,13.6,74.3,,,18,,70.8,"38,060",58,Primary,Yes,2024-03-06,A,synthetic_demo,0
+STU-01492,18,Male,Kisumu,Public,1.6,66.4,2.0,50.0,8,7.3,38.8,"67,237",not available,,Yes,2024-05-13,E,synthetic_demo,1
+STU-01493,20,Female,Nakuru,Public,6.2,85.7,2.51,62.75,20,8.5,67.0,"87,604",47,,Yes,2024-07-20,B,synthetic_demo,0
+STU-01494,22,Male,Kisumu,Public,1.6,90.7,2.59,64.75,27,8.3,67.3,"47,468",74,Certificate,Yes,2024-09-23,B,synthetic_demo,0
+STU-01495,20,Female,Nairobi,Public,7.5,,3.05,76.25,22,8.6,72.4,"43,737",70,Secondary,Yes,2024-12-18,A,synthetic_demo,0
+STU-01496,21,Female,Thika,Public,5.3,80.4,2.54,63.5,9,6.1,44.4,"52,950",87,Certificate,Yes,2024-05-16,D,synthetic_demo,1
+STU-01497,21,Male,Nakuru,Public,5.8,100.0,3.85,96.25,16,3.9,79.9,"6,829",not available,Bachelor,Yes,2024-12-24,A,synthetic_demo,0
+STU-01498,19,Prefer not to say,Nairobi,Public,5.6,92.1,3.11,77.75,23,8.4,75.7,"31,018",73,Secondary,Yes,2024-11-01,A,synthetic_demo,0
+STU-01499,21,Male,Nakuru,Public,10.0,83.9,2.95,73.75,21,7.1,66.0,,63,Diploma,Yes,2024-01-20,B,synthetic_demo,0
+STU-01500,20,Male,Nairobi,Public,1.7,73.8,2.05,51.25,19,5.7,49.8,"76,024",64,,Yes,2024-04-21,D,synthetic_demo,1
+STU-00717,19,Male,Nakuru,Public,9.0,84.7,3.47,86.75,21,7.3,55.7,"53,276",63,Diploma,Yes,2024-10-20,C,synthetic_demo,0
+STU-01397,18,Male,Eldoret,Public,5.0,,3.24,81.0,20,7.4,75.1,,83,Bachelor,Yes,2024-06-20,A,synthetic_demo,0
+STU-01052,21,Female,Nairobi,Public,6.7,93.3,2.72,68.0,29,,67.2,,59,Certificate,Yes,2024-04-23,B,synthetic_demo,0
+STU-00978,21,Male,Nairobi,Public,2.1,86.4,3.07,76.75,13,5.5,56.9,"56,070",81,Bachelor,Yes,2024-11-28,C,synthetic_demo,0
+STU-00545,21,Female,Thika,Public,4.8,84.9,2.71,67.75,25,4.1,63.4,"67,923",74,,Yes,2024-09-02,B,synthetic_demo,0
+STU-00708,20,Male,Eldoret,Public,6.1,83.7,2.26,56.5,22,8.5,67.6,,82,Postgraduate,Yes,2024-09-25,B,synthetic_demo,0
+STU-00419,33,Female,Mombasa,Public,23.3,58.0,2.88,72.0,18,7.4,61.8,"67,148",55,Secondary,Yes,2024-04-14,B,synthetic_demo,0
+STU-00524,17,Female,Nairobi,Public,10.5,88.3,2.97,74.25,22,,68.5,,not available,,Yes,2024-08-13,B,synthetic_demo,0
