@@ -12,6 +12,10 @@ from pathlib import Path
 
 import pytest
 
+# Streamlit is a runtime dependency, but skip cleanly (instead of failing collection)
+# if someone runs the suite in an environment that only installed the analysis core.
+pytest.importorskip("streamlit", reason="UI tests require streamlit (see requirements.txt)")
+
 from streamlit.testing.v1 import AppTest
 
 APP_PATH = Path(__file__).resolve().parents[1] / "app.py"
