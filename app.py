@@ -41,6 +41,7 @@ SECTIONS = [
     "Anomalies",
     "Potential leakage",
     "Investigation report",
+    "Clean data",
 ]
 
 
@@ -400,9 +401,16 @@ def render_section(report, frame: pd.DataFrame, section: str) -> None:
     elif section == "Investigation report":
         ui_sections.render_report(report, frame)
 
+    elif section == "Clean data":
+        ui_sections.render_clean_data(
+            frame,
+            st.session_state.get("file_name") or "dataset.csv",
+        )
+
     else:  # pragma: no cover - defensive
         st.info(f"Unknown section: {section}")
 
 
 if __name__ == "__main__":
     main()
+
