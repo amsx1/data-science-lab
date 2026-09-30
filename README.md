@@ -62,6 +62,7 @@ DATA AUTOPSY runs the full checklist automatically, in the open. You do not get 
 | 13 | **Potential data leakage** | six heuristic signals with reasoning, confidence and the exact question a human must answer — never a verdict |
 | 14 | **Automated report** | a full investigation report as **Markdown** and **self-contained HTML**, downloadable and dataset-specific |
 | 15 | **Statistical anomalies in text** | impossible/placeholder values (e.g. `-1`, `9999`, `-99`) surfaced as *suspected* sentinel codes |
+| 16 | **Opt-in cleaning** | preview numeric-text conversion, missing-value handling and duplicate removal, then download a separate cleaned CSV |
 
 Plus: graceful handling of numerically empty datasets, all-categorical datasets, single-column files, single-row files, files with 10⁴ distinct encodings of the same header, and datasets where every value is missing.
 
@@ -134,6 +135,7 @@ data-science-lab/
 │   ├── anomalies.py              # Isolation Forest screening
 │   ├── leakage.py                # heuristic leakage signals (never verdicts)
 │   ├── health.py                 # transparent weighted health score
+│   ├── cleaning.py               # opt-in transformations with an audit summary
 │   ├── investigation.py          # the orchestrator: runs everything, returns one report object
 │   ├── reporting.py              # Markdown + HTML report writers
 │   ├── charts.py                 # Plotly figure builders (no Streamlit import)
@@ -213,8 +215,9 @@ Streamlit prints a local URL (default <http://localhost:8501>). Then:
 1. Upload a CSV/TSV/TXT file in the sidebar — or press **Load synthetic demo dataset** to explore without any data of your own.
 2. Adjust the investigation settings if you want to (anomaly contamination, correlation method, leakage target column).
 3. Press **Run investigation**.
-4. Walk through the sections: Overview → Health score → Missing data → Duplicates → Columns & types → Numerical statistics → Outliers → Correlations → Categorical analysis → Anomalies → Potential leakage → Investigation report.
+4. Walk through the investigation sections: Overview → Health score → Missing data → Duplicates → Columns & types → Numerical statistics → Outliers → Correlations → Categorical analysis → Anomalies → Potential leakage → Investigation report.
 5. Download the report as Markdown or HTML from the last section.
+6. Open **Clean data** to preview optional type conversion, duplicate removal, and missing-value handling, then download a separate cleaned CSV. The investigation and uploaded source remain unchanged.
 
 ### 2. The command line (no browser)
 
@@ -481,7 +484,7 @@ python -m pytest
 | `tests/test_correlations.py` | perfect ±1 detection, no self-pairs, pairwise-complete `n`, p-values, Cramér's V against known tables, Isolation Forest on planted outliers, determinism, contamination clamping |
 | `tests/test_leakage.py` | target discovery, identifier detection, duplicate/target copies, perfect separation in both directions, partial separation correctly ignored, and the honesty properties of the wording |
 | `tests/test_investigation.py` | the full pipeline on the sample dataset, traceability of recommendations, report rendering, and 12 edge-case datasets (all-categorical, all-numeric, single row, all-null column, infinities, 10¹⁸ magnitudes, unicode and spaced column names, 40 columns) |
-| `tests/test_app.py` | the **real Streamlit application** through Streamlit's `AppTest` harness: start-up, demo loading, all 12 sections rendering without exceptions, settings actually reaching the engine, download buttons present, clearing the dataset |
+| `tests/test_app.py` | the **real Streamlit application** through Streamlit's `AppTest` harness: start-up, demo loading, the 12 investigation/report sections rendering without exceptions, settings actually reaching the engine, download buttons present, clearing the dataset |
 
 The application itself is also verified to import and serve:
 
@@ -504,6 +507,7 @@ streamlit run app.py --server.headless true # serves HTTP 200 with a healthy /_s
 8. **No causal inference, no model training, no time-series modelling** — by design. DATA AUTOPSY describes and audits data; it does not predict.
 9. **`matplotlib` and `seaborn` are deliberately not dependencies.** Interactivity (hover, zoom, legend toggling) matters more than static exports for this use case, and Plotly covers every chart in the app. Adding two unused plotting stacks would inflate install size for no benefit.
 10. **Large files** are sampled/capped (200,000 rows in the UI, 50,000 rows for the anomaly model) for responsiveness; the truncation is always reported.
+11. **Cleaning is opt-in** and exports a separate copy. Numeric text that cannot be parsed becomes missing, and dropping or filling missing values can change the meaning of a dataset; review the preview and audit summary before downloading. Outliers are never removed automatically.
 
 ---
 
@@ -553,3 +557,4 @@ Released under the [MIT License](LICENSE) — © 2026 amsx1.
 <p align="center">
 <sub>DATA AUTOPSY is a rule-based analysis tool. It uses no AI model, no external API and no network access: every number it reports is computed locally from the file you provide, and can be reproduced by reading <code>src/</code>.</sub>
 </p>
+
