@@ -16,6 +16,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from src import charts, config, reporting, ui_theme
+from src.cleaning import clean_dataframe, cleaned_filename, numeric_text_columns
 from src.schema import InvestigationReport, Severity
 from src.utils import format_number, format_percent, human_bytes
 
@@ -720,6 +721,133 @@ def render_leakage(report: InvestigationReport) -> None:
 # --------------------------------------------------------------------------- #
 # Report and downloads
 # --------------------------------------------------------------------------- #
+def render_clean_data(frame: pd.DataFrame, filename: str) -> None:
+    """Preview selected cleaning operations and download a separate CSV copy."""
+    st.markdown(
+        ui_theme.section(
+            "Create a cleaned copy",
+            "Choose the changes, review their impact, then download the result",
+        ),
+        unsafe_allow_html=True,
+    )
+    st.info(
+        "These edits apply only to the preview and downloaded copy. The uploaded "
+        "dataset and its investigation report stay unchanged."
+    )
+
+    clean_key = st.session_state.get("data_hash") or "dataset"
+    left, right = st.columns(2)
+    with left:
+        normalize_missing = st.checkbox(
+            "Treat common text markers as missing",
+            value=False,
+            key=f"clean_normalize_missing_{clean_key}",
+            help=(
+                "Converts blank text, NA, N/A, NULL, None, and NaN to missing values. "
+                "Leave this off if any of these are real categories in your data."
+            ),
+        )
+        remove_duplicates = st.checkbox(
+            "Remove exact duplicate rows",
+            value=False,
+            key=f"clean_remove_duplicates_{clean_key}",
+            help="Keeps the first copy of each repeated row.",
+        )
+
+    candidates = numeric_text_columns(frame)
+    with right:
+        numeric_columns = st.multiselect(
+            "Convert numeric-looking text columns",
+            options=candidates,
+            default=[],
+            key=f"clean_numeric_columns_{clean_key}",
+            help=(
+                "Only columns where at least 90% of sampled values look numeric are "
+                "suggested. Currency and separator symbols are removed; unparseable "
+                "values become missing. A trailing percent sign is removed without "
+                "rescaling the value. Review values with leading zeros carefully; "
+                "identifier-like column names are not suggested."
+            ),
+        )
+        if not candidates:
+            st.caption("No numeric-looking text columns were detected.")
+
+    missing_choice = st.selectbox(
+        "How should remaining missing values be handled?",
+        [
+            "Leave them missing",
+            "Drop rows containing any missing value",
+            "Fill numeric columns with the median and other columns with the most common value",
+        ],
+        index=0,
+        key=f"clean_missing_strategy_{clean_key}",
+        help=(
+            "Dropping or filling values changes your data. Select an option only when "
+            "it makes sense for your analysis."
+        ),
+    )
+    missing_strategy = {
+        "Leave them missing": "keep",
+        "Drop rows containing any missing value": "drop_rows",
+        "Fill numeric columns with the median and other columns with the most common value": "fill",
+    }[missing_choice]
+
+    result = clean_dataframe(
+        frame,
+        normalize_missing_markers=normalize_missing,
+        numeric_columns=numeric_columns,
+        remove_duplicate_rows=remove_duplicates,
+        missing_strategy=missing_strategy,
+    )
+    remaining_missing = int(result.frame.isna().sum().sum())
+    metric_cards(
+        [
+            ("Rows in cleaned copy", f"{len(result.frame):,}",
+             f"{result.rows_removed:,} removed"),
+            ("Values changed", f"{result.cells_changed:,}", "converted, normalized, or filled"),
+            ("Missing cells left", f"{remaining_missing:,}", "in the cleaned copy"),
+        ],
+        per_row=3,
+    )
+
+    st.markdown(ui_theme.section("Cleaning preview"), unsafe_allow_html=True)
+    if result.changes:
+        dataframe(
+            pd.DataFrame(
+                [
+                    {
+                        "Operation": change.operation,
+                        "Rows removed": change.rows_removed,
+                        "Values changed": change.cells_changed,
+                        "Details": change.detail,
+                    }
+                    for change in result.changes
+                ]
+            )
+        )
+        if result.frame.empty:
+            st.warning("These choices remove every row. Review the options before downloading.")
+        else:
+            st.caption("First 20 rows of the cleaned copy:")
+            dataframe(result.frame.head(20), key="cleaned_preview")
+        st.download_button(
+            "Download cleaned CSV",
+            data=result.frame.to_csv(index=False).encode("utf-8-sig"),
+            file_name=cleaned_filename(filename),
+            mime="text/csv",
+            key="download_cleaned_csv",
+        )
+    else:
+        st.info(
+            "No changes are selected or needed yet. Choose an operation above to preview it."
+        )
+
+    st.caption(
+        "Potential outliers are not removed automatically: unusual values can be valid, "
+        "so inspect them before deciding whether to change or exclude them."
+    )
+
+
 def render_report(report: InvestigationReport, frame: pd.DataFrame) -> None:
     """Automated investigation summary plus downloadable reports."""
     overview = report.overview
@@ -879,3 +1007,4 @@ def render_landing() -> bool:
             "CSV first."
         )
     return bool(clicked)
+
