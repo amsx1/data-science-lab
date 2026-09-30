@@ -182,6 +182,20 @@ def numeric_series(series: pd.Series, drop_non_finite: bool = True) -> pd.Series
     return numeric
 
 
+def parse_numeric_text(series: pd.Series) -> pd.Series:
+    """Parse text numbers using the same separators as the dtype detector.
+
+    Removes common thousands separators, currency symbols, a leading plus sign,
+    and a trailing percent sign. A percentage remains in percentage points (for
+    example, ``"72%"`` becomes ``72``). Values that do not parse become missing.
+    """
+    text = series.astype("string").str.strip()
+    cleaned = text.str.replace(_CURRENCY_AND_SEPARATORS, "", regex=True)
+    cleaned = cleaned.str.replace(r"^\((.*)\)$", r"-\1", regex=True)
+    cleaned = cleaned.str.replace(r"%$", "", regex=True)
+    return pd.to_numeric(cleaned, errors="coerce")
+
+
 def finite_values(series: pd.Series) -> np.ndarray:
     """Return a 1-D float array of the finite values in ``series``."""
     return numeric_series(series).to_numpy()
@@ -200,10 +214,7 @@ def is_probably_numeric_text(series: pd.Series, sample: int | None = None) -> bo
     stripped = values.head(sample).str.strip()
     if stripped.empty or (stripped == "").all():
         return False
-    cleaned = stripped.str.replace(_CURRENCY_AND_SEPARATORS, "", regex=True)
-    cleaned = cleaned.str.replace(r"^\((.*)\)$", r"-\1", regex=True)  # (123) -> -123
-    cleaned = cleaned.str.replace(r"%$", "", regex=True)
-    parsed = pd.to_numeric(cleaned, errors="coerce")
+    parsed = parse_numeric_text(stripped)
     ratio = float(parsed.notna().mean())
     return ratio >= config.NUMERIC_STRING_RATIO
 
@@ -279,3 +290,4 @@ def truncate_frame(df: pd.DataFrame, max_rows: int) -> tuple[pd.DataFrame, bool]
     if len(df) <= max_rows:
         return df, False
     return df.head(max_rows), True
+

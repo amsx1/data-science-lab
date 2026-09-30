@@ -12,6 +12,7 @@ step can be unit-tested and reused from the dashboard, the CLI and notebooks:
 * :mod:`src.anomalies` — Isolation Forest screening
 * :mod:`src.leakage` — heuristic leakage *signals* (never verdicts)
 * :mod:`src.health` — transparent, weighted dataset health score
+* :mod:`src.cleaning` — opt-in, previewable transformations that export a separate CSV
 * :mod:`src.investigation` — the orchestrator that runs all of the above
 * :mod:`src.reporting` — Markdown and HTML report writers
 * :mod:`src.charts` — Plotly figure builders (no Streamlit import)
@@ -20,3 +21,4 @@ step can be unit-tested and reused from the dashboard, the CLI and notebooks:
 """
 
 __version__ = "1.0.0"
+
